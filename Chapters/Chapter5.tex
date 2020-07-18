@@ -1,0 +1,59 @@
+% Chapter Template
+
+\chapter{Conclusiones} % Main chapter title
+
+\label{Chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Conclusiones generales }
+
+En este trabajo se logró diseñar e implementar el prototipo comercial de un dispositivo electrónico, que tiene la capacidad de utilizar la salida de pulso óptico de medidores de consumo eléctrico domiciliario para obtener, procesar y transmitir información sobre la cantidad de kWh consumidos por los abonados de COPELECT. Para este fin, se diseñaron distintos módulos de firmware y hardware, que permiten transmitir diariamente la información obtenida a los gateways LoRaWAN propiedad de COPELECT. También, el dispositivo brinda a los abonados de COPELECT una interfaz gráfica web para conocer su consumo eléctrico de los últimos tres meses.
+
+Durante el desarrollo del trabajo se presentó el riesgo de demora al conseguir los componentes electrónicos requeridos. Se aplicó el mecanismo de mitigación descrito en la planificación y se destinaron más recursos económicos de los previstos para poder cumplir con los plazos establecidos.
+
+Los requerimientos del trabajo fueron cubiertos de acuerdo con la planificación, salvo los siguientes:
+\begin{itemize}
+	\item Se eliminó la implementación de WPS (\textit{Wi-Fi Protect Setup}) para suprimir cualquier tipo de interacción física del abonado con el dispositivo y evitar posibles manipulaciones incorrectas.
+	\item La cantidad de meses visualizados en la interfaz web fue reducida de seis a tres, para exhibir más claramente los gráficos en dispositivos de pantallas pequeñas.
+\end{itemize}
+
+Para desarrollar exitosamente el trabajo, se aplicaron los conocimientos obtenidos de varias de las materias cursadas en la carrera de Especialización en sistemas embebidos. Estos fueron:
+
+\begin{itemize}
+	\item Metodología de trabajo con repositorios locales y en la nube.
+	\item Programación orienta a objetos en lenguaje C.
+	\item Programación con sistemas operativos en tiempo real.
+	\item Protocolos de comunicación I2C y SPI.
+	\item Pruebas de software para sistemas embebidos.
+	\item Diseño de esquemáticos y circuitos impresos basados en normas internacionales.
+\end{itemize}
+
+Por otra parte, para concluir exitosamente el trabajo también fue necesario adquirir algunos conocimientos sobre:
+
+\begin{itemize}
+	\item Diseño de páginas web: los conocimientos adquiridos fueron útiles para crear la interfaz web embebida en el dispositivo, se obtuvieron conocimientos sobre HTML, CSS y JavaScript.
+	\item jQuery: se aprendió a utilizar la biblioteca jQuery Mobile para suministrar funcionalidad y un aspecto pulcro a la interfaz web.
+	\item Highcharts: utilizando esta biblioteca se pudo generar de una manera sencilla un gráfico de barras que ayuda al abonado a visualizar el consumo de kWh registrado por el dispositivo.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+\section{Próximos pasos}
+
+Como se especificó en esta memoria, el trabajo desarrollado es un prototipo comercial del dispositivo, que debe ser probado durante varios meses en un entorno real de trabajo para encontrar y solucionar posibles errores de firmware y hardware que no se presentaron en ninguna de las pruebas realizadas. Por lo tanto, posterior al periodo de pruebas del prototipo comercial el paso a seguir es la fabricación de una version final del dispositivo siguiendo buenas prácticas de manufacturabilidad.
+
+También, existen algunas características que deben ser incorporadas para mejorar la calidad del dispositivo. Estas son:
+
+\begin{itemize}
+	\item Implementar un mecanismo de actualización de firmware remoto, OTA (\textit{Over The Air}).
+	\item Implementar algoritmos de \textit{wear leveling} para incrementar el tiempo de
+	 vida de la memoria EEPROM.
+	\item Adecuar el dispositivo para que pueda ser utilizado en medidores de agua y gas.
+\end{itemize}

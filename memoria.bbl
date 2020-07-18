@@ -1,0 +1,267 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{WEBSITE:1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{Wikipedia}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-02}
+    \field{title}{Vatio-hora - Wikipedia, la enciclopedia libre}
+    \verb{url}
+    \verb https://es.wikipedia.org/wiki/Vatio-hora
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{Wikipedia}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-011}
+    \field{title}{Electricity meter - Wikipedia}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Electricity_meter
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:3}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{Wikipedia}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-011}
+    \field{title}{Current clamp - Wikipedia}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Current_clamp
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{ARTICLE:1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Manisha V Shinde ; Pradip W Kulkarni}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-1-4799-6272-3}
+    \field{title}{Camera click energy meter reading system}
+    \field{journaltitle}{IEEE}
+    \field{year}{2015}
+  \endentry
+
+  \entry{WEBSITE:4}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{François GUILLIER's blog RSS Feed}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-010}
+    \field{title}{Electricity meter}
+    \verb{url}
+    \verb www.guillier.org/blog/2014/08/electricity-meter/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:5}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{OpenEnergyMonitor}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-06}
+    \field{title}{Learn | OpenEnergyMonitor}
+    \verb{url}
+    \verb https://learn.openenergymonitor.org/electricity-monitoring/pulse-coun
+    \verb ting/introduction-to-pulse-counting
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:6}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{SyxthSense}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-14}
+    \field{title}{Wireless Pulse Counter for Metering (PA-FL)}
+    \verb{url}
+    \verb www.syxthsense.com/wireless/pa-fl/wireless-pulse-counter-for-metering
+    \verb //pulse-counting/introduction-to-pulse-counting
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:7}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{ElkoEP}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-14}
+    \field{title}{Wireless pulse converter - AirTM-100S bull ElkoEP}
+    \verb{url}
+    \verb https://www.elkoep.com/airtm-100s/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:8}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Energy - European Commission}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E2}
+    \strng{fullhash}{E2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-14}
+    \field{title}{Smart grids and meters - Energy European Commission}
+    \verb{url}
+    \verb https: //ec.europa.eu/energy/en/topics/markets-and-consumers/ smart-g
+    \verb rids-and-meters
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{BOOK:2}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ASRJCRNFARG}{%
+         family={Antonio Serna\bibnamedelima Ruíz},
+         familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+         suffix={Francisco Antonio Ros\bibnamedelima García},
+         suffixi={F\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  R\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Juan Carlos Rico\bibnamedelima Noguera},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  R\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CREACIONES COPYRIGHT}%
+    }
+    \strng{namehash}{ASRFARGJCRN1}
+    \strng{fullhash}{ASRFARGJCRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9788492779499}
+    \field{title}{Guía Práctica de Sensores}
+    \verb{url}
+    \verb https://www.casadellibro.com/libro-guia-practica-de-sensores/97884927
+    \verb 79499/1799582
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{WEBSITE:9}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=e}{%
+         family={{everythingRF}},
+         familyi={e\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{e1}
+    \strng{fullhash}{e1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-16}
+    \field{title}{Shanghai Based Espressif Systems Ships 100th Million IoT
+  Chip}
+    \verb{url}
+    \verb https://www.everythingrf.com/News/details/6242-Shanghai-Based-Espress
+    \verb if-Systems-Ships-100th-Million-IoT-Chip
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{BOOK:3}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FTL}{%
+         family={Floyd},
+         familyi={F\bibinitperiod},
+         given={Thomas\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{FTL1}
+    \strng{fullhash}{FTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{8489660212}
+    \field{title}{Fundamentos de Sistemas Digitales - 6 Edicion}
+    \verb{url}
+    \verb https://www.amazon.com/-/es/Thomas-L-Floyd/dp/8489660212
+    \endverb
+    \field{year}{2000}
+  \endentry
+\enddatalist
+\endinput

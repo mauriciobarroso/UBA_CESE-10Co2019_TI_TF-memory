@@ -1,0 +1,110 @@
+% Chapter Template
+
+\chapter{Ensayos y Resultados} % Main chapter title
+
+\label{Chapter4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+%----------------------------------------------------------------------------------------
+
+%\section{Introducción}
+
+En este capítulo se presentan las pruebas y ensayos realizados para validar el correcto funcionamiento del dispositivo. También, se incluyen los resultados obtenidos y una tabla comparativa de características con otros dispositivos similares disponibles en el mercado.
+
+%----------------------------------------------------------------------------------------
+
+\section{Pruebas de firmware}
+\label{sec:pruebasFW}
+
+El dispositivo está compuesto principalmente por tres bloques funcionales, cada uno tiene asociado un módulo de firmware que le permite desempeñar las tareas de adquisición de datos, interfaz web y comunicación LoRa; como se explicó en el capítulo 3. Durante el desarrollo del dispositivo, los módulos de firmware fueron sometidos a una serie de pruebas para garantizar su correcto funcionamiento, de acuerdo con la planificación del trabajo.
+
+\subsection{Pruebas unitarias}
+
+Como primer prueba sobre el firmware, se hicieron pruebas unitarias sobre las bibliotecas desarrolladas para el manejo de los periféricos RTC, EEPROM y LoRa. Se utilizó Ceedling para ejecutar dichas pruebas, en combinación con Gcov para generar los análisis de cobertura correspondientes. En la tabla X se pueden observar los resultados de las pruebas unitarias y en la tabla Y se exhiben los análisis de cobertura.
+
+\begin{table}[h]
+	\centering
+	\caption[caption corto]{caption largo más descriptivo}
+	\begin{tabular}{l c c}    
+		\toprule
+		\textbf{Especie} 	 & \textbf{Tamaño} 		& \textbf{Valor}  \\
+		\midrule
+		Amphiprion Ocellaris & 10 cm 				& \$ 6.000 \\		
+		Hepatus Blue Tang	 & 15 cm				& \$ 7.000 \\
+		Zebrasoma Xanthurus	 & 12 cm				& \$ 6.800 \\
+		\bottomrule
+		\hline
+	\end{tabular}
+	\label{tab:peces}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption[caption corto]{caption largo más descriptivo}
+	\begin{tabular}{l c c}    
+		\toprule
+		\textbf{Especie} 	 & \textbf{Tamaño} 		& \textbf{Valor}  \\
+		\midrule
+		Amphiprion Ocellaris & 10 cm 				& \$ 6.000 \\		
+		Hepatus Blue Tang	 & 15 cm				& \$ 7.000 \\
+		Zebrasoma Xanthurus	 & 12 cm				& \$ 6.800 \\
+		\bottomrule
+		\hline
+	\end{tabular}
+	\label{tab:peces}
+\end{table}
+
+Estas pruebas fueron imprescindibles para asegurar que cada biblioteca interactúe correcta y eficientemente con los componentes de hardware con los que están asociados.
+
+\subsection{Pruebas de funcionamiento}
+
+Para la ejecución de las pruebas, se montaron en un \textit{breadboard} los componentes de hardware asociados a los bloques funcionales del dispositivo y luego fueron conectados mediante cables de manera directa, según el diagrama presentado en la sección 3.1.5. En la figura 4.1 se observa una fotografía de los componentes del dispositivo montados y conectados en el breadboard.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=1.2]{./Figures/cuadradoAzul.png}
+	\caption{Banco de pruebas para las pruebas de funcionamiento.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+Las pruebas consistieron en monitorear la ejecución de las funciones que componen los bloques de firmware. Para este propósito, se utilizó el monitor para consola incorporado en el SDK utilizado para el desarrollo del firmware.
+
+Para probar la ejecución de todas las funciones de los bloques de firmware, se modificó el código fuente para cumplir los siguientes requerimientos:
+
+\begin{itemize}
+	\item Generar 
+	\item Agregar manualmente valores en la EEPROM.
+	\item 
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\section{Pruebas de hardware}
+\label{sec:pruebasHW}
+
+Estas pruebas tuvieron como objetivo principal verificar el correcto funcionamiento de los módulos de hardware que componen el dispositivo. Asimismo, registrar las especificaciones técnicas que posteriormente servirán para comercializar el dispositivo.
+
+Para realizar  Las pruebas se realizaron sobre el prototipo comercial, 
+
+%----------------------------------------------------------------------------------------
+
+\section{Pruebas funcionales de la interfaz web}
+\label{sec:pruebasWI}
+
+%----------------------------------------------------------------------------------------
+
+\section{Pruebas funcionales de campo}
+\label{sec:pruebasWI}
+
+%----------------------------------------------------------------------------------------
+
+\section{Resultado final}
+\label{sec:resultadoF}
+
+%----------------------------------------------------------------------------------------
+
+\section{Comparación con dispositivos disponibles comercialmente}
+\label{sec:comparacionDDC}
+
+%----------------------------------------------------------------------------------------

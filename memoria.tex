@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.3 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%chapterinoneline,% Have the chapter title next to the number in one single line
+%english, % ngerman for German
+spanish,
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+
+
+%----------------------------------------------------------------------------------------
+%	INFORMACIÓN DE LA MEMORIA
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Monitor para medidores de energía eléctrica} % El títulos de la memoria, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \ttitle
+\degree{Especialista en Sistemas Embebidos } % Nombre del grado, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \degreename
+\author{Ing. Mauricio Barroso Benavides} % Tu nombre, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \authorname
+\supervisor{Mg. Ing. Gonzalo Sanchez (F.A.A.)} % El nombre del director, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \supname
+\juradoUNO{Mg. Ing. Martín Nicolás Menéndez (pertenencia)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur1name
+\juradoDOS{Mg. Ing. Christian Yañez Flores (pertenencia)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur2name
+\juradoTRES{Esp. Ing. Esteban Daniel Volentini (pertenencia)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur3name
+\fechaINICIO{agosto de 2019}
+\fechaFINAL{agosto de 2020}
+
+\subject{Memoria del Trabajo Final de la Carrera de Especialización en Sistemas Embebidos de la UBA} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{Sistemas Embebidos, CESE, FIUBA} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{Universidad de Buenos Aires} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\faculty{{Facultad de Ingeniería}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+\department{Departamento de Electrónica} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{{Laboratorio de Sistemas Embebidos}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+
+
+%\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+%\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+%\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+
+
+%\newcaptionname{spanish}{\acknowledgementname}{Agradecimientos}
+%\newcaptionname{spanish}{\authorshipname}{Declaración de Autoría}
+%\newcaptionname{spanish}{\abbrevname}{Glosario}
+%\newcaptionname{spanish}{\byname}{por}
+%
+%\renewcommand{\lstlistingname}{Código}% Listing -> Algorithm
+%\renewcommand{\lstlistlistingname}{Índice de \lstlistingname s}% List of Listings -> List of Algorithms
+%
+%\renewcommand{\listtablename}{Índice de Tablas}
+%\renewcommand{\tablename}{Tabla} 
+
+\addtolength{\footnotesep}{1mm} % Espacio adicional en los footnotes
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	CARÁTULA
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+
+\includegraphics[width=.8\textwidth]{./Figures/logoFIUBA.png}
+\vspace{2cm}
+
+\textsc{\huge{Carrera de Especialización en\\ \vspace{5px} Sistemas Embebidos}}
+\vspace{.5cm} % Thesis type
+
+\textsc{\Large Memoria del Trabajo Final}\\[1cm] % Thesis type
+%\vspace{1.5cm}
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+
+\vfill
+
+\vspace{2cm}
+\LARGE\textbf{Autor:\\
+\authorname}\\ % Author name
+
+\vspace{1.5cm}
+
+\large
+{Director:} \\
+{\supname} % Supervisor name
+ 
+\vspace{1cm}
+Jurados:\\	
+\jurunoname\\
+\jurdosname\\
+\jurtresname
+
+\vspace{1cm}
+
+\textit{Este trabajo fue realizado en la Ciudad de Salta,\\ entre \fechaINICIOname \hspace{1px} y \fechaFINALname.}
+\end{center}
+\end{titlepage}
+
+
+%----------------------------------------------------------------------------------------
+%	RESUMEN - ABSTRACT 
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+%
+%The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+\centering
+
+La presente memoria tiene como objetivo describir el desarrollo de un dispositivo electrónico, capaz de monitorear la información de consumo de energía eléctrica proveniente de medidores de uso domiciliario. El trabajo fue propuesto por la cooperativa de servicios eléctricos de la ciudad boliviana de Tupiza, COPELECT, para automatizar la lectura de los medidores que tiene instalados en los hogares de sus más de diez mil abonados.
+
+En la elaboración de este trabajo se ven plasmados los conocimientos adquiridos en la carrera de especialización, sobre ingeniería de software, sistemas operativos en tiempo real I y II, protocolos de comunicación y diseño de circuitos impresos.
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA MEMORIA  - AGRADECIMIENTOS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+%\addchaptertocentry{\acknowledgementname} % Descomentando esta línea se puede agregar los agradecimientos al índice
+\vspace{1.5cm}
+
+Esta sección es para agradecimientos personales y es totalmente \textbf{OPCIONAL}.  
+
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	LISTA DE CONTENIDOS/FIGURAS/TABLAS
+%----------------------------------------------------------------------------------------
+\renewcommand{\listtablename}{Índice de Tablas} %TODO eliminar esta línea
+
+\tableofcontents % Prints the main table of contents
+%
+\listoffigures % Prints the list of figures
+%
+\listoftables % Prints the list of tables
+
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA MEMORIA  - DEDICATORIA
+%----------------------------------------------------------------------------------------
+
+\dedicatory{\textbf{Dedicado a... [OPCIONAL]}}  % escribir acá si se desea una dedicatoria
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA MEMORIA  - CAPÍTULOS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+%\renewcommand{\tablename}{Tabla} %TODO eliminar esta línea
+
+% Incluir los capítulos como archivos separados desde la carpeta Chapters
+% Descomentar las líneas a medida que se escriben los capítulos
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5} 
+
+%----------------------------------------------------------------------------------------
+%	CONTENIDO DE LA MEMORIA  - APÉNDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % indicativo para indicarle a LaTeX los siguientes "capítulos" son apéndices
+
+% Incluir los apéndices de la memoria como archivos separadas desde la carpeta Appendices
+% Descomentar las líneas a medida que se escriben los apéndices
+
+%\include{Appendices/AppendixA}
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\Urlmuskip=0mu plus 1mu\relax
+\raggedright
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  
