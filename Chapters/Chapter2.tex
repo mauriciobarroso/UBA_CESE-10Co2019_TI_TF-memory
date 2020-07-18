@@ -47,7 +47,7 @@ Para cumplir con todos los requerimientos funcionales expuestos en la sección a
 	\label{fig:cuadradoAzul}
 \end{figure}
 
-En el diagrama anterior, el conversor óptico-eléctrico transforma pulsos ópticos a eléctricos y los entrega al microcontrolador con transceptor Wi-Fi. Los pulsos junto con la fecha proveída por el reloj en tiempo real, son almacenados en la memoria no volátil. El transceptor LoRa, se utiliza para transmitir los datos almacenados en la memoria no volátil y recibir información de otros dispositivos conectados a la red LoRa. Por último, el microcontrolador con transceptor Wi-Fi, implementa un servidor web local para que mediante una interfaz gráfica se puedan conocer los datos almacenados en la memoria no volátil.
+En el diagrama anterior, el conversor óptico-eléctrico, transforma los pulsos de luz provenientes del LED de un  medidor de consumo eléctrico a pulsos eléctricos y los entrega al microcontrolador. El microcontrolador procesa estos pulsos y realiza el cálculo del consumo eléctrico, esa información junto con la hora y fecha provenientes del reloj en tiempo real, son almacenados en la memoria no volátil para su posterior utilización. El transceptor Wi-Fi, se comunica con el microcontrolador para obtener los datos que serán utilizados para generar la interfaz gráfica mostrada al usuario. El transceptor LoRa, tiene la función de establecer comunicación bidireccional con un dispositivo concentrador LoRa, para enviar la información de la memoria no volátil y recibir parámetros de funcionamiento.
 
 \subsection{Conversor óptico-eléctrico}
 
@@ -82,9 +82,8 @@ Para realizar la conversión de pulsos de luz a pulsos eléctricos, existen prin
 \subsection{Transceptor Wi-Fi}
 
 
+
 \subsection{Transceptor LoRa}
-
-
 
 \subsection{Reloj en tiempo real}
 
