@@ -137,8 +137,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S1}
-    \strng{fullhash}{S1}
+    \strng{namehash}{S2}
+    \strng{fullhash}{S2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-14}
@@ -219,25 +219,61 @@
     \field{year}{2010}
   \endentry
 
-  \entry{WEBSITE:9}{misc}{}
+  \entry{WEBSITE:11}{misc}{}
     \name{author}{1}{}{%
-      {{hash=e}{%
-         family={{everythingRF}},
-         familyi={e\bibinitperiod},
+      {{hash=C}{%
+         family={{CISCO}},
+         familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{e1}
-    \strng{fullhash}{e1}
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-18}
+    \field{title}{¿Qué es la tecnología wifi? Definición y tipos - Cisco}
+    \verb{url}
+    \verb https://www.cisco.com/c/es_mx/products/wireless/what-is-wifi.html®
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{WEBSITE:9}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Semtech}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-17}
+    \field{title}{Semtech LoRa Technology Overview | Semtech}
+    \verb{url}
+    \verb https://www.semtech.com/lora
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{WEBSITE:10}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{LoRa Alliance®}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-16}
-    \field{title}{Shanghai Based Espressif Systems Ships 100th Million IoT
-  Chip}
+    \field{title}{About LoRaWAN® | LoRa Alliance®}
     \verb{url}
-    \verb https://www.everythingrf.com/News/details/6242-Shanghai-Based-Espress
-    \verb if-Systems-Ships-100th-Million-IoT-Chip
+    \verb https://lora-alliance.org/about-lorawan
     \endverb
-    \field{year}{2018}
+    \field{year}{2019}
   \endentry
 
   \entry{BOOK:3}{book}{}

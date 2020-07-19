@@ -23,56 +23,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: memoria-blx.bib
 Database file #2: references.bib
-Repeated entry---line 122 of file references.bib
+Repeated entry---line 146 of file references.bib
  : @article{ARTICLE:1
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 131 of file references.bib
+Repeated entry---line 155 of file references.bib
  : @inbook{BOOK:2
  :               ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 13 entries,
+You've used 15 entries,
             6304 wiz_defined-function locations,
-            1264 strings with 10763 characters,
-and the built_in function-call counts, 48494 in all, are:
-= -- 3042
-> -- 978
-< -- 235
-+ -- 593
-- -- 314
-* -- 3244
-:= -- 4311
+            1278 strings with 10972 characters,
+and the built_in function-call counts, 54398 in all, are:
+= -- 3325
+> -- 1131
+< -- 267
++ -- 669
+- -- 360
+* -- 3585
+:= -- 4769
 add.period$ -- 0
-call.type$ -- 13
-change.case$ -- 119
+call.type$ -- 15
+change.case$ -- 133
 chr.to.int$ -- 34
-cite$ -- 24
-duplicate$ -- 4460
-empty$ -- 5275
-format.name$ -- 539
-if$ -- 10624
+cite$ -- 28
+duplicate$ -- 5151
+empty$ -- 5939
+format.name$ -- 631
+if$ -- 11923
 int.to.chr$ -- 0
-int.to.str$ -- 32
+int.to.str$ -- 38
 missing$ -- 0
-newline$ -- 263
-num.names$ -- 513
-pop$ -- 3939
+newline$ -- 300
+num.names$ -- 595
+pop$ -- 4587
 preamble$ -- 1
-purify$ -- 155
+purify$ -- 175
 quote$ -- 0
-skip$ -- 1796
+skip$ -- 2069
 stack$ -- 0
-substring$ -- 5423
-swap$ -- 1207
-text.length$ -- 229
+substring$ -- 5722
+swap$ -- 1394
+text.length$ -- 263
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 430
+type$ -- 498
 warning$ -- 0
-while$ -- 449
+while$ -- 509
 width$ -- 0
-write$ -- 251
+write$ -- 286
 (There were 2 error messages)

@@ -63,9 +63,11 @@ Para realizar la conversión de pulsos de luz a pulsos eléctricos, existen prin
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.15]{./Figures/ldr.jpg}
-		\caption{Fotoresistencia GL5528.}
+		\caption{Fotoresistencia GL5528\protect\footnotemark.}
 		\label{fig:cuadradoAzul}
 	\end{figure}
+	
+	\footnotetext{Imagen tomada de: \url{https://www.devobox.com/en/photosensors/38-photoresistor-ldr07.html}}
 	
 	\item Fototransistor: es un transistor sensible a la luz, normalmente a los infrarrojos. La cantidad de luz incidente es proporcional a la corriente de base generada. Generalmente tiene el factor de forma de un LED \citep{BOOK:2}. Un fototransistor de uso común se observa en la figura 2.3.
 \end{itemize}
@@ -73,17 +75,126 @@ Para realizar la conversión de pulsos de luz a pulsos eléctricos, existen prin
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.3]{./Figures/phototransistor.jpg}
-		\caption{Fototransistor IR333C.}
+		\caption{Fototransistor IR333C\protect\footnotemark.}
 		\label{fig:cuadradoAzul}
 	\end{figure}
+
+	\footnotetext{Imagen tomada de: \url{https://www.steren.com.gt/fototransistor-de-5-mm-transparente.html}}
 
 \subsection{Microcontrolador}
 
 \subsection{Transceptor Wi-Fi}
 
+Wi-Fi es un tecnología de red inalámbrica, que permite a dispositivos como computadoras y teléfonos celulares conectarse entre sí para formar una red, o conectarse a un enrutador por el que se disponga de conexión a Internet. Está basado en la familia de estándares IEEE 802.11, que definen los protocolos que permiten la comunicación entre dispositivos compatibles con Wi-Fi \citep{WEBSITE:11}.Según la versión de Wi-Fi, puede funcionar en las bandas de 2.4 GHz o 5 GHz\citep{WEBSITE:11}.
 
+En la tabla 2.1 muestran las características técnicas de las distintas versiones del estándar IEEE 802.11.
+
+\begin{table}[h]
+	\centering
+	\caption[IEEE 802.11]{Tabla comparativa de características del estándar IEEE 802.11\protect\footnotemark}
+	\begin{tabular}{l c c c}    
+		\toprule
+		\textbf{Protocolo 802.11} & \textbf{Frecuencia} & \textbf{Ancho de banda} & \textbf{Velocidad de datos (Mb/s)} \\
+		\midrule
+		a & 5 GHz 			& 20 MHz 		  & 5, 9, 12, 18, 24, 36, 48, 54 \\		
+		b & 2.4 GHz			& 20 MHz 		  & 1, 2, 5.5, 11 \\
+		g & 2.4 GHz			& 20 MHz          & 6, 9, 12, 18, 24, 36, 48, 54 \\
+		n & 2.4 GHz y 5 GHz & 20 MHz y 40 MHz & 7.2, 28.9, 43.3, 57.8, 65, 72.2 \\
+		\bottomrule
+		\hline
+	\end{tabular}
+	\label{tab:peces}
+\end{table}
+
+\footnotetext{Datos obtenidos de: \url{https://microchipdeveloper.com/wifi:a-b-g-n-explained}}
+
+Dentro del modelo OSI\footnote{Modelo OSI. Es un modelo de referencia para los protocolos de red, creado por la Organización Internacional de Normalización.}, Wi-Fi se encuentra en la capa física y de enlace de datos. En la figura 2.x se ve el modelo OSI.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.7]{./Figures/osi_model.jpg}
+	\caption{Ubicación de Wi-Fi en el modelo OSI\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://microchipdeveloper.com/wifi:80211-osi}}
+
+Una red Wi-Fi tiene una arquitectura en estrella como se muestra en la figura 2.x. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.17]{./Figures/lorawan_architecture.jpg}
+	\caption{Arquitectura LoraWAN\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://www.aprendiendoarduino.com/2018/03/05/redes-lpwan/}}
+
+Los elementos principales de una red Wi-Fi son:
+\begin{itemize}
+	\item Estaciones: son dispositivos electrónicos que se conectan entre sí a través de enrutadores inalámbricos. Son más conocidos como hosts y pueden ser computadoras, tabletas, teléfonos celulares o sistemas embebidos.
+	\item Puntos de acceso: también conocidos como \textit{Access Points}, son los elementos de la red que enrutan la información proveniente de las estaciones dentro de la red local o hacia otras redes.
+\end{itemize}
+
+Dentro de lo referido al desarrollo de sistemas embebidos, comercialmente pueden encontrarse módulos Wi-Fi como el de la figura 2.x.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.65]{./Figures/wifi_module.jpg}
+	\caption{Módulo Wi-Fi basado en el circuito integrado EMW3162\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://www.seeedstudio.com/EMW3162-WiFi-Module-External-IPEX-antenn-p-2235.html}}
 
 \subsection{Transceptor LoRa}
+
+LoRa(\textit{Long Range}, largo alcance), es una técnica de modulación de espectro extendido derivada de la tecnología CSS (\textit{Chirp Spread Spectrum}, espectro extendido de tipo chirp)\citep{WEBSITE:9}. Fue desarrollado por la firma Semtech y es utilizada principalmente en dispositivos orientados a IoT(\textit{Internet of Things}, Internet de las cosas) y dispositivos alimentados por baterías. Opera en las bandas de 433 Mhz, 868 Mhz y 915 MHz, según el país.
+
+Las comunicaciones entre dispositivos LoRa, son del tipo punto a punto, ya que la tecnología es de capa física. Para formar redes LoRa, es necesaria una capa MAC (\textit{Media Access Control}, control de acceso al medio), la cual es llamada LoRaWAN (\textit{Long Range Wide Area Network}, red de área amplia LoRa).
+
+LoRaWAN, es una especificación de redes LPWAN (\textit{Low Power Wide Area Network}, red de área amplia de baja potencia) y LoRa Alliance es la encargada de su estandarización. Está diseñada para conectar dispositivos de bajo consumo energético a Internet a través de redes regionales, nacionales o globales. Además proporciona comunicación bidireccional, seguridad, movilidad y servicios de localización\citep{WEBSITE:10}.
+
+En la figura 2.x se puede observar el modelo de capas de una red de dispositivos LoRa, donde el protocolo LoRa define la capa física (PHY) y LoRaWAN la capa de acceso al medio (MAC).
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.38]{./Figures/lorawan.jpg}
+	\caption{\textit{Stack} LoraWAN\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://lora-developers.semtech.com/library/tech-papers-and-guides/lora-and-lorawan/}}
+
+La arquitectura de una red LoRaWAN es de tipo estrella, como se muestra en la figura 2.x.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.17]{./Figures/lorawan_architecture.jpg}
+	\caption{Arquitectura LoraWAN\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://www.aprendiendoarduino.com/2018/03/05/redes-lpwan/}}
+
+De la figura anterior, se distinguen los siguientes elementos:
+
+\begin{itemize}
+	\item Nodos: son los dispositivos que utilizan la tecnología LoRa como método de transmisión de datos. Son utilizados para obtener datos de sensores o para interactuar con actuadores. Generalmente son dispositivos de bajo consumo energético y alimentados por baterías.
+	\item Concentradores: también conocidos como \textit{gateways}, son los encargados de recibir la información de los nodos y reenviarla a un servidor de red. Estos dispositivos tienen acceso a Internet mediante redes celulares, Wi-Fi o \textit{ethernet}.
+	\item Servidores de red: son los responsables del enrutamiento de los mensajes a la aplicación adecuada, seleccionar el mejor gateway para el mensaje de enlace descendente, eliminar mensajes duplicados y descifrar los mensajes que vienen cifrados desde los nodos.
+	\item Servidores de aplicación: es donde se realizan los procesos útiles sobre los datos obtenidos de los nodos. Típicamente se ejecutan en una nube privada o pública.
+\end{itemize}
+
+En el desarrollo de nodos para redes LoRaWAN, se utilizan módulos de desarrollo que llevan embebido un circuito integrado con tecnología LoRa, como el de la figura 2.x.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.32]{./Figures/lora_module.jpg}
+	\caption{Módulo LoRa basado en el circuito integrado RF96\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://www.antratek.com/rfm95-lora-module}}
 
 \subsection{Reloj en tiempo real}
 
@@ -114,7 +225,7 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 		\caption{Módulo EEPROM basado en el circuito integrado 24C256.}
 		\label{fig:cuadradoAzul}
 	\end{figure}
-	\item Flash: está basada en las memorias EEPROM y permite la lectura y escritura de múltiples posiciones de memoria de manera simultánea, gracias a ello su velocidad de funcionamiento es superior a su antecesor. El número de operaciones de escritura o borrado es de diez mil a un millón. Es empleada principalmente en la fabricación de memorias USB y unidades de estado sólido. Asimismo, los microcontroladores actuales tienen integrada una unidad de memoria flash para el almacenamiento de instrucciones y datos. Para la realización de pruebas y prototipos, existen comercialmente módulos de memoria flash con comunicación SPI, como el de la figura 3.6.
+	\item Flash: está basada en las memorias EEPROM y permite la lectura y escritura de múltiples posiciones de memoria de manera simultánea, gracias a ello su velocidad de funcionamiento es superior a la de su antecesor. El número de operaciones de escritura o borrado es de diez mil a un millón. Es empleada principalmente en la fabricación de memorias USB y unidades de estado sólido. Asimismo, los microcontroladores actuales tienen integrada una unidad de memoria flash para el almacenamiento de instrucciones y datos. Para la realización de pruebas y prototipos, existen comercialmente módulos de memoria flash con comunicación SPI, como el de la figura 3.6.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.35]{./Figures/flash.jpg}
@@ -129,5 +240,10 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 \section{Planificación}
 
 Como se explicó en la subsección 2.2, el dispositivo esta compuesto por diferentes bloques funcionales, que tienen tanto componentes de firmware como de hardware. 
+dsadasdasd
+asdasdsadas
+dasdsa
+dsad
+sad
 
 %----------------------------------------------------------------------------------------
