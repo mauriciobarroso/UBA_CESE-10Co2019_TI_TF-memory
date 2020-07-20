@@ -137,8 +137,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S2}
-    \strng{fullhash}{S2}
+    \strng{namehash}{S3}
+    \strng{fullhash}{S3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-14}
@@ -165,6 +165,26 @@
     \field{title}{Wireless pulse converter - AirTM-100S bull ElkoEP}
     \verb{url}
     \verb https://www.elkoep.com/airtm-100s/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:13}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Sigfox}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S2}
+    \strng{fullhash}{S2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-19}
+    \field{title}{Sigfox - The Global Communications Service Provider for the
+  Internet of Things (IoT)}
+    \verb{url}
+    \verb https://www.sigfox.com/en
     \endverb
     \field{year}{2020}
   \endentry
@@ -217,6 +237,26 @@
     \verb 79499/1799582
     \endverb
     \field{year}{2010}
+  \endentry
+
+  \entry{WEBSITE:12}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{BISinfotech}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-19}
+    \field{title}{Top 10 Microcontrollers (MCU) Manufacturers for 2020}
+    \verb{url}
+    \verb https://www.bisinfotech.com/top-10-microcontrollers-mcu-manufacturers
+    \verb -2020/
+    \endverb
+    \field{year}{2020}
   \endentry
 
   \entry{WEBSITE:11}{misc}{}

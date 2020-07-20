@@ -23,56 +23,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: memoria-blx.bib
 Database file #2: references.bib
-Repeated entry---line 146 of file references.bib
+Repeated entry---line 162 of file references.bib
  : @article{ARTICLE:1
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 155 of file references.bib
+Repeated entry---line 171 of file references.bib
  : @inbook{BOOK:2
  :               ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 15 entries,
+You've used 17 entries,
             6304 wiz_defined-function locations,
-            1278 strings with 10972 characters,
-and the built_in function-call counts, 54398 in all, are:
-= -- 3325
-> -- 1131
-< -- 267
-+ -- 669
-- -- 360
-* -- 3585
-:= -- 4769
+            1289 strings with 11291 characters,
+and the built_in function-call counts, 60386 in all, are:
+= -- 3614
+> -- 1284
+< -- 299
++ -- 745
+- -- 410
+* -- 3936
+:= -- 5233
 add.period$ -- 0
-call.type$ -- 15
-change.case$ -- 133
+call.type$ -- 17
+change.case$ -- 147
 chr.to.int$ -- 34
-cite$ -- 28
-duplicate$ -- 5151
-empty$ -- 5939
-format.name$ -- 631
-if$ -- 11923
+cite$ -- 32
+duplicate$ -- 5844
+empty$ -- 6613
+format.name$ -- 723
+if$ -- 13238
 int.to.chr$ -- 0
-int.to.str$ -- 38
+int.to.str$ -- 44
 missing$ -- 0
-newline$ -- 300
-num.names$ -- 595
-pop$ -- 4587
+newline$ -- 339
+num.names$ -- 677
+pop$ -- 5235
 preamble$ -- 1
-purify$ -- 175
+purify$ -- 195
 quote$ -- 0
-skip$ -- 2069
+skip$ -- 2344
 stack$ -- 0
-substring$ -- 5722
-swap$ -- 1394
-text.length$ -- 263
+substring$ -- 6043
+swap$ -- 1583
+text.length$ -- 297
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 498
+type$ -- 566
 warning$ -- 0
-while$ -- 509
+while$ -- 569
 width$ -- 0
-write$ -- 286
+write$ -- 323
 (There were 2 error messages)

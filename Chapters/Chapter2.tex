@@ -42,7 +42,7 @@ Para cumplir con todos los requerimientos funcionales expuestos en la sección a
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=1.2]{./Figures/general_blocks.pdf}
+	\includegraphics[scale=1]{./Figures/general_blocks.pdf}
 	\caption{Diagrama en bloques general del dispositivo.}
 	\label{fig:cuadradoAzul}
 \end{figure}
@@ -83,6 +83,23 @@ Para realizar la conversión de pulsos de luz a pulsos eléctricos, existen prin
 
 \subsection{Microcontrolador}
 
+Un microcontrolador es un circuito integrado programable, capaz de ejecutar las instrucciones que tiene almacenadas. Dispone de los tres componentes básicos de de una computadora: memoria, CPU(\textit{Central Processing Unit}, unidad central de procesamiento) y periféricos de entrada/salida. 
+
+El diseño de los microcontroladores está orientado a reducir los cotos económicos y el consumo energético de un sistema en particular. Según la aplicación en la que el microcontrolador se vaya a utilizar, el tamaño de la unidad central de procesamiento, la cantidad de memoria y los periféricos incluidos son diferentes. Es por esta razón que tiene recursos de hardware muy limitados en comparación con, por ejemplo, una computadora.
+
+Los fabricantes más populares de microcontroladores son: Analog Devices, Cypress Semiconductor, Infineon, Maxim Integrated, Microchip, NXP, On Semiconductor, Panasonic, ROHM Semiconductor, STMicroelectronics y Texas Instruments \citep{WEBSITE:12}.
+
+En el mercado se pueden encontrar microcontroladores en diferentes factores de forma, pero, para el desarrollo de sistemas embebidos, lo más común es utilizar tarjetas de desarrollo como la que se muestra en la figura 2.x.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{./Figures/microcontroller_dev.jpg}
+	\caption{Tarjeta de desarrollo del fabricante STMicroelectronics basada en el microcontrolador STM32F030R8T6\protect\footnotemark.}
+	\label{fig:cuadradoAzul}
+\end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://www.seeedstudio.com/NUCLEO-L152RE-Development-Board-for-STM32-p-1934.html}}
+
 \subsection{Transceptor Wi-Fi}
 
 Wi-Fi es un tecnología de red inalámbrica, que permite a dispositivos como computadoras y teléfonos celulares conectarse entre sí para formar una red, o conectarse a un enrutador por el que se disponga de conexión a Internet. Está basado en la familia de estándares IEEE 802.11, que definen los protocolos que permiten la comunicación entre dispositivos compatibles con Wi-Fi \citep{WEBSITE:11}.Según la versión de Wi-Fi, puede funcionar en las bandas de 2.4 GHz o 5 GHz\citep{WEBSITE:11}.
@@ -122,24 +139,24 @@ Una red Wi-Fi tiene una arquitectura en estrella como se muestra en la figura 2.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.17]{./Figures/lorawan_architecture.jpg}
-	\caption{Arquitectura LoraWAN\protect\footnotemark.}
+	\includegraphics[scale=0.33]{./Figures/wifi_architecture.jpg}
+	\caption{Arquitectura de una red Wi-Fi\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
 
-\footnotetext{Imagen tomada de: \url{https://www.aprendiendoarduino.com/2018/03/05/redes-lpwan/}}
+\footnotetext{Imagen tomada de: \url{https://randomnerdtutorials.com/esp32-access-point-ap-web-server/}}
 
 Los elementos principales de una red Wi-Fi son:
 \begin{itemize}
-	\item Estaciones: son dispositivos electrónicos que se conectan entre sí a través de enrutadores inalámbricos. Son más conocidos como hosts y pueden ser computadoras, tabletas, teléfonos celulares o sistemas embebidos.
-	\item Puntos de acceso: también conocidos como \textit{Access Points}, son los elementos de la red que enrutan la información proveniente de las estaciones dentro de la red local o hacia otras redes.
+	\item Estaciones: son dispositivos electrónicos que se conectan entre sí a través de enrutadores inalámbricos. Son más conocidos como \textit{hosts} y pueden ser computadoras, tabletas, teléfonos celulares o sistemas embebidos.
+	\item Puntos de acceso: también conocidos como \textit{access points}, son los elementos de la red que enrutan la información proveniente de las estaciones dentro de la red local o hacia otras redes.
 \end{itemize}
 
 Dentro de lo referido al desarrollo de sistemas embebidos, comercialmente pueden encontrarse módulos Wi-Fi como el de la figura 2.x.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.65]{./Figures/wifi_module.jpg}
+	\includegraphics[scale=0.3]{./Figures/wifi_module.jpg}
 	\caption{Módulo Wi-Fi basado en el circuito integrado EMW3162\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
@@ -170,7 +187,7 @@ La arquitectura de una red LoRaWAN es de tipo estrella, como se muestra en la fi
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.17]{./Figures/lorawan_architecture.jpg}
-	\caption{Arquitectura LoraWAN\protect\footnotemark.}
+	\caption{Arquitectura de una red LoraWAN\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
 
@@ -185,7 +202,7 @@ De la figura anterior, se distinguen los siguientes elementos:
 	\item Servidores de aplicación: es donde se realizan los procesos útiles sobre los datos obtenidos de los nodos. Típicamente se ejecutan en una nube privada o pública.
 \end{itemize}
 
-En el desarrollo de nodos para redes LoRaWAN, se utilizan módulos de desarrollo que llevan embebido un circuito integrado con tecnología LoRa, como el de la figura 2.x.
+En el desarrollo de nodos para redes LoRaWAN, se utilizan módulos que llevan embebido un circuito integrado con tecnología LoRa, como el de la figura 2.x.
 
 \begin{figure}[h]
 	\centering
@@ -207,9 +224,11 @@ Algunos RTCs tienen una fuente de poder alternativa basada en baterías, que man
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.2]{./Figures/rtc.jpg}
-	\caption{Módulo RTC basado en el circuito integrado DS1307.}
+	\caption{Módulo RTC basado en el circuito integrado DS1307\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
+
+\footnotetext{Imagen tomada de: \url{https://www.antratek.com/rfm95-lora-module}}
 
 \subsection{Memoria no volátil}
 
@@ -222,16 +241,21 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.35]{./Figures/eeprom.jpg}
-		\caption{Módulo EEPROM basado en el circuito integrado 24C256.}
+		\caption{Módulo EEPROM basado en el circuito integrado 24C256\protect\footnotemark.}
 		\label{fig:cuadradoAzul}
 	\end{figure}
+
+	\footnotetext{Imagen tomada de: \url{https://www.antratek.com/rfm95-lora-module}}
+
 	\item Flash: está basada en las memorias EEPROM y permite la lectura y escritura de múltiples posiciones de memoria de manera simultánea, gracias a ello su velocidad de funcionamiento es superior a la de su antecesor. El número de operaciones de escritura o borrado es de diez mil a un millón. Es empleada principalmente en la fabricación de memorias USB y unidades de estado sólido. Asimismo, los microcontroladores actuales tienen integrada una unidad de memoria flash para el almacenamiento de instrucciones y datos. Para la realización de pruebas y prototipos, existen comercialmente módulos de memoria flash con comunicación SPI, como el de la figura 3.6.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.35]{./Figures/flash.jpg}
-		\caption{Módulo flash basado en el circuito integrado W25Q16BVSIG.}
+		\caption{Módulo flash basado en el circuito integrado W25Q16BVSIG\protect\footnotemark.}
 		\label{fig:cuadradoAzul}
 	\end{figure}
+
+	\footnotetext{Imagen tomada de: \url{https://www.antratek.com/rfm95-lora-module}}
 	
 \end{itemize}
 
@@ -239,11 +263,35 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 
 \section{Planificación}
 
-Como se explicó en la subsección 2.2, el dispositivo esta compuesto por diferentes bloques funcionales, que tienen tanto componentes de firmware como de hardware. 
-dsadasdasd
-asdasdsadas
-dasdsa
-dsad
-sad
+De acuerdo a los requerimientos planteados en al sección 2.1 y en función del diagrama en bloques general del dispositivo mostrado en la sección 2.2, se confeccionó una planificación de este trabajo como parte de la materia e Gestión de Proyectos de la carrera de Especialización.
+
+\subsection{Actividades del trabajo}
+
+El trabajo fue dividido en distintas actividades, cada una cumple con uno o varios de los requerimientos planteados previamente. En la figura 2.x se observa el diagrama AON (\textit{Activity On Node}, actividad en el nodo).
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1]{./Figures/aon.pdf}
+	\caption{Diagrama AON del trabajo.}
+	\label{fig:diagramAON}
+\end{figure}
+
+Resalta que la cantidad de horas destinadas al desarrollo de firmware y hardware son aproximadamente el 62\% del tiempo previsto para el desarrollo trabajo en general. Esto guarda relación con el esfuerzo destinado para obtener resultados que garanticen un buen desempeño técnico del dispositivo desarrollado.
+
+\subsection{Desgloce en tareas}
+
+Para mejorar el control del tiempo que para el desarrollo de cada una de las actividades planteadas anteriormente, estas fueron desglosadas en tareas. Cada una de las tareas responden 
+
+\subsection{Entregables del trabajo}
+
+Los entregables del proyecto son los siguientes:
+\begin{itemize}
+	\item Diagrama esquemático.
+	\item Código fuente.
+	\item Prototipo comercial.
+	\item Manual de instalación.
+	\item Manual de uso.
+	\item Informe final.
+\end{itemize}
 
 %----------------------------------------------------------------------------------------

@@ -1,25 +1,27 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Medidor de consumo el\IeC {\'e}ctrico anal\IeC {\'o}gico.\relax }}{2}{figure.caption.7}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Medidor de consumo el\IeC {\'e}ctrico digital.\relax }}{2}{figure.caption.8}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Medidor de consumo el\IeC {\'e}ctrico anal\IeC {\'o}gico\footnotemark .\relax }}{2}{figure.caption.7}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Medidor de consumo el\IeC {\'e}ctrico digital\footnotemark .\relax }}{2}{figure.caption.8}% 
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Smart meter de la firma emlite\footnotemark .\relax }}{3}{figure.caption.9}% 
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Registrador de pulsos PA-FL de la firma SyxthSense\footnotemark .\relax }}{5}{figure.caption.10}% 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Registrador de pulsos AirTM-100S de la firma iNES\footnotemark .\relax }}{5}{figure.caption.11}% 
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Registrador de pulsos AirTM-100S de la firma iNES\footnotemark .\relax }}{6}{figure.caption.11}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama en bloques general del dispositivo.\relax }}{8}{figure.caption.12}% 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Fotoresistencia GL5528\footnotemark .\relax }}{9}{figure.caption.13}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Fototransistor IR333C\footnotemark .\relax }}{9}{figure.caption.14}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Ubicaci\IeC {\'o}n de Wi-Fi en el modelo OSI\footnotemark .\relax }}{10}{figure.caption.16}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Arquitectura LoraWAN\footnotemark .\relax }}{11}{figure.caption.17}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces M\IeC {\'o}dulo Wi-Fi basado en el circuito integrado EMW3162\footnotemark .\relax }}{11}{figure.caption.18}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \textit {Stack} LoraWAN\footnotemark .\relax }}{12}{figure.caption.19}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Arquitectura LoraWAN\footnotemark .\relax }}{12}{figure.caption.20}% 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces M\IeC {\'o}dulo LoRa basado en el circuito integrado RF96\footnotemark .\relax }}{13}{figure.caption.21}% 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces M\IeC {\'o}dulo RTC basado en el circuito integrado DS1307.\relax }}{14}{figure.caption.22}% 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces M\IeC {\'o}dulo EEPROM basado en el circuito integrado 24C256.\relax }}{14}{figure.caption.23}% 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces M\IeC {\'o}dulo flash basado en el circuito integrado W25Q16BVSIG.\relax }}{15}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Tarjeta de desarrollo del fabricante STMicroelectronics basada en el microcontrolador STM32F030R8T6\footnotemark .\relax }}{10}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Ubicaci\IeC {\'o}n de Wi-Fi en el modelo OSI\footnotemark .\relax }}{11}{figure.caption.17}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Arquitectura de una red Wi-Fi\footnotemark .\relax }}{11}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces M\IeC {\'o}dulo Wi-Fi basado en el circuito integrado EMW3162\footnotemark .\relax }}{12}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \textit {Stack} LoraWAN\footnotemark .\relax }}{12}{figure.caption.20}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Arquitectura de una red LoraWAN\footnotemark .\relax }}{13}{figure.caption.21}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces M\IeC {\'o}dulo LoRa basado en el circuito integrado RF96\footnotemark .\relax }}{13}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces M\IeC {\'o}dulo RTC basado en el circuito integrado DS1307\footnotemark .\relax }}{14}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces M\IeC {\'o}dulo EEPROM basado en el circuito integrado 24C256\footnotemark .\relax }}{15}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces M\IeC {\'o}dulo flash basado en el circuito integrado W25Q16BVSIG\footnotemark .\relax }}{15}{figure.caption.25}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Diagrama AON del trabajo.\relax }}{16}{figure.caption.26}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Banco de pruebas para las pruebas de funcionamiento.\relax }}{20}{figure.caption.27}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Banco de pruebas para las pruebas de funcionamiento.\relax }}{22}{figure.caption.29}% 
 \addvspace {10\p@ }
