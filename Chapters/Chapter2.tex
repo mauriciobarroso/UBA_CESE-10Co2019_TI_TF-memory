@@ -89,11 +89,11 @@ El diseño de los microcontroladores está orientado a reducir los cotos económ
 
 Los fabricantes más populares de microcontroladores son: Analog Devices, Cypress Semiconductor, Infineon, Maxim Integrated, Microchip, NXP, On Semiconductor, Panasonic, ROHM Semiconductor, STMicroelectronics y Texas Instruments \citep{WEBSITE:12}.
 
-En el mercado se pueden encontrar microcontroladores en diferentes factores de forma, pero, para el desarrollo de sistemas embebidos, lo más común es utilizar tarjetas de desarrollo como la que se muestra en la figura 2.x.
+En el mercado se pueden encontrar microcontroladores en diferentes factores de forma, pero, para el desarrollo de sistemas embebidos, lo más común es utilizar tarjetas de desarrollo como la que se muestra en la figura 2.4.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.4]{./Figures/microcontroller_dev.jpg}
+	\includegraphics[scale=0.5]{./Figures/microcontroller_dev.jpg}
 	\caption{Tarjeta de desarrollo del fabricante STMicroelectronics basada en el microcontrolador STM32F030R8T6\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
@@ -114,9 +114,9 @@ En la tabla 2.1 muestran las características técnicas de las distintas version
 		\textbf{Protocolo 802.11} & \textbf{Frecuencia} & \textbf{Ancho de banda} & \textbf{Velocidad de datos (Mb/s)} \\
 		\midrule
 		a & 5 GHz 			& 20 MHz 		  & 5, 9, 12, 18, 24, 36, 48, 54 \\		
-		b & 2.4 GHz			& 20 MHz 		  & 1, 2, 5.5, 11 \\
-		g & 2.4 GHz			& 20 MHz          & 6, 9, 12, 18, 24, 36, 48, 54 \\
-		n & 2.4 GHz y 5 GHz & 20 MHz y 40 MHz & 7.2, 28.9, 43.3, 57.8, 65, 72.2 \\
+		b & 2,4 GHz			& 20 MHz 		  & 1, 2; 5,5; 11 \\
+		g & 2,4 GHz			& 20 MHz          & 6, 9, 12, 18, 24, 36, 48, 54 \\
+		n & 2,4 GHz y 5 GHz & 20 MHz y 40 MHz & 7,2; 28,9; 43,3; 57,8; 65; 72,2 \\
 		\bottomrule
 		\hline
 	\end{tabular}
@@ -125,21 +125,21 @@ En la tabla 2.1 muestran las características técnicas de las distintas version
 
 \footnotetext{Datos obtenidos de: \url{https://microchipdeveloper.com/wifi:a-b-g-n-explained}}
 
-Dentro del modelo OSI\footnote{Modelo OSI. Es un modelo de referencia para los protocolos de red, creado por la Organización Internacional de Normalización.}, Wi-Fi se encuentra en la capa física y de enlace de datos. En la figura 2.x se ve el modelo OSI.
+Dentro del modelo OSI\footnote{Modelo OSI. Es un modelo de referencia para los protocolos de red, creado por la Organización Internacional de Normalización.}, Wi-Fi se encuentra en la capa física y de enlace de datos. En la figura 2.5 se ve el modelo OSI.
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.7]{./Figures/osi_model.jpg}
+	\includegraphics[scale=0.8]{./Figures/osi_model.jpg}
 	\caption{Ubicación de Wi-Fi en el modelo OSI\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
 
 \footnotetext{Imagen tomada de: \url{https://microchipdeveloper.com/wifi:80211-osi}}
 
-Una red Wi-Fi tiene una arquitectura en estrella como se muestra en la figura 2.x. 
+Una red Wi-Fi tiene una arquitectura en estrella como se muestra en la figura 2.6. 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.33]{./Figures/wifi_architecture.jpg}
+	\includegraphics[scale=0.4]{./Figures/wifi_architecture.jpg}
 	\caption{Arquitectura de una red Wi-Fi\protect\footnotemark.}
 	\label{fig:cuadradoAzul}
 \end{figure}
@@ -152,7 +152,7 @@ Los elementos principales de una red Wi-Fi son:
 	\item Puntos de acceso: también conocidos como \textit{access points}, son los elementos de la red que enrutan la información proveniente de las estaciones dentro de la red local o hacia otras redes.
 \end{itemize}
 
-Dentro de lo referido al desarrollo de sistemas embebidos, comercialmente pueden encontrarse módulos Wi-Fi como el de la figura 2.x.
+Dentro de lo referido al desarrollo de sistemas embebidos, comercialmente pueden encontrarse módulos Wi-Fi como el de la figura 2.7.
 
 \begin{figure}[h]
 	\centering
@@ -171,7 +171,7 @@ Las comunicaciones entre dispositivos LoRa, son del tipo punto a punto, ya que l
 
 LoRaWAN, es una especificación de redes LPWAN (\textit{Low Power Wide Area Network}, red de área amplia de baja potencia) y LoRa Alliance es la encargada de su estandarización. Está diseñada para conectar dispositivos de bajo consumo energético a Internet a través de redes regionales, nacionales o globales. Además proporciona comunicación bidireccional, seguridad, movilidad y servicios de localización\citep{WEBSITE:10}.
 
-En la figura 2.x se puede observar el modelo de capas de una red de dispositivos LoRa, donde el protocolo LoRa define la capa física (PHY) y LoRaWAN la capa de acceso al medio (MAC).
+En la figura 2.8 se puede observar el modelo de capas de una red de dispositivos LoRa, donde el protocolo LoRa define la capa física (PHY) y LoRaWAN la capa de acceso al medio (MAC).
 
 \begin{figure}[h]
 	\centering
@@ -182,7 +182,7 @@ En la figura 2.x se puede observar el modelo de capas de una red de dispositivos
 
 \footnotetext{Imagen tomada de: \url{https://lora-developers.semtech.com/library/tech-papers-and-guides/lora-and-lorawan/}}
 
-La arquitectura de una red LoRaWAN es de tipo estrella, como se muestra en la figura 2.x.
+La arquitectura de una red LoRaWAN es de tipo estrella, como se muestra en la figura 2.9.
 
 \begin{figure}[h]
 	\centering
@@ -202,7 +202,7 @@ De la figura anterior, se distinguen los siguientes elementos:
 	\item Servidores de aplicación: es donde se realizan los procesos útiles sobre los datos obtenidos de los nodos. Típicamente se ejecutan en una nube privada o pública.
 \end{itemize}
 
-En el desarrollo de nodos para redes LoRaWAN, se utilizan módulos que llevan embebido un circuito integrado con tecnología LoRa, como el de la figura 2.x.
+En el desarrollo de nodos para redes LoRaWAN, se utilizan módulos que llevan embebido un circuito integrado con tecnología LoRa, como el de la figura 2.10.
 
 \begin{figure}[h]
 	\centering
@@ -219,7 +219,7 @@ Más conocido como RTC (\textit{Real-Time Clock}, reloj en tiempo real), es un c
 
 La principal aplicación de un RTC es brindar a un sistema electrónico la hora y fecha exactas,  también puede ofrecer otras funciones como alarmas, salidas de reloj de 1 Hz o medición de temperatura.
 
-Algunos RTCs tienen una fuente de poder alternativa basada en baterías, que mantiene funcionando la parte del circuito que lleva la cuenta de la hora y fecha. Esta fuente de tensión normalmente son baterías de litio o supercapacitores\footnote{Supercapacitor. Es un capacitor que tiene valores de capacitancia muy altos, pero valores de voltaje muy bajos.}. Comercialmente un RTC puede adquirirse como parte de un módulo, como el que se ve en la figura 2.4, que tiene instalada la fuente de alimentación alternativa y brinda mayor facilidad para acceder a los pines del circuito integrado.
+Algunos RTCs tienen una fuente de poder alternativa basada en baterías, que mantiene funcionando la parte del circuito que lleva la cuenta de la hora y fecha. Esta fuente de tensión normalmente son baterías de litio o supercapacitores\footnote{Supercapacitor. Es un capacitor que tiene valores de capacitancia muy altos, pero valores de voltaje muy bajos.}. Comercialmente un RTC puede adquirirse como parte de un módulo, como el que se ve en la figura 2.11, que tiene instalada la fuente de alimentación alternativa y brinda mayor facilidad para acceder a los pines del circuito integrado.
 
 \begin{figure}[h]
 	\centering
@@ -237,7 +237,7 @@ Es un tipo de memoria de lectura y escritura, en la que los datos que tiene alma
 En sistemas embebidos, existen principalmente dos tipos de memorias no volátiles:
 
 \begin{itemize}
-	\item EEPROM (\textit{Electrically Erasable Programmable Read-Only Memory}, ROM borrable y programable eléctricamente): es un tipo de memoria ROM que puede ser programada y borrada mediante métodos eléctricos. Aunque puede ser leída un número ilimitado de veces, las operaciones de escritura o borrado de datos solo se pueden realizar entre cien mil y un millón de veces. Este tipo de memorias pueden encontrarse como circuitos integrados que generalmente disponen de comunicación I2C o SPI. En la figura 2.5 se aprecia un módulo EEPROM, comercialmente esta es la forma más habitual de encontrarlo.
+	\item EEPROM (\textit{Electrically Erasable Programmable Read-Only Memory}, ROM borrable y programable eléctricamente): es un tipo de memoria ROM que puede ser programada y borrada mediante métodos eléctricos. Aunque puede ser leída un número ilimitado de veces, las operaciones de escritura o borrado de datos solo se pueden realizar entre cien mil y un millón de veces. Este tipo de memorias pueden encontrarse como circuitos integrados que generalmente disponen de comunicación I2C o SPI. En la figura 2.12 se aprecia un módulo EEPROM, comercialmente esta es la forma más habitual de encontrarlo.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.35]{./Figures/eeprom.jpg}
@@ -245,9 +245,9 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 		\label{fig:cuadradoAzul}
 	\end{figure}
 
-	\footnotetext{Imagen tomada de: \url{https://www.antratek.com/rfm95-lora-module}}
+	\footnotetext{Imagen tomada de: \url{https://allegro.pl/oferta/modul-z-pamiecia-at24c256-i2c-serial-eeprom-007-6055966557}}
 
-	\item Flash: está basada en las memorias EEPROM y permite la lectura y escritura de múltiples posiciones de memoria de manera simultánea, gracias a ello su velocidad de funcionamiento es superior a la de su antecesor. El número de operaciones de escritura o borrado es de diez mil a un millón. Es empleada principalmente en la fabricación de memorias USB y unidades de estado sólido. Asimismo, los microcontroladores actuales tienen integrada una unidad de memoria flash para el almacenamiento de instrucciones y datos. Para la realización de pruebas y prototipos, existen comercialmente módulos de memoria flash con comunicación SPI, como el de la figura 3.6.
+	\item Flash: está basada en las memorias EEPROM y permite la lectura y escritura de múltiples posiciones de memoria de manera simultánea, gracias a ello su velocidad de funcionamiento es superior a la de su antecesor. El número de operaciones de escritura o borrado es de diez mil a un millón. Es empleada principalmente en la fabricación de memorias USB y unidades de estado sólido. Asimismo, los microcontroladores actuales tienen integrada una unidad de memoria flash para el almacenamiento de instrucciones y datos. Para la realización de pruebas y prototipos, existen comercialmente módulos de memoria flash con comunicación SPI, como el de la figura 2.13.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.35]{./Figures/flash.jpg}
@@ -255,7 +255,7 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 		\label{fig:cuadradoAzul}
 	\end{figure}
 
-	\footnotetext{Imagen tomada de: \url{https://www.antratek.com/rfm95-lora-module}}
+	\footnotetext{Imagen tomada de: \url{https://tienda.sawers.com.bo/microcontroladores/memorias-eeprom-dataloggers/cjmcu2516-modulo-memoria-flash}}
 	
 \end{itemize}
 
@@ -263,11 +263,11 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 
 \section{Planificación}
 
-De acuerdo a los requerimientos planteados en al sección 2.1 y en función del diagrama en bloques general del dispositivo mostrado en la sección 2.2, se confeccionó una planificación de este trabajo como parte de la materia e Gestión de Proyectos de la carrera de Especialización.
+De acuerdo a los requerimientos planteados en al sección 2.1 y en función del diagrama en bloques general del dispositivo mostrado en la sección 2.2, se confeccionó una planificación de este trabajo como parte de la materia e Gestión de Proyectos de la Carrera de Especialización en Sistemas Embebidos.
 
 \subsection{Actividades del trabajo}
 
-El trabajo fue dividido en distintas actividades, cada una cumple con uno o varios de los requerimientos planteados previamente. En la figura 2.x se observa el diagrama AON (\textit{Activity On Node}, actividad en el nodo).
+El trabajo fue dividido en distintas actividades, cada una cumple con uno o varios de los requerimientos planteados previamente. En la figura 2.14 se observa el diagrama AON (\textit{Activity On Node}, actividad en el nodo).
 
 \begin{figure}[h]
 	\centering
@@ -276,11 +276,32 @@ El trabajo fue dividido en distintas actividades, cada una cumple con uno o vari
 	\label{fig:diagramAON}
 \end{figure}
 
-Resalta que la cantidad de horas destinadas al desarrollo de firmware y hardware son aproximadamente el 62\% del tiempo previsto para el desarrollo trabajo en general. Esto guarda relación con el esfuerzo destinado para obtener resultados que garanticen un buen desempeño técnico del dispositivo desarrollado.
+Resalta que la cantidad de horas destinadas al desarrollo de firmware y hardware son aproximadamente el 62\% del tiempo previsto para el desarrollo del trabajo en general. Esto guarda relación con el esfuerzo destinado para obtener resultados que garanticen un buen desempeño técnico del dispositivo desarrollado.
 
 \subsection{Desgloce en tareas}
 
-Para mejorar el control del tiempo que para el desarrollo de cada una de las actividades planteadas anteriormente, estas fueron desglosadas en tareas. Cada una de las tareas responden 
+Para mejorar el control del tiempo en el desarrollo de todas las actividades del trabajo, estas fueron desglosadas en tareas. Estas tareas fueron planificadas y programadas según el diagrama de Gantt de las figuras 2.15, 2.16 y 2.17.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1]{./Figures/gantt1.png}
+	\caption{Primera parte del diagrama de Gantt.}
+	\label{fig:diagramAON}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1]{./Figures/gantt2.png}
+	\caption{Segunda parte del diagrama de Gantt.}
+	\label{fig:diagramAON}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1]{./Figures/gantt3.png}
+	\caption{Tercera parte del diagrama de Gantt.}
+	\label{fig:diagramAON}
+\end{figure}
 
 \subsection{Entregables del trabajo}
 
@@ -289,8 +310,7 @@ Los entregables del proyecto son los siguientes:
 	\item Diagrama esquemático.
 	\item Código fuente.
 	\item Prototipo comercial.
-	\item Manual de instalación.
-	\item Manual de uso.
+	\item Manual de uso e instalación.
 	\item Informe final.
 \end{itemize}
 
