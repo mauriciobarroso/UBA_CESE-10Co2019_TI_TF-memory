@@ -21,25 +21,26 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Desgloce en tareas}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.3}{Entregables del trabajo}{section.2.3}% 22
 \BOOKMARK [0][-]{chapter.3}{Dise\361o e Implementaci\363n}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Dise\361o de hardware}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Conversi\363n \363ptica-el\351ctrica}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Procesamiento y transmisi\363n}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{Almacenamiento}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.4}{Prototipo comercial}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.1}{Prototipo de pruebas}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.1.1}{Microcontrolador + Wi-Fi}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.2}{Transceptor LoRa}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.3}{RTC + EEPROM}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.4}{Conversor \363ptico-el\351ctrico}{section.3.1}% 28
 \BOOKMARK [1][-]{section.3.2}{Dise\361o de firmware}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.2.1}{Adquisici\363n de datos}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.2}{Servidor web}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.3}{Comunicaci\363n LoRa}{section.3.2}% 32
-\BOOKMARK [0][-]{chapter.4}{Ensayos y Resultados}{}% 33
-\BOOKMARK [1][-]{section.4.1}{Pruebas de firmware}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.1.1}{Pruebas unitarias}{section.4.1}% 35
-\BOOKMARK [2][-]{subsection.4.1.2}{Pruebas de funcionamiento}{section.4.1}% 36
-\BOOKMARK [1][-]{section.4.2}{Pruebas de hardware}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.3}{Pruebas funcionales de la interfaz web}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{Pruebas funcionales de campo}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{Resultado final}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.6}{Comparaci\363n con dispositivos disponibles comercialmente}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Conclusiones}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Conclusiones generales }{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Pr\363ximos pasos}{chapter.5}% 44
-\BOOKMARK [0][-]{appendix*.33}{Bibliograf\355a}{}% 45
+\BOOKMARK [1][-]{section.3.3}{Interfaz web}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Prototipo comercial}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.4.1}{Carcasa}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{Circuito impreso}{section.3.4}% 33
+\BOOKMARK [0][-]{chapter.4}{Ensayos y Resultados}{}% 34
+\BOOKMARK [1][-]{section.4.1}{Pruebas de firmware}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.1.1}{Pruebas unitarias}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.2}{Pruebas de funcionamiento}{section.4.1}% 37
+\BOOKMARK [1][-]{section.4.2}{Pruebas de hardware}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.3}{Pruebas funcionales de la interfaz web}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.4}{Pruebas funcionales de campo}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Resultado final}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.6}{Comparaci\363n con dispositivos disponibles comercialmente}{chapter.4}% 42
+\BOOKMARK [0][-]{chapter.5}{Conclusiones}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Conclusiones generales }{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Pr\363ximos pasos}{chapter.5}% 45
+\BOOKMARK [0][-]{appendix*.44}{Bibliograf\355a}{}% 46

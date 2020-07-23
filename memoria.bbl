@@ -339,5 +339,26 @@
     \endverb
     \field{year}{2000}
   \endentry
+
+  \entry{WEBSITE:14}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=e}{%
+         family={{everythingRF}},
+         familyi={e\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{e1}
+    \strng{fullhash}{e1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-16}
+    \field{title}{Shanghai Based Espressif Systems Ships 100th Million IoT
+  Chip}
+    \verb{url}
+    \verb https://www.everythingrf.com/News/details/6242-Shanghai-Based-Espress
+    \verb if-Systems-Ships-100th-Million-IoT-Chip
+    \endverb
+    \field{year}{2018}
+  \endentry
 \enddatalist
 \endinput
