@@ -127,12 +127,116 @@ Para este bloque, el componente elegido es un módulo detector de luz, compuesto
 
 \section{Diseño de firmware}
 
+El desarrollo del firmware fue la tarea que requirió más esfuerzo en el trabajo, debido a que los objetivos principales del autor fueron lograr modularización y reutilización del código escrito. Para lograr dichos objetivos, el firmware fue estructurado en capas y se utilizó control de versiones para documentarlo. De esta manera, se logró un desarrollo de carácter más profesional que podrá ser reutilizado en futuros proyectos que requieran funciones similares.
 
+Antes de realizar la descomposición del firmware en capas, fue necesario elegir las herramientas de desarrollo implicadas, las mismas fueron imprescindibles al momento de escribir el código fuente del dispositivo. Estas herramientas fueron un SDK (\textit{Software Deveplopment Kit}, kit de desarrollo de software): para proporcionar una API(\textit{Application Programming Interface}, interfaz de programación de aplicaciones) que facilite la escritura de código fuente para el ESP8266 y un IDE (\textit{Integrated Development Enviroment}, Entorno de Desarrollo Integrado) que proporcione funciones para facilitar el desarrollo con el SDK elegido.
+
+\begin{itemize}
+	\item ESP8266\_RTOS\_SDK: este SDK fue desarrollado por la firma Espressif Systems para la programación del SoC ESP8266 y facilita un conjunto de funciones para la creación de código fuente. Está basado en el RTOS (\textit{Real-Time Operating System}, sistema operativo en tiempo real) de uso gratuito FreeRTOS (ref), el mismo fue utilizado en las materias sobre sistemas operativos en tiempo real de la Carrera de Especialización y brinda funciones que ayudan a lograr determinismo en la ejecución de las tareas del dispositivo. Asimismo, contiene bastante documentación y ejemplos sobre como utilizar las funciones del ESP8266.
+	\item Eclipse: en la documentación de instalación y uso del ESP8266\_RTOS\_SDK (ref), se indica el proceso de configuración de este IDE para compilar el código basado en este SDK. Otro aspecto para su elección fue la experiencia previa del autor con este IDE, el mismo fue utilizado en varias materias de la Carrera de Especialización.
+\end{itemize}
+
+Entonces, una vez definidas las herramientas utilizadas, fue posible dividir el firmware en capas, para facilitar el desarrollo y reducir la complejidad del código escrito para el dispositivo. La división en capas del firmware puede observarse en el diagrama de la figura 3.5, donde existen tres capas claramente diferenciadas: SDK, Controladores y Aplicación.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1]{./Figures/firmware_layers.pdf}
+	\caption{Diagrama de capas del firmware.}
+		\label{fig:cuadradoAzul}
+\end{figure}
+
+
+\subsection{SDK}
+
+Esta capa está compuesta por la API del SDK y proporciona a las capas de niveles superiores la capacidad de interactuar con los periféricos y protocolos del ESP8266. De todos los periféricos y protocolos que dispone el ESP8266, los que fueron utilizados en el trabajo fueron:
+
+\begin{itemize}
+	\item GPIO: este periférico fue utilizado por la capa Aplicación para gestionar los pines disponibles en el ESP8266, ya que algunos de ellos tienen funciones específicas y no pueden ser utilizados para propósitos generales. El SDK posee funciones para definir los pines como entradas o salidas, configuración de interrupciones por flanco positivo o negativo, resistencias de \textit{pull-up} internas, entre otras.
+	\item I\textsuperscript{2}C: se utilizó este periférico para que la capa Controladores mediante el protocolo I\textsuperscript{2}C interactúe con el RTC y la EEPROM. Al tener pocos pines disponibles en el ESP8266, este componente se hizo muy importante, ya que para comunicarse con otros circuitos integrados que utilizan el mismo protocolo, solo se necesitan dos pines, uno para datos y otro para el reloj.
+	\item SPI: la capa Controladores utiliza este periférico para comunicarse con el transceptor LoRa. El transceptor LoRa elegido, se comunica a través del protocolo SPI con el microcontrolador que lo maneja para intercambiar datos.
+	\item HSPI: el ESP8266 no posee memoria ROM embebida en el SoC, por tanto, utiliza una memoria flash externa para almacenar las instrucciones del programa y los datos del usuario. Esta memoria flash se comunica con el ESP8266 mediante el protocolo HSPI. Este periférico se utilizó para que la capa Controladores configurare la flash como un sistema de archivos.
+	\item HTTP: el SDK ofrece funciones para ejecutar este protocolo. Fue de utilidad para proporcionar a la capa Aplicación las funciones necesarias para implementar un servidor web.
+	\item IEEE 802.11: el ESP8266 tiene embebida toda la electrónica necesaria para implementar los protocolos IEEE 802.11 en sus versiones b, g y n. La capa Aplicación utilizó las funciones disponibles para lograr que el dispositivo funcione como access point y/o estación.
+\end{itemize}
+
+\subsection{Controladores}
+
+El ESP8266 está conectado a periféricos de hardware externos, que proporcionan características necesarias para que el dispositivo ejecute eficientemente todas las tareas que debe cumplir. Entonces, el objetivo de esta capa fue desarrollar bibliotecas de firmware para los circuitos integrados externos al ESP8266, que brinden a la capa Aplicación de una interfaz adecuada para comunicarse con ellos. Asimismo, las bibliotecas fueron desarrolladas pensando en ser reutilizadas en futuros proyectos.
+
+Para el manejo de la EEPROM, se desarrolló una biblioteca para que el ESP8266 pueda almacenar y recuperar datos de esta memoria. El elemento más importante en el desarrollo fue el datasheet del AT24C32 (ref), en el mismo se indican todos los pormenores técnicos del funcionamiento de esta EEPROM. Además, se utilizaron las funciones del SDK para gestionar la comunicación I\textsuperscript{2}C en función de la información obtenida del datasheet. Las funciones que proporciona esta biblioteca son:
+
+\begin{itemize}
+	\item
+	\item
+	\item
+\end{itemize}
+
+Otra de las bibliotecas desarrolladas fue la que maneja el RTC, que sirvió para configurar la hora, fecha y otras funciones incorporadas. El datasheet del DS3231 (ref), fue la herramienta principal, de este se obtuvo información sobre la dirección de los registros de todas las funciones de este circuito integrado y la forma adecuada de configurarlos. Esto junto con las funciones del SDK referentes al protcolo I\textsuperscript{2}C, permitieron que se disponga de una manera para que el ESP8266 pueda intercambiar datos con el DS3231. En esta biblioteca se desarrollaron las siguientes funciones:
+
+\begin{itemize}
+	\item
+	\item
+\end{itemize}
+
+El desarrollo de la biblioteca para manejar el circuito integrado SX1278, componente central de transceptor LoRa, fue útil para establecer la comunicación de este elemento con el ESP8266, lo que permitió configurar sus parámetros para lograr la transmisión y recepción de datos con otros dispositivos LoRa de manera exitosa. Está basada en la biblioteca Arduino LoRa de Sandeep Mistry (ref) y en el datasheet del SX1278 (ref). Proporciona funciones para:
+
+\begin{itemize}
+	\item
+	\item
+\end{itemize}
+
+Por último, se desarrollo una biblioteca para establecer un sistema de archivos muy reducido llamado SPIFFS (SPI \textit{Flash File System}, sistema de archivos flash SPI), que está albergado en una memoria flash externa, la misma que es utilizada para almacenar el programa grabado en el ESP8266. Esta fue la biblioteca que requirió menos esfuerzo en su desarrollo, debido a que la mayor parte de las funciones estaban disponibles en el SDK. Cumple con las siguientes funciones:
+\begin{itemize}
+	\item
+	\item
+\end{itemize}
+
+\subsection{Aplicación}
+
+Esta capa contiene los elementos que permiten al dispositivo ejecutar todas sus tareas correctamente. Está 
 
 %----------------------------------------------------------------------------------------
 
 \section{Interfaz web}
 
+El diseño e implementación de una interfaz web, tiene como objetivo proporcionar a los usuarios, es decir, a los abonados de las compañías eléctricas, la capacidad de interactuar con el dispositivo para visualizar gráficamente información relativa a su consumo eléctrico y configurar parámetros de la conexión Wi-Fi.
+
+Para el desarrollo se utilizo el IDE Visual Studio Code, que ofrece un entorno de desarrollo muy intuitivo y también brinda la posibilidad de descargar \textit{plugins} que facilitan la escritura de código. Asimismo, se utilizaron distintos lenguajes enfocados en el desarrollo web, para brindar a la interfaz una estructura bien definida, estética y funcionalidad. Estos fueron:
+
+\begin{itemize}
+	\item HTML: se utilizó para definir todos los aspectos estructurales de la interfaz, como la ubicación de los elementos, las llamadas a bibliotecas externas y otros parámetros informativos. La versión utilizada fue HTML 5.
+	\item CSS: brindó control sobre la presentación, formato y el diseño de la interfaz.
+	\item JavaScript: permitió dotar de funcionalidad a los elementos de la interfaz. Fue necesaria para realizar el procesamiento de los datos provenientes del dispositivo.
+	\item Jquery Mobile: con esta biblioteca fue posible darle a la interfaz un aspecto de aplicación para teléfonos móviles, además de la capacidad de adaptarse a cualquier tamaño de pantalla sin que la información mostrada se vea alterada.
+	\item Highcharts: a través de esta biblioteca se logró exhibir la información de consumo eléctrico en un gráfico de barras, de esta manera era más comprensible para el usuario.\end{itemize}
+
+La interfaz web está dividida en dos pantallas, principal y de configuración. La primera es meramente informativa y es donde se muestra el consumo eléctrico al usuario. La segunda permite conectar el dispositivo a un red Wi-Fi existente.
+
+\subsection{Pantalla principal}
+
+Esta pantalla fue diseñada pensando en brindarle al usuario la información de su consumo eléctrico de la manera más simple posible. En la mayor parte del área de la pantalla se muestra un gráfico de barras que presenta el consumo eléctrico de los últimos tres meses y en la esquina superior izquierda un pequeño botón que dirige a la pantalla de configuración.
+
+Al cargar la interfaz en un navegador web, se obtiene mediante el método GET(ref) un archivo CSV (\textit{Comma-Separated Values}, valores separados por coma) con los valores de consumo eléctrico que están almacenados en el dispositivo. Estos son procesados con instrucciones escritas en JavaScript para que la biblioteca Highcharts los utilicé para generar el gráfico de barras. En la figura x se observa la pantalla principal de la interfaz web.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{./Figures/interface_main.png}
+	\caption{Pantalla principal de la interfaz web.}
+	\label{fig:blocksTest}
+\end{figure}
+
+\subsection{Pantalla de configuración}
+
+Se diseño esta pantalla para que la única configuración que puede realizarse sea la conexión del dispositivo a una red Wi-Fi existente a través de su SSID y contraseña. Esta pantalla es imprescindible, debido a que el dispositivo no debería ser manipulado manualmente bajo ninguna circunstancia por el usuario.
+
+El componente principal es un formulario para ingresar el SSID y contraseña de la red a la que el usuario desea conectar el dispositivo. En la esquina superior izquierda se encuentra un botón para retornar a la pantalla principal y en la esquina superior derecha un botón para enviar por el método POST el contenido del formulario al dispositivo. En la figura x se muestra la pantalla de configuración de la interfaz web.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{./Figures/interface_conf.png}
+	\caption{Pantalla de configuración de la interfaz web.}
+	\label{fig:blocksTest}
+\end{figure}
 %----------------------------------------------------------------------------------------
 
 \section{Prototipo comercial}
@@ -220,7 +324,7 @@ Las capas \textit{top} y \textit{bottom} del PCB, pueden apreciarse en las figur
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.375	]{./Figures/pcb_3d.jpg}
-	\caption{Módulo detector de luz.}
+	\caption{Modelo 3D del PCB del prototipo comercial.}
 		\label{fig:cuadradoAzul}
 \end{figure}
 
