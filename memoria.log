@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.2)  26 JUL 2020 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.2)  29 JUL 2020 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,21 +949,6 @@ LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
 LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
 
 
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
 LaTeX Warning: Label `fig:diagramAON' multiply defined.
 
 
@@ -976,53 +961,7 @@ LaTeX Warning: Label `fig:diagramAON' multiply defined.
 
 LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
 
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:blocksTest' multiply defined.
-
-
-LaTeX Warning: Label `fig:blocksTest' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:blocksTest' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-) (./Chapters/Chapter4.aux
-
-LaTeX Warning: Label `tab:peces' multiply defined.
-
-
-LaTeX Warning: Label `tab:peces' multiply defined.
-
-
-LaTeX Warning: Label `fig:cuadradoAzul' multiply defined.
-
-
-LaTeX Warning: Label `sec:pruebasWI' multiply defined.
-
-) (./Chapters/Chapter5.aux))
+) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -1278,7 +1217,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 83.
 1: section
-<./Figures/logoFIUBA.png, id=209, 2536.47626pt x 818.05624pt>
+<./Figures/logoFIUBA.png, id=172, 2536.47626pt x 818.05624pt>
 File: ./Figures/logoFIUBA.png Graphic file (type png)
 <use ./Figures/logoFIUBA.png>
 Package pdftex.def Info: ./Figures/logoFIUBA.png  used on input line 97.
@@ -1329,17 +1268,15 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-)
-\tf@lof=\write6
-\openout6 = `memoria.lof'.
-
 
 1: section
 [9
 
-] [10
+])
+\tf@lof=\write6
+\openout6 = `memoria.lof'.
 
-] (./memoria.lot
+ [10] (./memoria.lot
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1349,7 +1286,9 @@ LaTeX Info: Redefining \% on input line 2.
 
 
 1: section
-[11] [12
+[11
+
+] [12
 
 ]
 --------------------
@@ -1368,18 +1307,20 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
-<./Figures/analog_meter.jpg, id=457, 552.0625pt x 552.0625pt>
+<./Figures/analog_meter.jpg, id=456, 552.0625pt x 552.0625pt>
 File: ./Figures/analog_meter.jpg Graphic file (type jpg)
 <use ./Figures/analog_meter.jpg>
 Package pdftex.def Info: ./Figures/analog_meter.jpg  used on input line 41.
-(pdftex.def)             Requested size: 182.18118pt x 182.18118pt.
+(pdftex.def)             Requested size: 160.09402pt x 160.09402pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 42.
+1: section
+[1
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 45.
 
@@ -1388,16 +1329,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  / 2020 / 05 / 23 /
  []
 
-<./Figures/digital_meter.jpg, id=461, 414.04688pt x 414.04688pt>
+<./Figures/digital_meter.jpg, id=468, 414.04688pt x 414.04688pt>
 File: ./Figures/digital_meter.jpg Graphic file (type jpg)
 <use ./Figures/digital_meter.jpg>
 Package pdftex.def Info: ./Figures/digital_meter.jpg  used on input line 49.
-(pdftex.def)             Requested size: 219.44379pt x 219.44379pt.
-1: section
-[1
+(pdftex.def)             Requested size: 198.74023pt x 198.74023pt.
 
-
-]
 Overfull \hbox (94.2099pt too wide) in paragraph at lines 53--53
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . casasbahia . com
  . br / medidor-[]de-[]energia-[]monofasico-[]nansen-[]220v-[]100a-[]lumen-[]mc
@@ -1408,7 +1345,7 @@ LaTeX Info: Redefining \sptext on input line 58.
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
 [2 <./Figures/analog_meter.jpg> <./Figures/digital_meter.jpg>]
-<./Figures/smart_meter.jpg, id=481, 803.0pt x 803.0pt>
+<./Figures/smart_meter.jpg, id=480, 803.0pt x 803.0pt>
 File: ./Figures/smart_meter.jpg Graphic file (type jpg)
 <use ./Figures/smart_meter.jpg>
 Package pdftex.def Info: ./Figures/smart_meter.jpg  used on input line 71.
@@ -1417,7 +1354,7 @@ LaTeX Info: Redefining \sptext on input line 79.
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
  [3 <./Figures/smart_meter.jpg>]
-<./Figures/PA-FL.png, id=495, 240.9pt x 414.54875pt>
+<./Figures/PA-FL.png, id=494, 240.9pt x 414.54875pt>
 File: ./Figures/PA-FL.png Graphic file (type png)
 <use ./Figures/PA-FL.png>
 Package pdftex.def Info: ./Figures/PA-FL.png  used on input line 102.
@@ -1430,15 +1367,15 @@ LaTeX Info: Redefining \sptext on input line 109.
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
 [4]
-<./Figures/airtm-100s.png, id=512, 1204.5pt x 1204.5pt>
-File: ./Figures/airtm-100s.png Graphic file (type png)
-<use ./Figures/airtm-100s.png>
-Package pdftex.def Info: ./Figures/airtm-100s.png  used on input line 113.
-(pdftex.def)             Requested size: 264.99081pt x 264.99081pt.
+<./Figures/airtm-100s.pdf, id=511, 597.23125pt x 597.23125pt>
+File: ./Figures/airtm-100s.pdf Graphic file (type pdf)
+<use ./Figures/airtm-100s.pdf>
+Package pdftex.def Info: ./Figures/airtm-100s.pdf  used on input line 113.
+(pdftex.def)             Requested size: 238.88826pt x 238.88826pt.
 LaTeX Info: Redefining \sptext on input line 126.
 LaTeX Info: Redefining \. on input line 126.
 LaTeX Info: Redefining \% on input line 126.
- [5 <./Figures/PA-FL.png> <./Figures/airtm-100s.png>])
+ [5 <./Figures/PA-FL.png> <./Figures/airtm-100s.pdf>])
 LaTeX Info: Redefining \sptext on input line 191.
 LaTeX Info: Redefining \. on input line 191.
 LaTeX Info: Redefining \% on input line 191.
@@ -1470,22 +1407,22 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figures/general_blocks.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<./Figures/ldr.jpg, id=556, 803.0pt x 803.0pt>
+<./Figures/ldr.jpg, id=557, 803.0pt x 803.0pt>
 File: ./Figures/ldr.jpg Graphic file (type jpg)
 <use ./Figures/ldr.jpg>
 Package pdftex.def Info: ./Figures/ldr.jpg  used on input line 65.
-(pdftex.def)             Requested size: 120.4448pt x 120.4448pt.
+(pdftex.def)             Requested size: 104.39366pt x 104.39366pt.
 
 Underfull \hbox (badness 3503) in paragraph at lines 70--70
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . devobox . com / 
 en / photosensors / 38-[]photoresistor-[]ldr07 .
  []
 
-<./Figures/phototransistor.jpg, id=561, 421.575pt x 421.575pt>
+<./Figures/phototransistor.jpg, id=562, 421.575pt x 421.575pt>
 File: ./Figures/phototransistor.jpg Graphic file (type jpg)
 <use ./Figures/phototransistor.jpg>
 Package pdftex.def Info: ./Figures/phototransistor.jpg  used on input line 77.
-(pdftex.def)             Requested size: 126.47346pt x 126.47346pt.
+(pdftex.def)             Requested size: 113.82677pt x 113.82677pt.
 
 Overfull \hbox (4.51457pt too wide) in paragraph at lines 90--91
 \T1/ppl/m/n/10.95 duc-tor, Pa-na-so-nic, ROHM Se-mi-con-duc-tor, ST-Mi-cro-elec
@@ -1496,12 +1433,12 @@ LaTeX Info: Redefining \sptext on input line 93.
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
 [9 <./Figures/ldr.jpg> <./Figures/phototransistor.jpg>]
-<./Figures/microcontroller_dev.jpg, id=575, 436.63126pt x 499.8675pt>
+<./Figures/microcontroller_dev.jpg, id=578, 436.63126pt x 499.8675pt>
 File: ./Figures/microcontroller_dev.jpg Graphic file (type jpg)
 <use ./Figures/microcontroller_dev.jpg>
 Package pdftex.def Info: ./Figures/microcontroller_dev.jpg  used on input line 
 96.
-(pdftex.def)             Requested size: 218.3151pt x 249.93314pt.
+(pdftex.def)             Requested size: 196.48224pt x 224.9383pt.
 
 Overfull \hbox (69.85129pt too wide) in paragraph at lines 101--101
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . seeedstudio . co
@@ -1519,26 +1456,26 @@ Overfull \hbox (39.4627pt too wide) in paragraph at lines 112--124
  [][] 
  []
 
-<./Figures/osi_model.jpg, id=585, 301.125pt x 206.7725pt>
+LaTeX Info: Redefining \sptext on input line 128.
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+[10 <./Figures/microcontroller_dev.jpg>]
+<./Figures/osi_model.jpg, id=597, 301.125pt x 206.7725pt>
 File: ./Figures/osi_model.jpg Graphic file (type jpg)
 <use ./Figures/osi_model.jpg>
 Package pdftex.def Info: ./Figures/osi_model.jpg  used on input line 131.
-(pdftex.def)             Requested size: 240.90031pt x 165.41821pt.
-LaTeX Info: Redefining \sptext on input line 135.
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
-[10 <./Figures/microcontroller_dev.jpg>]
-<./Figures/wifi_architecture.jpg, id=597, 903.375pt x 453.695pt>
+(pdftex.def)             Requested size: 210.78606pt x 144.73975pt.
+<./Figures/wifi_architecture.jpg, id=601, 903.375pt x 453.695pt>
 File: ./Figures/wifi_architecture.jpg Graphic file (type jpg)
 <use ./Figures/wifi_architecture.jpg>
 Package pdftex.def Info: ./Figures/wifi_architecture.jpg  used on input line 14
 2.
-(pdftex.def)             Requested size: 361.3436pt x 181.47478pt.
-<./Figures/wifi_module.jpg, id=601, 556.0775pt x 352.31625pt>
+(pdftex.def)             Requested size: 316.18599pt x 158.79562pt.
+<./Figures/wifi_module.jpg, id=605, 556.0775pt x 352.31625pt>
 File: ./Figures/wifi_module.jpg Graphic file (type jpg)
 <use ./Figures/wifi_module.jpg>
 Package pdftex.def Info: ./Figures/wifi_module.jpg  used on input line 159.
-(pdftex.def)             Requested size: 166.82454pt x 105.69568pt.
+(pdftex.def)             Requested size: 139.01903pt x 88.07884pt.
 
 Underfull \hbox (badness 1953) in paragraph at lines 160--160
  []\T1/ppl/m/sc/10 Figura 2.7. |\T1/ppl/m/n/10 Mó-du-lo Wi-Fi ba-sa-do en el ci
@@ -1558,28 +1495,33 @@ LaTeX Info: Redefining \sptext on input line 166.
 LaTeX Info: Redefining \. on input line 166.
 LaTeX Info: Redefining \% on input line 166.
 [11 <./Figures/osi_model.jpg> <./Figures/wifi_architecture.jpg>]
-<./Figures/lorawan.jpg, id=615, 1018.80624pt x 364.36125pt>
+<./Figures/lorawan.jpg, id=620, 1018.80624pt x 364.36125pt>
 File: ./Figures/lorawan.jpg Graphic file (type jpg)
 <use ./Figures/lorawan.jpg>
 Package pdftex.def Info: ./Figures/lorawan.jpg  used on input line 178.
-(pdftex.def)             Requested size: 387.15039pt x 138.45871pt.
-<./Figures/lorawan_architecture.jpg, id=619, 2288.55pt x 1227.58624pt>
-File: ./Figures/lorawan_architecture.jpg Graphic file (type jpg)
-<use ./Figures/lorawan_architecture.jpg>
-Package pdftex.def Info: ./Figures/lorawan_architecture.jpg  used on input line
- 189.
-(pdftex.def)             Requested size: 389.04836pt x 208.6869pt.
-LaTeX Info: Redefining \sptext on input line 192.
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+(pdftex.def)             Requested size: 356.58752pt x 127.52834pt.
+LaTeX Info: Redefining \sptext on input line 186.
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
  [12 <./Figures/wifi_module.jpg> <./Figures/lorawan.jpg>]
-<./Figures/lora_module.jpg, id=634, 389.455pt x 361.35pt>
+<./Figures/lorawan_architecture.pdf, id=636, 845.1575pt x 453.695pt>
+File: ./Figures/lorawan_architecture.pdf Graphic file (type pdf)
+<use ./Figures/lorawan_architecture.pdf>
+Package pdftex.def Info: ./Figures/lorawan_architecture.pdf  used on input line
+ 189.
+(pdftex.def)             Requested size: 422.57771pt x 226.84694pt.
+
+Overfull \hbox (32.77502pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+<./Figures/lora_module.jpg, id=642, 389.455pt x 361.35pt>
 File: ./Figures/lora_module.jpg Graphic file (type jpg)
 <use ./Figures/lora_module.jpg>
-Package pdftex.def Info: ./Figures/lora_module.jpg  used on input line 209.
-(pdftex.def)             Requested size: 124.62814pt x 115.63435pt.
+Package pdftex.def Info: ./Figures/lora_module.jpg  used on input line 208.
+(pdftex.def)             Requested size: 116.83739pt x 108.40584pt.
 
-Underfull \hbox (badness 1231) in paragraph at lines 210--210
+Underfull \hbox (badness 1231) in paragraph at lines 209--209
  []\T1/ppl/m/sc/10 Figura 2.10. |\T1/ppl/m/n/10 Mó-du-lo Lo-Ra ba-sa-do en el c
 ir-cui-to in-te-gra-do 
  []
@@ -1587,117 +1529,118 @@ ir-cui-to in-te-gra-do
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \sptext on input line 221.
-LaTeX Info: Redefining \. on input line 221.
-LaTeX Info: Redefining \% on input line 221.
-[13 <./Figures/lorawan_architecture.jpg>]
-<./Figures/rtc.jpg, id=645, 929.4725pt x 532.99126pt>
+LaTeX Info: Redefining \sptext on input line 215.
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+[13 <./Figures/lorawan_architecture.pdf>]
+<./Figures/rtc.jpg, id=653, 929.4725pt x 532.99126pt>
 File: ./Figures/rtc.jpg Graphic file (type jpg)
 <use ./Figures/rtc.jpg>
-Package pdftex.def Info: ./Figures/rtc.jpg  used on input line 226.
-(pdftex.def)             Requested size: 185.8912pt x 106.59636pt.
+Package pdftex.def Info: ./Figures/rtc.jpg  used on input line 225.
+(pdftex.def)             Requested size: 167.29784pt x 95.93428pt.
 
-Underfull \hbox (badness 1796) in paragraph at lines 227--227
+Underfull \hbox (badness 1796) in paragraph at lines 226--226
  []\T1/ppl/m/sc/10 Figura 2.11. |\T1/ppl/m/n/10 Mó-du-lo RTC ba-sa-do en el cir
 -cui-to in-te-gra-do 
  []
 
-<./Figures/eeprom.jpg, id=650, 487.8225pt x 490.83376pt>
+<./Figures/eeprom.jpg, id=658, 487.8225pt x 490.83376pt>
 File: ./Figures/eeprom.jpg Graphic file (type jpg)
 <use ./Figures/eeprom.jpg>
-Package pdftex.def Info: ./Figures/eeprom.jpg  used on input line 243.
-(pdftex.def)             Requested size: 160.98192pt x 161.97563pt.
-LaTeX Info: Redefining \sptext on input line 247.
-LaTeX Info: Redefining \. on input line 247.
-LaTeX Info: Redefining \% on input line 247.
+Package pdftex.def Info: ./Figures/eeprom.jpg  used on input line 242.
+(pdftex.def)             Requested size: 141.46489pt x 142.33813pt.
+LaTeX Info: Redefining \sptext on input line 246.
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
 [14 <./Figures/lora_module.jpg> <./Figures/rtc.jpg>]
-Overfull \hbox (59.19098pt too wide) in paragraph at lines 248--248
+Overfull \hbox (59.19098pt too wide) in paragraph at lines 247--247
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / allegro . pl / oferta 
 / modul-[]z-[]pamiecia-[]at24c256-[]i2c-[]serial-[]eeprom-[]007-[]6055966557$[]
 []| 
  []
 
-<./Figures/flash.jpg, id=661, 572.1375pt x 509.905pt>
+<./Figures/flash.jpg, id=670, 572.1375pt x 509.905pt>
 File: ./Figures/flash.jpg Graphic file (type jpg)
 <use ./Figures/flash.jpg>
-Package pdftex.def Info: ./Figures/flash.jpg  used on input line 253.
-(pdftex.def)             Requested size: 171.64256pt x 152.97267pt.
+Package pdftex.def Info: ./Figures/flash.jpg  used on input line 252.
+(pdftex.def)             Requested size: 160.1974pt x 142.77242pt.
 
-Underfull \hbox (badness 1533) in paragraph at lines 254--254
+Underfull \hbox (badness 1533) in paragraph at lines 253--253
  []\T1/ppl/m/sc/10 Figura 2.13. |\T1/ppl/m/n/10 Mó-du-lo flash ba-sa-do en el c
 ir-cui-to in-te-gra-do 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / tienda . sawers . com 
 . bo / microcontroladores /
  []
 
-LaTeX Info: Redefining \sptext on input line 267.
-LaTeX Info: Redefining \. on input line 267.
-LaTeX Info: Redefining \% on input line 267.
+LaTeX Info: Redefining \sptext on input line 266.
+LaTeX Info: Redefining \. on input line 266.
+LaTeX Info: Redefining \% on input line 266.
 [15 <./Figures/eeprom.jpg> <./Figures/flash.jpg>]
-<./Figures/aon.pdf, id=672, 368.33609pt x 289.08pt>
+<./Figures/aon.pdf, id=681, 368.33609pt x 289.08pt>
 File: ./Figures/aon.pdf Graphic file (type pdf)
 <use ./Figures/aon.pdf>
-Package pdftex.def Info: ./Figures/aon.pdf  used on input line 274.
+Package pdftex.def Info: ./Figures/aon.pdf  used on input line 271.
 (pdftex.def)             Requested size: 368.33517pt x 289.07928pt.
-<./Figures/gantt1.png, id=673, 418.56375pt x 229.60782pt>
+<./Figures/gantt1.png, id=682, 418.56375pt x 229.60782pt>
 File: ./Figures/gantt1.png Graphic file (type png)
 <use ./Figures/gantt1.png>
-Package pdftex.def Info: ./Figures/gantt1.png  used on input line 287.
+Package pdftex.def Info: ./Figures/gantt1.png  used on input line 282.
 (pdftex.def)             Requested size: 418.56271pt x 229.60725pt.
 
-Overfull \hbox (28.76003pt too wide) in paragraph at lines 287--288
+Overfull \hbox (28.76003pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/gantt2.png, id=674, 467.49657pt x 243.15843pt>
+<./Figures/gantt2.png, id=683, 467.49657pt x 243.15843pt>
 File: ./Figures/gantt2.png Graphic file (type png)
 <use ./Figures/gantt2.png>
-Package pdftex.def Info: ./Figures/gantt2.png  used on input line 294.
+Package pdftex.def Info: ./Figures/gantt2.png  used on input line 289.
 (pdftex.def)             Requested size: 467.49542pt x 243.15784pt.
 
-Overfull \hbox (77.69273pt too wide) in paragraph at lines 294--295
+Overfull \hbox (77.69273pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/gantt3.png, id=675, 439.6425pt x 363.60844pt>
+<./Figures/gantt3.png, id=684, 439.6425pt x 363.60844pt>
 File: ./Figures/gantt3.png Graphic file (type png)
 <use ./Figures/gantt3.png>
-Package pdftex.def Info: ./Figures/gantt3.png  used on input line 301.
+Package pdftex.def Info: ./Figures/gantt3.png  used on input line 296.
 (pdftex.def)             Requested size: 439.64142pt x 363.60754pt.
 
-Overfull \hbox (49.83873pt too wide) in paragraph at lines 301--302
+Overfull \hbox (49.83873pt too wide) in paragraph at lines 296--297
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \sptext on input line 312.
-LaTeX Info: Redefining \. on input line 312.
-LaTeX Info: Redefining \% on input line 312.
-[16 <./Figures/aon.pdf
+)
+LaTeX Info: Redefining \sptext on input line 192.
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+ [16 <./Figures/aon.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/aon.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->])
+>]
 LaTeX Info: Redefining \sptext on input line 192.
 LaTeX Info: Redefining \. on input line 192.
 LaTeX Info: Redefining \% on input line 192.
- [17 <./Figures/gantt1.png>]
+ [17 <./Figures/gantt1.png> <./Figures/gantt2.png>]
 LaTeX Info: Redefining \sptext on input line 192.
 LaTeX Info: Redefining \. on input line 192.
 LaTeX Info: Redefining \% on input line 192.
- [18 <./Figures/gantt2.png> <./Figures/gantt3.png>]
+ [18 <./Figures/gantt3.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
@@ -1708,10 +1651,10 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )
-<./Figures/test_blocks.pdf, id=700, 202.8378pt x 188.6247pt>
+<./Figures/test_blocks.pdf, id=711, 202.8378pt x 188.6247pt>
 File: ./Figures/test_blocks.pdf Graphic file (type pdf)
 <use ./Figures/test_blocks.pdf>
-Package pdftex.def Info: ./Figures/test_blocks.pdf  used on input line 59.
+Package pdftex.def Info: ./Figures/test_blocks.pdf  used on input line 58.
 (pdftex.def)             Requested size: 202.8373pt x 188.62422pt.
 
 1: section
@@ -1725,166 +1668,327 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figures/test_blocks.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >]
-<./Figures/nodemcu.jpg, id=716, 435.6275pt x 331.2375pt>
+<./Figures/nodemcu.jpg, id=728, 435.6275pt x 331.2375pt>
 File: ./Figures/nodemcu.jpg Graphic file (type jpg)
 <use ./Figures/nodemcu.jpg>
-Package pdftex.def Info: ./Figures/nodemcu.jpg  used on input line 74.
+Package pdftex.def Info: ./Figures/nodemcu.jpg  used on input line 73.
 (pdftex.def)             Requested size: 217.81322pt x 165.61833pt.
 
-Overfull \hbox (57.84341pt too wide) in paragraph at lines 79--79
+Overfull \hbox (57.84341pt too wide) in paragraph at lines 78--78
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . amazon . com / -
 [] / es / KeeYees-[]Internet-[]Development-[]Wireless-[]Compatible /
  []
 
-LaTeX Info: Redefining \sptext on input line 90.
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
+LaTeX Info: Redefining \sptext on input line 88.
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
 [20 <./Figures/nodemcu.jpg>]
-<./Figures/rtc_eeprom.jpg, id=726, 221.82875pt x 444.66125pt>
-File: ./Figures/rtc_eeprom.jpg Graphic file (type jpg)
-<use ./Figures/rtc_eeprom.jpg>
-Package pdftex.def Info: ./Figures/rtc_eeprom.jpg  used on input line 104.
-(pdftex.def)             Requested size: 99.822pt x 200.0957pt.
+<./Figures/pm1280.jpg, id=742, 680.5425pt x 607.26875pt>
+File: ./Figures/pm1280.jpg Graphic file (type jpg)
+<use ./Figures/pm1280.jpg>
+Package pdftex.def Info: ./Figures/pm1280.jpg  used on input line 99.
+(pdftex.def)             Requested size: 204.16432pt x 182.18202pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . todomicro . com 
+. ar / arduino /
+ []
+
 LaTeX Info: Redefining \sptext on input line 116.
 LaTeX Info: Redefining \. on input line 116.
 LaTeX Info: Redefining \% on input line 116.
- [21 <./Figures/rtc_eeprom.jpg>]
-<./Figures/coe.jpg, id=736, 794.97pt x 800.9925pt>
+[21 <./Figures/pm1280.jpg>]
+<./Figures/rtc_eeprom.jpg, id=754, 221.82875pt x 444.66125pt>
+File: ./Figures/rtc_eeprom.jpg Graphic file (type jpg)
+<use ./Figures/rtc_eeprom.jpg>
+Package pdftex.def Info: ./Figures/rtc_eeprom.jpg  used on input line 127.
+(pdftex.def)             Requested size: 88.72992pt x 177.86134pt.
+LaTeX Info: Redefining \sptext on input line 139.
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+ [22 <./Figures/rtc_eeprom.jpg>]
+<./Figures/coe.jpg, id=764, 794.97pt x 800.9925pt>
 File: ./Figures/coe.jpg Graphic file (type jpg)
 <use ./Figures/coe.jpg>
-Package pdftex.def Info: ./Figures/coe.jpg  used on input line 119.
+Package pdftex.def Info: ./Figures/coe.jpg  used on input line 142.
 (pdftex.def)             Requested size: 158.99118pt x 160.19566pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . roboter-[]bausat
 z . de / en / diy-[]electronics /
  []
 
-LaTeX Info: Redefining \sptext on input line 136.
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
-[22 <./Figures/coe.jpg>]
-<./Figures/firmware_layers.pdf, id=746, 268.12169pt x 202.8378pt>
+LaTeX Info: Redefining \sptext on input line 160.
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+[23 <./Figures/coe.jpg>]
+<./Figures/firmware_layers.pdf, id=778, 224.7597pt x 203.80139pt>
 File: ./Figures/firmware_layers.pdf Graphic file (type pdf)
 <use ./Figures/firmware_layers.pdf>
-Package pdftex.def Info: ./Figures/firmware_layers.pdf  used on input line 143.
+Package pdftex.def Info: ./Figures/firmware_layers.pdf  used on input line 166.
 
-(pdftex.def)             Requested size: 268.12103pt x 202.8373pt.
-LaTeX Info: Redefining \sptext on input line 156.
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
- [23 <./Figures/firmware_layers.pdf
+(pdftex.def)             Requested size: 224.75914pt x 203.80087pt.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/firmware_layers.pdf): PDF inc
-lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
- ignored.
->]
-LaTeX Info: Redefining \sptext on input line 179.
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
- [24]
-LaTeX Info: Redefining \sptext on input line 211.
-LaTeX Info: Redefining \. on input line 211.
-LaTeX Info: Redefining \% on input line 211.
- [25]
-Overfull \hbox (3.48447pt too wide) in paragraph at lines 219--220
-[]\T1/ppl/m/n/10.95 Al car-gar la in-ter-faz en un na-ve-ga-dor web, se ob-tie-
-ne me-dian-te el mé-to-do GET(ref)
+Overfull \hbox (11.871pt too wide) in paragraph at lines 171--172
+[]\T1/ppl/m/n/10.95 SDK es la ca-pa de me-nor ni-vel y es-tá com-pues-ta por la
+ API del ESP8266_RTOS_SDK.
  []
 
-<./Figures/interface_main.png, id=777, 737.75626pt x 696.6025pt>
-File: ./Figures/interface_main.png Graphic file (type png)
-<use ./Figures/interface_main.png>
-Package pdftex.def Info: ./Figures/interface_main.png  used on input line 223.
-(pdftex.def)             Requested size: 368.87723pt x 348.3004pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/interface_conf.png, id=778, 737.75626pt x 692.5875pt>
-File: ./Figures/interface_conf.png Graphic file (type png)
-<use ./Figures/interface_conf.png>
-Package pdftex.def Info: ./Figures/interface_conf.png  used on input line 236.
-(pdftex.def)             Requested size: 368.87723pt x 346.2929pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-LaTeX Info: Redefining \sptext on input line 249.
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
-[26]
-<./Figures/case.jpg, id=783, 650.43pt x 591.20876pt>
-File: ./Figures/case.jpg Graphic file (type jpg)
-<use ./Figures/case.jpg>
-Package pdftex.def Info: ./Figures/case.jpg  used on input line 252.
-(pdftex.def)             Requested size: 325.2142pt x 295.60365pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 257--257
-[][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / es . aliexpress . com 
-/ item / 33004284623 . html ? spm = a2g0o . cart . 0 . 0 .
+LaTeX Info: Redefining \sptext on input line 178.
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
+[24 <./Figures/firmware_layers.pdf>]
+Overfull \hbox (2.41269pt too wide) in paragraph at lines 187--188
+[]\T1/ppl/m/n/10.95 Leer de va-lo-res de 8, 16 y 32 bits de una di-rec-ción de-
+ter-mi-na-da de la EPROM. 
  []
 
-LaTeX Info: Redefining \sptext on input line 262.
-LaTeX Info: Redefining \. on input line 262.
-LaTeX Info: Redefining \% on input line 262.
-[27 <./Figures/interface_main.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/acdc_module.jpg, id=794, 493.845pt x 451.6875pt>
-File: ./Figures/acdc_module.jpg Graphic file (type jpg)
-<use ./Figures/acdc_module.jpg>
-Package pdftex.def Info: ./Figures/acdc_module.jpg  used on input line 290.
-(pdftex.def)             Requested size: 148.15463pt x 135.5073pt.
-LaTeX Info: Redefining \sptext on input line 293.
-LaTeX Info: Redefining \. on input line 293.
-LaTeX Info: Redefining \% on input line 293.
-[28 <./Figures/interface_conf.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figures/schematic.pdf, id=799, 460.72125pt x 412.54124pt>
-File: ./Figures/schematic.pdf Graphic file (type pdf)
-<use ./Figures/schematic.pdf>
-Package pdftex.def Info: ./Figures/schematic.pdf  used on input line 299.
-(pdftex.def)             Requested size: 414.6453pt x 371.28369pt.
-
-Overfull \hbox (24.8426pt too wide) in paragraph at lines 299--300
+LaTeX Info: Redefining \sptext on input line 202.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+[25]
+Overfull \hbox (74.69806pt too wide) in paragraph at lines 222--242
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \sptext on input line 307.
-LaTeX Info: Redefining \. on input line 307.
-LaTeX Info: Redefining \% on input line 307.
-[29 <./Figures/case.jpg>]
-<./Figures/pcb_top.pdf, id=805, 585.18625pt x 415.5525pt>
+LaTeX Info: Redefining \sptext on input line 251.
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
+[26]
+<./Figures/data_logger_diagram.pdf, id=814, 217.77359pt x 196.8153pt>
+File: ./Figures/data_logger_diagram.pdf Graphic file (type pdf)
+<use ./Figures/data_logger_diagram.pdf>
+Package pdftex.def Info: ./Figures/data_logger_diagram.pdf  used on input line 
+254.
+(pdftex.def)             Requested size: 217.77304pt x 196.81482pt.
+LaTeX Info: Redefining \sptext on input line 262.
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
+ [27 <./Figures/data_logger_diagram.pdf>]
+<./Figures/data_logger_com.pdf, id=829, 217.77359pt x 109.3686pt>
+File: ./Figures/data_logger_com.pdf Graphic file (type pdf)
+<use ./Figures/data_logger_com.pdf>
+Package pdftex.def Info: ./Figures/data_logger_com.pdf  used on input line 265.
+
+(pdftex.def)             Requested size: 217.77304pt x 109.36832pt.
+<./Figures/data_logger_pulses.pdf, id=833, 123.5817pt x 181.6386pt>
+File: ./Figures/data_logger_pulses.pdf Graphic file (type pdf)
+<use ./Figures/data_logger_pulses.pdf>
+Package pdftex.def Info: ./Figures/data_logger_pulses.pdf  used on input line 2
+74.
+(pdftex.def)             Requested size: 123.58138pt x 181.63814pt.
+<./Figures/data_logger_alarm.pdf, id=835, 304.2567pt x 384.47638pt>
+File: ./Figures/data_logger_alarm.pdf Graphic file (type pdf)
+<use ./Figures/data_logger_alarm.pdf>
+Package pdftex.def Info: ./Figures/data_logger_alarm.pdf  used on input line 28
+3.
+(pdftex.def)             Requested size: 304.25595pt x 384.47543pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \sptext on input line 289.
+LaTeX Info: Redefining \. on input line 289.
+LaTeX Info: Redefining \% on input line 289.
+[28 <./Figures/data_logger_com.pdf> <./Figures/data_logger_pulses.pdf>]
+<./Figures/data_logger_init.pdf, id=860, 202.8378pt x 253.90858pt>
+File: ./Figures/data_logger_init.pdf Graphic file (type pdf)
+<use ./Figures/data_logger_init.pdf>
+Package pdftex.def Info: ./Figures/data_logger_init.pdf  used on input line 294
+.
+(pdftex.def)             Requested size: 202.8373pt x 253.90796pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \sptext on input line 304.
+LaTeX Info: Redefining \. on input line 304.
+LaTeX Info: Redefining \% on input line 304.
+[29 <./Figures/data_logger_alarm.pdf>]
+<./Figures/lora_communication_diagram.pdf, id=877, 123.5817pt x 196.8153pt>
+File: ./Figures/lora_communication_diagram.pdf Graphic file (type pdf)
+<use ./Figures/lora_communication_diagram.pdf>
+Package pdftex.def Info: ./Figures/lora_communication_diagram.pdf  used on inpu
+t line 307.
+(pdftex.def)             Requested size: 123.58138pt x 196.81482pt.
+LaTeX Info: Redefining \sptext on input line 314.
+LaTeX Info: Redefining \. on input line 314.
+LaTeX Info: Redefining \% on input line 314.
+ [30 <./Figures/data_logger_init.pdf> <./Figures/lora_communication_diagram.pdf
+>]
+<./Figures/lora_communication_task.pdf, id=901, 217.77359pt x 269.08528pt>
+File: ./Figures/lora_communication_task.pdf Graphic file (type pdf)
+<use ./Figures/lora_communication_task.pdf>
+Package pdftex.def Info: ./Figures/lora_communication_task.pdf  used on input l
+ine 318.
+(pdftex.def)             Requested size: 217.77304pt x 269.08463pt.
+<./Figures/lora_communication_tx_packet.pdf, id=904, 123.5817pt x 31.0761pt>
+File: ./Figures/lora_communication_tx_packet.pdf Graphic file (type pdf)
+<use ./Figures/lora_communication_tx_packet.pdf>
+Package pdftex.def Info: ./Figures/lora_communication_tx_packet.pdf  used on in
+put line 328.
+(pdftex.def)             Requested size: 123.58138pt x 31.076pt.
+LaTeX Info: Redefining \sptext on input line 334.
+LaTeX Info: Redefining \. on input line 334.
+LaTeX Info: Redefining \% on input line 334.
+ [31 <./Figures/lora_communication_task.pdf> <./Figures/lora_communication_tx_p
+acket.pdf>]
+<./Figures/lora_communication_rx_packet.pdf, id=927, 159.71669pt x 31.0761pt>
+File: ./Figures/lora_communication_rx_packet.pdf Graphic file (type pdf)
+<use ./Figures/lora_communication_rx_packet.pdf>
+Package pdftex.def Info: ./Figures/lora_communication_rx_packet.pdf  used on in
+put line 337.
+(pdftex.def)             Requested size: 159.7163pt x 31.076pt.
+<./Figures/lora_communication_init.pdf, id=929, 202.8378pt x 181.6386pt>
+File: ./Figures/lora_communication_init.pdf Graphic file (type pdf)
+<use ./Figures/lora_communication_init.pdf>
+Package pdftex.def Info: ./Figures/lora_communication_init.pdf  used on input l
+ine 346.
+(pdftex.def)             Requested size: 202.8373pt x 181.63814pt.
+<./Figures/web_server_diagram.pdf, id=931, 152.4897pt x 196.8153pt>
+File: ./Figures/web_server_diagram.pdf Graphic file (type pdf)
+<use ./Figures/web_server_diagram.pdf>
+Package pdftex.def Info: ./Figures/web_server_diagram.pdf  used on input line 3
+59.
+(pdftex.def)             Requested size: 152.48932pt x 196.81482pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \sptext on input line 366.
+LaTeX Info: Redefining \. on input line 366.
+LaTeX Info: Redefining \% on input line 366.
+[32 <./Figures/lora_communication_rx_packet.pdf> <./Figures/lora_communication_
+init.pdf>]
+<./Figures/web_server_ap.pdf, id=955, 152.4897pt x 95.39641pt>
+File: ./Figures/web_server_ap.pdf Graphic file (type pdf)
+<use ./Figures/web_server_ap.pdf>
+Package pdftex.def Info: ./Figures/web_server_ap.pdf  used on input line 370.
+(pdftex.def)             Requested size: 152.48932pt x 95.39615pt.
+<./Figures/web_server_sta.pdf, id=956, 231.74579pt x 95.39641pt>
+File: ./Figures/web_server_sta.pdf Graphic file (type pdf)
+<use ./Figures/web_server_sta.pdf>
+Package pdftex.def Info: ./Figures/web_server_sta.pdf  used on input line 377.
+(pdftex.def)             Requested size: 231.74521pt x 95.39615pt.
+LaTeX Info: Redefining \sptext on input line 385.
+LaTeX Info: Redefining \. on input line 385.
+LaTeX Info: Redefining \% on input line 385.
+ [33 <./Figures/web_server_diagram.pdf> <./Figures/web_server_ap.pdf> <./Figure
+s/web_server_sta.pdf>]
+<./Figures/web_server_init.pdf, id=992, 268.12169pt x 225.7233pt>
+File: ./Figures/web_server_init.pdf Graphic file (type pdf)
+<use ./Figures/web_server_init.pdf>
+Package pdftex.def Info: ./Figures/web_server_init.pdf  used on input line 390.
+
+(pdftex.def)             Requested size: 268.12103pt x 225.72273pt.
+LaTeX Info: Redefining \sptext on input line 404.
+LaTeX Info: Redefining \. on input line 404.
+LaTeX Info: Redefining \% on input line 404.
+ [34 <./Figures/web_server_init.pdf>]
+<./Figures/interface_main.png, id=1007, 737.75626pt x 696.6025pt>
+File: ./Figures/interface_main.png Graphic file (type png)
+<use ./Figures/interface_main.png>
+Package pdftex.def Info: ./Figures/interface_main.png  used on input line 420.
+(pdftex.def)             Requested size: 221.32858pt x 208.98236pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/interface_conf.png, id=1009, 737.75626pt x 692.5875pt>
+File: ./Figures/interface_conf.png Graphic file (type png)
+<use ./Figures/interface_conf.png>
+Package pdftex.def Info: ./Figures/interface_conf.png  used on input line 431.
+(pdftex.def)             Requested size: 221.32858pt x 207.77785pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \sptext on input line 440.
+LaTeX Info: Redefining \. on input line 440.
+LaTeX Info: Redefining \% on input line 440.
+[35]
+LaTeX Info: Redefining \sptext on input line 442.
+LaTeX Info: Redefining \. on input line 442.
+LaTeX Info: Redefining \% on input line 442.
+ [36 <./Figures/interface_main.png> <./Figures/interface_conf.png>]
+<./Figures/case.jpg, id=1021, 650.43pt x 591.20876pt>
+File: ./Figures/case.jpg Graphic file (type jpg)
+<use ./Figures/case.jpg>
+Package pdftex.def Info: ./Figures/case.jpg  used on input line 445.
+(pdftex.def)             Requested size: 260.16739pt x 236.47931pt.
+
+Underfull \hbox (badness 1418) in paragraph at lines 450--450
+[][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / es . aliexpress . com 
+/ item / 33004284623 . html ? spm = a2g0o . cart . 0 . 0 .
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \sptext on input line 478.
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
+[37 <./Figures/case.jpg>]
+<./Figures/acdc_module.jpg, id=1032, 493.845pt x 451.6875pt>
+File: ./Figures/acdc_module.jpg Graphic file (type jpg)
+<use ./Figures/acdc_module.jpg>
+Package pdftex.def Info: ./Figures/acdc_module.jpg  used on input line 481.
+(pdftex.def)             Requested size: 148.15463pt x 135.5073pt.
+
+Underfull \hbox (badness 1418) in paragraph at lines 486--486
+[][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / es . aliexpress . com 
+/ item / 33004284623 . html ? spm = a2g0o . cart . 0 . 0 .
+ []
+
+<./Figures/schematic.pdf, id=1037, 460.72125pt x 412.54124pt>
+File: ./Figures/schematic.pdf Graphic file (type pdf)
+<use ./Figures/schematic.pdf>
+Package pdftex.def Info: ./Figures/schematic.pdf  used on input line 492.
+(pdftex.def)             Requested size: 414.6453pt x 371.28369pt.
+
+Overfull \hbox (24.8426pt too wide) in paragraph at lines 492--493
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \sptext on input line 500.
+LaTeX Info: Redefining \. on input line 500.
+LaTeX Info: Redefining \% on input line 500.
+[38 <./Figures/acdc_module.jpg>]
+<./Figures/pcb_top.pdf, id=1048, 585.18625pt x 415.5525pt>
 File: ./Figures/pcb_top.pdf Graphic file (type pdf)
 <use ./Figures/pcb_top.pdf>
-Package pdftex.def Info: ./Figures/pcb_top.pdf  used on input line 312.
-(pdftex.def)             Requested size: 351.11446pt x 249.33342pt.
+Package pdftex.def Info: ./Figures/pcb_top.pdf  used on input line 505.
+(pdftex.def)             Requested size: 292.5924pt x 207.77574pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/pcb_bot.pdf, id=806, 580.1675pt x 410.53375pt>
+<./Figures/pcb_bot.pdf, id=1049, 580.1675pt x 410.53375pt>
 File: ./Figures/pcb_bot.pdf Graphic file (type pdf)
 <use ./Figures/pcb_bot.pdf>
-Package pdftex.def Info: ./Figures/pcb_bot.pdf  used on input line 319.
-(pdftex.def)             Requested size: 348.10316pt x 246.32214pt.
+Package pdftex.def Info: ./Figures/pcb_bot.pdf  used on input line 512.
+(pdftex.def)             Requested size: 290.08302pt x 205.26637pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/pcb_3d.jpg, id=807, 840.13875pt x 725.71124pt>
+<./Figures/pcb_3d.jpg, id=1050, 840.13875pt x 725.71124pt>
 File: ./Figures/pcb_3d.jpg Graphic file (type jpg)
 <use ./Figures/pcb_3d.jpg>
-Package pdftex.def Info: ./Figures/pcb_3d.jpg  used on input line 326.
+Package pdftex.def Info: ./Figures/pcb_3d.jpg  used on input line 519.
 (pdftex.def)             Requested size: 315.05125pt x 272.14105pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figures/pcb_real.pdf, id=1051, 653.44125pt x 561.09625pt>
+File: ./Figures/pcb_real.pdf Graphic file (type pdf)
+<use ./Figures/pcb_real.pdf>
+Package pdftex.def Info: ./Figures/pcb_real.pdf  used on input line 526.
+(pdftex.def)             Requested size: 326.71982pt x 280.54744pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1892,53 +1996,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \sptext on input line 193.
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [30 <./Figures/acdc_module.jpg>]
+ [39 <./Figures/schematic.pdf>]
 LaTeX Info: Redefining \sptext on input line 193.
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [31 <./Figures/schematic.pdf> <./Figures/pcb_top.pdf
+ [40 <./Figures/pcb_top.pdf> <./Figures/pcb_bot.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/pcb_top.pdf): PDF inclusion: 
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/pcb_bot.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
 LaTeX Info: Redefining \sptext on input line 193.
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [32 <./Figures/pcb_bot.pdf> <./Figures/pcb_3d.jpg>]
+ [41 <./Figures/pcb_3d.jpg> <./Figures/pcb_real.pdf>]
 \openout2 = `Chapters/Chapter4.aux'.
 
- (./Chapters/Chapter4.tex
-Cap\'{\i }tulo 4.
-1: section
-[33
+
+(./Chapters/Chapter4.tex [42
 
 
 
 ]
-<./Figures/cuadradoAzul.png, id=860, 180.675pt x 180.675pt>
+Cap\'{\i }tulo 4.
+<./Figures/cuadradoAzul.png, id=1112, 180.675pt x 180.675pt>
 File: ./Figures/cuadradoAzul.png Graphic file (type png)
 <use ./Figures/cuadradoAzul.png>
-Package pdftex.def Info: ./Figures/cuadradoAzul.png  used on input line 64.
+Package pdftex.def Info: ./Figures/cuadradoAzul.png  used on input line 61.
 (pdftex.def)             Requested size: 216.8089pt x 216.8089pt.
-)
+1: section
+[43])
 LaTeX Info: Redefining \sptext on input line 194.
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
- [34 <./Figures/cuadradoAzul.png>]
-LaTeX Info: Redefining \sptext on input line 194.
-LaTeX Info: Redefining \. on input line 194.
-LaTeX Info: Redefining \% on input line 194.
- [35]
+ [44 <./Figures/cuadradoAzul.png>]
 \openout2 = `Chapters/Chapter5.aux'.
 
- (./Chapters/Chapter5.tex [36
+ (./Chapters/Chapter5.tex
+Cap\'{\i }tulo 5.
+1: section
+[45
 
 
 
 ]
-Cap\'{\i }tulo 5.
-1: section
-[37]
 Overfull \hbox (6.06868pt too wide) in paragraph at lines 57--58
 []\T1/ppl/m/n/10.95 Implementar un me-ca-nis-mo de ac-tua-li-za-ción de firm-wa
 -re re-mo-to, OTA (\T1/ppl/m/it/10.95 Over
@@ -1948,7 +2048,12 @@ Overfull \hbox (6.06868pt too wide) in paragraph at lines 57--58
 LaTeX Info: Redefining \sptext on input line 195.
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
- [38]
+ [46]
+1: section
+[47
+
+
+]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 216.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
@@ -1958,19 +2063,14 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
-
-1: section
-[39
-
-
-]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
 LaTeX Info: Redefining \sptext on input line 220.
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
- [40]
+ [48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
- (./memoria.aux
+
+(./memoria.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
@@ -1979,7 +2079,7 @@ LaTeX Info: Redefining \% on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 67D4100941E92A186E7B1DC23CC866E2;3569.
+(rerunfilecheck)             Checksum: CE29B84435A784C187C39BF79921CF9F;2933.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1989,15 +2089,21 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34726 strings out of 494377
- 713690 string characters out of 6172843
- 1128485 words of memory out of 5000000
- 37808 multiletter control sequences out of 15000+600000
+ 34875 strings out of 494377
+ 718194 string characters out of 6172843
+ 1135500 words of memory out of 5000000
+ 37913 multiletter control sequences out of 15000+600000
  585786 words of font info for 105 fonts, out of 8000000 for 9000
  108 hyphenation exceptions out of 8191
- 60i,21n,83p,1091b,2628s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not ex
+ 60i,21n,83p,1436b,2631s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2065,10 +2171,10 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memoria.pdf (54 pages, 2421072 bytes).
+Output written on memoria.pdf (62 pages, 3605823 bytes).
 PDF statistics:
- 988 PDF objects out of 1000 (max. 8388607)
- 821 compressed objects within 9 object streams
- 216 named destinations out of 1000 (max. 500000)
- 594 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1251 PDF objects out of 1440 (max. 8388607)
+ 1028 compressed objects within 11 object streams
+ 244 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 

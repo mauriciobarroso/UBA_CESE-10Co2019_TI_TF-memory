@@ -1,6 +1,6 @@
 % Chapter Template
 
-\chapter{Ensayos y Resultados} % Main chapter title
+\chapter{Ensayos y resultados} % Main chapter title
 
 \label{Chapter4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
@@ -8,93 +8,72 @@
 
 %\section{Introducción}
 
-En este capítulo se presentan las pruebas y ensayos realizados para validar el correcto funcionamiento del dispositivo. También, se incluyen los resultados obtenidos y una tabla comparativa de características con otros dispositivos similares disponibles en el mercado.
+En este capítulo se presentan las pruebas y ensayos realizados para validar el correcto funcionamiento del dispositivo. También, se incluyen los resultados obtenidos y una tabla comparativa de características técnicas con los dispositivos disponibles en el mercado internacional citados en el capítulo \ref{Chapter1}.
 
 %----------------------------------------------------------------------------------------
 
-\section{Pruebas de firmware}
+\section{Pruebas unitarias}
+\label{sec:pruebasU}
+
+Se hicieron pruebas unitarias sobre las bibliotecas desarrolladas para el manejo de los circuitos integrados DS3231, AT24C32 y SX1278. Se utilizó Ceedling para ejecutar dichas pruebas en combinación con Gcov para generar los análisis de cobertura correspondientes. En la tabla \ref{tab:resultsCeedling} se pueden observar los resultados de las pruebas unitarias y en la tabla \ref{tab:coverAnalysis} se exhiben los análisis de cobertura.
+
+\begin{table}[h]
+	\centering
+	\caption[Pruebas unitarias]{Tabla de resultados de las pruebas unitarias}
+	\begin{tabular}{l c c c}    
+		\toprule
+		\textbf{Biblioteca} & \textbf{Cantidad de tests} & \textbf{Exitosos} & \textbf{Fallidos}  \\
+		\midrule
+		AT24C32 & 8	& 8 & 0 \\		
+		DS3231 & 11 & 11 & 0 \\
+		SX1278 & 14 & 14 & 0 \\
+		\bottomrule
+		\hline
+	\end{tabular}
+	\label{tab:resultsCeedling}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption[Análisis de cobertura]{Tabla de resultados del análisis de cobertura}
+	\begin{tabular}{l c c}    
+		\toprule
+		\textbf{Archivo} & \textbf{Líneas ejecutadas} & \textbf{Funciones ejecutadas}  \\
+		\midrule
+		at24c32.c & 52/52 & 6/6 \\		
+		ds3231.c & 54/62 & 11/13 \\
+		sx1278.c & 172/220 & 26/31 \\
+		\bottomrule
+		\hline
+	\end{tabular}
+	\label{tab:coverAnalysis}
+\end{table}
+
+%----------------------------------------------------------------------------------------
+
+\section{Pruebas funcionales de firmware}
 \label{sec:pruebasFW}
 
-El dispositivo está compuesto principalmente por tres bloques funcionales, cada uno tiene asociado un módulo de firmware que le permite desempeñar las tareas de adquisición de datos, interfaz web y comunicación LoRa; como se explicó en el capítulo 3. Durante el desarrollo del dispositivo, los módulos de firmware fueron sometidos a una serie de pruebas para garantizar su correcto funcionamiento, de acuerdo con la planificación del trabajo.
-
-\subsection{Pruebas unitarias}
-
-Como primer prueba sobre el firmware, se hicieron pruebas unitarias sobre las bibliotecas desarrolladas para el manejo de los periféricos RTC, EEPROM y LoRa. Se utilizó Ceedling para ejecutar dichas pruebas, en combinación con Gcov para generar los análisis de cobertura correspondientes. En la tabla X se pueden observar los resultados de las pruebas unitarias y en la tabla Y se exhiben los análisis de cobertura.
-
-\begin{table}[h]
-	\centering
-	\caption[caption corto]{caption largo más descriptivo}
-	\begin{tabular}{l c c}    
-		\toprule
-		\textbf{Especie} 	 & \textbf{Tamaño} 		& \textbf{Valor}  \\
-		\midrule
-		Amphiprion Ocellaris & 10 cm 				& \$ 6.000 \\		
-		Hepatus Blue Tang	 & 15 cm				& \$ 7.000 \\
-		Zebrasoma Xanthurus	 & 12 cm				& \$ 6.800 \\
-		\bottomrule
-		\hline
-	\end{tabular}
-	\label{tab:peces}
-\end{table}
-
-\begin{table}[h]
-	\centering
-	\caption[caption corto]{caption largo más descriptivo}
-	\begin{tabular}{l c c}    
-		\toprule
-		\textbf{Especie} 	 & \textbf{Tamaño} 		& \textbf{Valor}  \\
-		\midrule
-		Amphiprion Ocellaris & 10 cm 				& \$ 6.000 \\		
-		Hepatus Blue Tang	 & 15 cm				& \$ 7.000 \\
-		Zebrasoma Xanthurus	 & 12 cm				& \$ 6.800 \\
-		\bottomrule
-		\hline
-	\end{tabular}
-	\label{tab:peces}
-\end{table}
-
-Estas pruebas fueron imprescindibles para asegurar que cada biblioteca interactúe correcta y eficientemente con los componentes de hardware con los que están asociados.
-
-\subsection{Pruebas de funcionamiento}
-
-Para la ejecución de las pruebas, se montaron en un \textit{breadboard} los componentes de hardware asociados a los bloques funcionales del dispositivo y luego fueron conectados mediante cables de manera directa, según el diagrama presentado en la sección 3.1.5. En la figura 4.1 se observa una fotografía de los componentes del dispositivo montados y conectados en el breadboard.
+Se probaron los módulos DATA LOGGER, LORA COMMUNICATION y WEB SERVER de la capa superior del firmware, APP. Durante el desarrollo del dispositivo, estos módulos de firmware fueron sometidos a una serie de pruebas para garantizar su correcto funcionamiento, de acuerdo con la planificación del trabajo descrita en el capítulo \ref{Chapter2}. Para ejecutar estas pruebas se utilizó el prototipo de pruebas, un cable micro USB y una PC, su interconexión se muestra en la figura \ref{fig:tbFW}.
 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=1.2]{./Figures/cuadradoAzul.png}
-	\caption{Banco de pruebas para las pruebas de funcionamiento.}
-	\label{fig:cuadradoAzul}
+	\caption{Banco de ensayos para las pruebas de funcionamiento de firmware.}
+	\label{fig:tbFW}
 \end{figure}
 
-Las pruebas consistieron en monitorear la ejecución de las funciones que componen los bloques de firmware. Para este propósito, se utilizó el monitor para consola incorporado en el SDK utilizado para el desarrollo del firmware.
-
-Para probar la ejecución de todas las funciones de los bloques de firmware, se modificó el código fuente para cumplir los siguientes requerimientos:
-
-\begin{itemize}
-	\item Generar 
-	\item Agregar manualmente valores en la EEPROM.
-	\item 
-\end{itemize}
+Las pruebas consistieron en monitorear que las líneas de código más importantes de cada uno de estos módulos se ejecute correctamente. Par esto, se añadieron líneas de código a los archivos de código fuente de los módulos para imprimir mensajes de verificación o error. El monitoreo se realizó con la ayuda de la herramienta monitor.py incluida en ESP8266\_RTOS\_SDK.
 
 
+\section{Pruebas de laboratorio}
 
-%----------------------------------------------------------------------------------------
+Estas pruebas tuvieron como objetivo principal utilizar instrumentación especializada para verificar el correcto funcionamiento de los módulos de hardware que componen el prototipo comercial. Asimismo, registrar las especificaciones técnicas que posteriormente servirán para comparar el dispositivo con otros disponibles comercialmente.
 
-\section{Pruebas de hardware}
-\label{sec:pruebasHW}
-
-Estas pruebas tuvieron como objetivo principal verificar el correcto funcionamiento de los módulos de hardware que componen el dispositivo. Asimismo, registrar las especificaciones técnicas que posteriormente servirán para comercializar el dispositivo.
-
-Para realizar  Las pruebas se realizaron sobre el prototipo comercial, 
 
 %----------------------------------------------------------------------------------------
 
 \section{Pruebas funcionales de la interfaz web}
-\label{sec:pruebasWI}
-
-%----------------------------------------------------------------------------------------
-
-\section{Pruebas funcionales de campo}
 \label{sec:pruebasWI}
 
 %----------------------------------------------------------------------------------------
@@ -104,7 +83,7 @@ Para realizar  Las pruebas se realizaron sobre el prototipo comercial,
 
 %----------------------------------------------------------------------------------------
 
-\section{Comparación con dispositivos disponibles comercialmente}
+\section{Comparación técnica con dispositivos disponibles comercialmente}
 \label{sec:comparacionDDC}
 
 %----------------------------------------------------------------------------------------

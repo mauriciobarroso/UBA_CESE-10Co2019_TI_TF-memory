@@ -1,13 +1,13 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \contentsline {chapter}{Resumen}{\es@scroman {iii}}{section*.1}% 
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n General}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n general}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Medici\IeC {\'o}n del consumo el\IeC {\'e}ctrico domiciliario}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Medici\IeC {\'o}n inteligente}{3}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Soluciones disponibles en el mercado}{4}{section.1.3}% 
 \contentsline {section}{\numberline {1.4}Motivaci\IeC {\'o}n}{6}{section.1.4}% 
 \contentsline {section}{\numberline {1.5}Objetivos y alcance}{6}{section.1.5}% 
-\contentsline {chapter}{\numberline {2}Introducci\IeC {\'o}n Espec\IeC {\'\i }fica}{7}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Introducci\IeC {\'o}n espec\IeC {\'\i }fica}{7}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Requerimientos}{7}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}Requerimientos funcionales}{7}{subsection.2.1.1}% 
 \contentsline {subsection}{\numberline {2.1.2}Requerimientos no funcionales}{7}{subsection.2.1.2}% 
@@ -16,38 +16,29 @@
 \contentsline {subsection}{\numberline {2.2.2}Microcontrolador}{9}{subsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.2.3}Transceptor Wi-Fi}{10}{subsection.2.2.3}% 
 \contentsline {subsection}{\numberline {2.2.4}Transceptor LoRa}{12}{subsection.2.2.4}% 
-\contentsline {subsection}{\numberline {2.2.5}Reloj en tiempo real}{13}{subsection.2.2.5}% 
+\contentsline {subsection}{\numberline {2.2.5}Reloj en tiempo real}{14}{subsection.2.2.5}% 
 \contentsline {subsection}{\numberline {2.2.6}Memoria no vol\IeC {\'a}til}{14}{subsection.2.2.6}% 
 \contentsline {section}{\numberline {2.3}Planificaci\IeC {\'o}n}{16}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Actividades del trabajo}{16}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Desgloce en tareas}{16}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}Entregables del trabajo}{16}{subsection.2.3.3}% 
-\contentsline {chapter}{\numberline {3}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{19}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{19}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Prototipo de pruebas}{19}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}Microcontrolador + Wi-Fi}{20}{subsection.3.1.1}% 
 \contentsline {subsection}{\numberline {3.1.2}Transceptor LoRa}{21}{subsection.3.1.2}% 
-\contentsline {subsection}{\numberline {3.1.3}RTC + EEPROM}{21}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.3}RTC + EEPROM}{22}{subsection.3.1.3}% 
 \contentsline {subsection}{\numberline {3.1.4}Conversor \IeC {\'o}ptico-el\IeC {\'e}ctrico}{22}{subsection.3.1.4}% 
-\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o de firmware}{22}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}SDK}{23}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Controladores}{24}{subsection.3.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}Aplicaci\IeC {\'o}n}{25}{subsection.3.2.3}% 
-\contentsline {section}{\numberline {3.3}Interfaz web}{25}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Pantalla principal}{26}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Pantalla de configuraci\IeC {\'o}n}{26}{subsection.3.3.2}% 
-\contentsline {section}{\numberline {3.4}Prototipo comercial}{26}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Carcasa}{26}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Circuito impreso}{27}{subsection.3.4.2}% 
-\contentsline {chapter}{\numberline {4}Ensayos y Resultados}{33}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Pruebas de firmware}{33}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Pruebas unitarias}{33}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Pruebas de funcionamiento}{34}{subsection.4.1.2}% 
-\contentsline {section}{\numberline {4.2}Pruebas de hardware}{34}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Pruebas funcionales de la interfaz web}{35}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Pruebas funcionales de campo}{35}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Resultado final}{35}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Comparaci\IeC {\'o}n con dispositivos disponibles comercialmente}{35}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Conclusiones generales }{37}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Pr\IeC {\'o}ximos pasos}{38}{section.5.2}% 
-\contentsline {chapter}{Bibliograf\'{\i }a}{39}{appendix*.47}% 
+\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o de firmware}{23}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}DATA LOGGER}{27}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}LORA COMMUNICATION}{30}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}WEB SERVER}{32}{subsection.3.2.3}% 
+\contentsline {section}{\numberline {3.3}Interfaz web}{34}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Prototipo comercial}{36}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Ensayos y resultados}{43}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Pruebas unitarias}{43}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Pruebas funcionales de firmware}{43}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Pruebas de laboratorio}{44}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Pruebas funcionales de la interfaz web}{44}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Resultado final}{44}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Comparaci\IeC {\'o}n t\IeC {\'e}cnica con dispositivos disponibles comercialmente}{44}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Conclusiones}{45}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Conclusiones generales }{45}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Pr\IeC {\'o}ximos pasos}{46}{section.5.2}% 
+\contentsline {chapter}{Bibliograf\'{\i }a}{47}{appendix*.64}% 

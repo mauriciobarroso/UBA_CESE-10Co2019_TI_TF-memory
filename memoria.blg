@@ -23,56 +23,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: memoria-blx.bib
 Database file #2: references.bib
-Repeated entry---line 163 of file references.bib
+Repeated entry---line 223 of file references.bib
  : @article{ARTICLE:1
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 172 of file references.bib
+Repeated entry---line 232 of file references.bib
  : @inbook{BOOK:2
  :               ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 18 entries,
+You've used 25 entries,
             6304 wiz_defined-function locations,
-            1294 strings with 11494 characters,
-and the built_in function-call counts, 63429 in all, are:
-= -- 3765
-> -- 1355
-< -- 315
-+ -- 781
-- -- 435
-* -- 4122
-:= -- 5469
+            1332 strings with 12588 characters,
+and the built_in function-call counts, 88273 in all, are:
+= -- 5207
+> -- 1907
+< -- 427
++ -- 1051
+- -- 608
+* -- 5767
+:= -- 7528
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 154
+call.type$ -- 25
+change.case$ -- 203
 chr.to.int$ -- 34
-cite$ -- 34
-duplicate$ -- 6188
-empty$ -- 6959
-format.name$ -- 766
-if$ -- 13904
+cite$ -- 48
+duplicate$ -- 8620
+empty$ -- 9739
+format.name$ -- 1097
+if$ -- 19379
 int.to.chr$ -- 0
-int.to.str$ -- 46
+int.to.str$ -- 70
 missing$ -- 0
-newline$ -- 359
-num.names$ -- 715
-pop$ -- 5558
+newline$ -- 493
+num.names$ -- 1011
+pop$ -- 7829
 preamble$ -- 1
-purify$ -- 205
+purify$ -- 275
 quote$ -- 0
-skip$ -- 2477
+skip$ -- 3455
 stack$ -- 0
-substring$ -- 6236
-swap$ -- 1678
-text.length$ -- 314
+substring$ -- 8610
+swap$ -- 2337
+text.length$ -- 433
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 600
+type$ -- 838
 warning$ -- 0
-while$ -- 598
+while$ -- 811
 width$ -- 0
-write$ -- 342
+write$ -- 469
 (There were 2 error messages)

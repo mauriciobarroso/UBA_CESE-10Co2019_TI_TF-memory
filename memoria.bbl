@@ -24,8 +24,8 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-02}
@@ -43,8 +43,8 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-011}
@@ -62,8 +62,8 @@
          familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-011}
@@ -157,8 +157,8 @@
          familyi={E\bibinitperiod},
       }}%
     }
-    \strng{namehash}{E1}
-    \strng{fullhash}{E1}
+    \strng{namehash}{E2}
+    \strng{fullhash}{E2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-14}
@@ -196,8 +196,8 @@
          familyi={E\bibinitperiod},
       }}%
     }
-    \strng{namehash}{E2}
-    \strng{fullhash}{E2}
+    \strng{namehash}{E3}
+    \strng{fullhash}{E3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-14}
@@ -239,6 +239,25 @@
     \field{year}{2010}
   \endentry
 
+  \entry{WEBSITE:22}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Elektor Magazine}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-27}
+    \field{title}{What Is a Microcontroller? | Elektor Magazine}
+    \verb{url}
+    \verb https://www.elektormagazine.com/news/what-is-a-microcontroller
+    \endverb
+    \field{year}{2020}
+  \endentry
+
   \entry{WEBSITE:12}{misc}{}
     \name{author}{1}{}{%
       {{hash=B}{%
@@ -276,6 +295,27 @@
     \verb https://www.cisco.com/c/es_mx/products/wireless/what-is-wifi.html®
     \endverb
     \field{year}{2017}
+  \endentry
+
+  \entry{WEBSITE:15}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{Departamento de Informática y Sistemas - Universidad de
+  Murcia}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-28}
+    \field{title}{El modelo OSI}
+    \verb{url}
+    \verb http://dis.um.es/~lopezquesada/documentos/IES_1213/LMSGI/curso/xhtml/
+    \verb xhtml22/index.html
+    \endverb
+    \field{year}{2015}
   \endentry
 
   \entry{WEBSITE:9}{misc}{}
@@ -316,6 +356,25 @@
     \field{year}{2019}
   \endentry
 
+  \entry{WEBSITE:16}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Explain that Stuff}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E4}
+    \strng{fullhash}{E4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-28}
+    \field{title}{How do supercapacitors work? - Explain that Stuff}
+    \verb{url}
+    \verb https://www.explainthatstuff.com/how-supercapacitors-work.html
+    \endverb
+    \field{year}{2011}
+  \endentry
+
   \entry{BOOK:3}{book}{}
     \name{author}{1}{}{%
       {{hash=FTL}{%
@@ -340,25 +399,103 @@
     \field{year}{2000}
   \endentry
 
-  \entry{WEBSITE:14}{misc}{}
+  \entry{WEBSITE:19}{misc}{}
     \name{author}{1}{}{%
-      {{hash=e}{%
-         family={{everythingRF}},
-         familyi={e\bibinitperiod},
+      {{hash=W}{%
+         family={{Wikipedia}},
+         familyi={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{e1}
-    \strng{fullhash}{e1}
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-16}
-    \field{title}{Shanghai Based Espressif Systems Ships 100th Million IoT
-  Chip}
+    \field{title}{Wi-Fi - Wikipedia}
     \verb{url}
-    \verb https://www.everythingrf.com/News/details/6242-Shanghai-Based-Espress
-    \verb if-Systems-Ships-100th-Million-IoT-Chip
+    \verb https://en.wikipedia.org/wiki/Wi-Fi
     \endverb
-    \field{year}{2018}
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:17}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Autoridad de Regulación y Fiscalización de
+  Telecomunicaciones y Transportes ATT}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-28}
+    \field{title}{Plan Nacional de Frecuencias}
+    \verb{url}
+    \verb https://att.gob.bo/sites/default/files/archivospdf/Plan%20Nacional%20
+    \verb de%20Frecuencias%20-%2008%20-%2011%20-%202012.pdf
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{WEBSITE:18}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{FreeRTOS}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F2}
+    \strng{fullhash}{F2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-28}
+    \field{title}{FreeRTOS - Market leading RTOS (Real Time Operating System)
+  for embedded systems with Internet of Things extensions}
+    \verb{url}
+    \verb https://www.freertos.org
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{WEBSITE:20}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3 Schools}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-19}
+    \field{title}{HTTP Methods GET vs POST}
+    \verb{url}
+    \verb https://www.w3schools.com/tags/ref_httpmethods.asp
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:21}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Github}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-27}
+    \field{title}{sandeepmistry/arduino-LoRa: An Arduino library for sending
+  and receiving data using LoRa radios}
+    \verb{url}
+    \verb https://github.com/sandeepmistry/arduino-LoRa
+    \endverb
+    \field{year}{2020}
   \endentry
 \enddatalist
 \endinput
