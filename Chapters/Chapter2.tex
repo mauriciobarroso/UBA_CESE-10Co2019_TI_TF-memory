@@ -167,7 +167,7 @@ Dentro de lo referido al desarrollo de sistemas embebidos, comercialmente pueden
 
 LoRa (\textit{Long Range}, largo alcance), es una técnica de modulación de espectro extendido derivada de la tecnología CSS (\textit{Chirp Spread Spectrum}, espectro extendido de tipo chirp) \citep{WEBSITE:9}. Fue desarrollado por la firma Semtech y es utilizada principalmente en dispositivos orientados a IoT (\textit{Internet of Things}, Internet de las cosas) y dispositivos alimentados por baterías. Opera en las bandas de 433 Mhz, 868 Mhz y 915 MHz, según el país.
 
-Las comunicaciones LoRa son del tipo punto a punto, es decir, que un dispositivo con esta tecnología debe establecer un enlace directo con otro para intercambiar informacoión. Para formar redes LoRa, es necesaria una capa MAC (\textit{Media Access Control}, control de acceso al medio), la cual es llamada LoRaWAN (\textit{Long Range Wide Area Network}, red de área amplia LoRa).
+Las comunicaciones LoRa son del tipo punto a punto, es decir, que un dispositivo con esta tecnología debe establecer un enlace directo con otro para intercambiar información. Para formar redes LoRa, es necesaria una capa MAC (\textit{Media Access Control}, control de acceso al medio), la cual es llamada LoRaWAN (\textit{Long Range Wide Area Network}, red de área amplia LoRa).
 
 LoRaWAN, es una especificación de redes LPWAN (\textit{Low Power Wide Area Network}, red de área amplia de baja potencia) y LoRa Alliance es la encargada de su estandarización. Está diseñada para conectar dispositivos de bajo consumo energético a Internet a través de redes regionales, nacionales o globales. Además proporciona comunicación bidireccional, seguridad, movilidad y servicios de localización\citep{WEBSITE:10}.
 
@@ -182,7 +182,7 @@ En la figura \ref{fig:lorawanStack} se puede observar el modelo de capas de una 
 
 \footnotetext{Imagen tomada de: \url{https://lora-developers.semtech.com/library/tech-papers-and-guides/lora-and-lorawan/}}
 
-Al igual que en una red Wi-fi, la arquitectura de una red LoRaWAN es de tipo estrella y permite una conexión multipunto entre dispositivo, como se muestra en la figura \ref{fig:lorawanArch}.
+Al igual que en una red Wi-fi, la arquitectura de una red LoRaWAN es de tipo estrella y permite una conexión multipunto entre dispositivos, como se muestra en la figura \ref{fig:lorawanArch}.
 
 \begin{figure}[h]
 	\centering
@@ -236,10 +236,10 @@ Es un tipo de memoria de lectura y escritura, en la que los datos que tiene alma
 En sistemas embebidos, existen principalmente dos tipos de memorias no volátiles:
 
 \begin{itemize}
-	\item EEPROM (\textit{Electrically Erasable Programmable Read-Only Memory}, ROM borrable y programable eléctricamente): es un tipo de memoria ROM que puede ser programada y borrada mediante métodos eléctricos. Aunque puede ser leída un número ilimitado de veces, las operaciones de escritura o borrado de datos solo se pueden realizar entre cien mil y un millón de veces. Este tipo de memorias pueden encontrarse como circuitos integrados que generalmente disponen de comunicación I2C o SPI. Comercialmente se pueden encontrar módulos EEPROM como el de la figura 2.12.
+	\item EEPROM (\textit{Electrically Erasable Programmable Read-Only Memory}, ROM borrable y programable eléctricamente): es un tipo de memoria ROM que puede ser programada y borrada mediante métodos eléctricos. Aunque puede ser leída un número ilimitado de veces, las operaciones de escritura o borrado de datos solo se pueden realizar entre cien mil y un millón de veces. Este tipo de memorias pueden encontrarse como circuitos integrados que generalmente disponen de comunicación I\textsuperscript{2}C (\textit{Inter-Integrated Circuit}, circuito inter-integrado) o SPI (\textit{Serial Pheriperal Interface}, interfaz periférica serial). Comercialmente se pueden encontrar módulos EEPROM como el de la figura 2.12.
 	\begin{figure}[h]
 		\centering
-		\includegraphics[scale=0.29]{./Figures/eeprom.jpg}
+		\includegraphics[scale=0.26]{./Figures/eeprom.jpg}
 		\caption{Módulo EEPROM basado en el circuito integrado 24C256\protect\footnotemark.}
 		\label{fig:cuadradoAzul}
 	\end{figure}
@@ -249,7 +249,7 @@ En sistemas embebidos, existen principalmente dos tipos de memorias no volátile
 	\item Flash: está basada en las memorias EEPROM, pero a diferencia de estas se puede realizar la lectura y escritura de múltiples posiciones de memoria de manera simultánea, lo que permite una mayor velocidad de funcionamiento. El número de operaciones de escritura o borrado es de diez mil a un millón. Es empleada principalmente en la fabricación de memorias USB y unidades de estado sólido. Asimismo, los microcontroladores actuales tienen integrada una unidad de memoria flash para el almacenamiento de instrucciones y datos. Para la realización de pruebas y prototipos, existen comercialmente módulos de memoria flash con comunicación SPI, como el de la figura 2.13.
 	\begin{figure}[h]
 		\centering
-		\includegraphics[scale=0.28]{./Figures/flash.jpg}
+		\includegraphics[scale=0.25]{./Figures/flash.jpg}
 		\caption{Módulo flash basado en el circuito integrado W25Q16BVSIG\protect\footnotemark.}
 		\label{fig:cuadradoAzul}
 	\end{figure}

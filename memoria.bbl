@@ -363,8 +363,8 @@
          familyi={E\bibinitperiod},
       }}%
     }
-    \strng{namehash}{E4}
-    \strng{fullhash}{E4}
+    \strng{namehash}{E5}
+    \strng{fullhash}{E5}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{note}{Visitado el 2020-07-28}
@@ -439,6 +439,26 @@
     \field{year}{2012}
   \endentry
 
+  \entry{WEBSITE:27}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{Bolivia emprende}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B2}
+    \strng{fullhash}{B2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-31}
+    \field{title}{Decretro supremo 4272}
+    \verb{url}
+    \verb https://boliviaemprende.com/wp-content/uploads/2020/06/D.S.-Programa-
+    \verb Nacional-de-Reactivaci%C3%B3n-23-06-20.pdf
+    \endverb
+    \field{year}{2020}
+  \endentry
+
   \entry{WEBSITE:18}{misc}{}
     \name{author}{1}{}{%
       {{hash=F}{%
@@ -457,6 +477,25 @@
     \verb https://www.freertos.org
     \endverb
     \field{year}{2019}
+  \endentry
+
+  \entry{WEBSITE:23}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Espressif Systems}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E4}
+    \strng{fullhash}{E4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Build and Flash with Eclipse IDE - ESP8266 RTOS SDK
+  Programming Guide documentation}
+    \verb{url}
+    \verb https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-st
+    \verb arted/eclipse-setup.html
+    \endverb
   \endentry
 
   \entry{WEBSITE:20}{misc}{}
@@ -478,6 +517,44 @@
     \field{year}{2020}
   \endentry
 
+  \entry{WEBSITE:24}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Microchip}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M3}
+    \strng{fullhash}{M3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-21}
+    \field{title}{AT24C32/64}
+    \verb{url}
+    \verb https://ww1.microchip.com/downloads/en/DeviceDoc/doc0336.pdf
+    \endverb
+    \field{year}{2003}
+  \endentry
+
+  \entry{WEBSITE:25}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Maxim Itegrated}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M2}
+    \strng{fullhash}{M2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-21}
+    \field{title}{DS3231}
+    \verb{url}
+    \verb https://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
   \entry{WEBSITE:21}{misc}{}
     \name{author}{1}{}{%
       {{hash=G}{%
@@ -494,6 +571,26 @@
   and receiving data using LoRa radios}
     \verb{url}
     \verb https://github.com/sandeepmistry/arduino-LoRa
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{WEBSITE:26}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Semtech}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Visitado el 2020-07-22}
+    \field{title}{SX1278}
+    \verb{url}
+    \verb https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rc1/
+    \verb QnUuV9TviODKUgt_rpBlPz.EZA_PNK7Rpi8HA5..Sbo
     \endverb
     \field{year}{2020}
   \endentry

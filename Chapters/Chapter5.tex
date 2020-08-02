@@ -15,14 +15,17 @@
 
 En este trabajo se logró diseñar e implementar el prototipo comercial de un dispositivo electrónico, que tiene la capacidad de utilizar la salida de pulso óptico de medidores de consumo eléctrico domiciliario para obtener, procesar y transmitir información sobre la cantidad de kWh consumidos por los abonados de la compañía eléctrica COPELECT.
 
-Para este fin, se diseñaron distintos módulos de firmware y hardware, que permiten transmitir diariamente la información obtenida a los gateways LoRaWAN propiedad de COPELECT. Asimismo, el dispositivo brinda a los abonados de COPELECT una interfaz gráfica web para conocer su consumo eléctrico de los últimos tres meses.
+Para este fin, se diseñaron distintos módulos de firmware y hardware, que permiten transmitir diariamente la información obtenida a un gateway LoRa instalado en el edificio central de COPELECT. Asimismo, el dispositivo brinda a los abonados de COPELECT una interfaz gráfica web para conocer su consumo eléctrico de los últimos tres meses.
 
 Durante el desarrollo del trabajo se presentó el riesgo de demora al conseguir los componentes electrónicos requeridos. Se aplicó el mecanismo de mitigación descrito en la planificación y se destinaron más recursos económicos de los previstos para poder cumplir con los plazos establecidos. El motivo de la demora, fue la pandemia global provocada por la enfermedad infecciosa COVID-19, que demoró el arribo de componentes a los proveedores locales y encareció la importación de componentes de proveedores internacionales. A pesar de que el motivo de la demora fue insalvable y de fuerza mayor, en futuros trabajos se estimarán tiempos en la obtención de componentes menos optimistas, para manejar un margen de tiempo que no complique otras tareas implicadas.
 
+Otro punto importante fue el lanzamiento del decreto supremo que regula el uso de redes LPWAN en la frecuencia de 915 MHz \citep{WEBSITE:27}, que servirá como punto de partida para que los proveedores locales de componentes electrónicos comercialicen módulos LoRa de la frecuencia adecuada para el Bolivia.
+
 Los requerimientos del trabajo fueron cubiertos de acuerdo con la planificación, con las siguientes modificaciones:
 \begin{itemize}
-	\item Se eliminó la implementación de WPS (\textit{Wi-Fi Protect Setup}) para suprimir cualquier tipo de interacción física del abonado con el dispositivo y evitar posibles manipulaciones incorrectas.
+	\item Se eliminó la implementación de WPS (\textit{Wi-Fi Protect Setup}, configuración de Wi-Fi segura) para suprimir cualquier tipo de interacción física del abonado con el dispositivo y evitar posibles manipulaciones incorrectas.
 	\item La cantidad de meses visualizados en la interfaz web fue reducida de seis a tres, para exhibir más claramente los gráficos en dispositivos de pantallas pequeñas.
+		\item La comunicación de los prototipos con un gateway LoRaWAN no se logró por que COPELECT no pudo adquirir uno en el mercado local. Entonces, para una primera aproximación con esta tecnología se realizó un intercambio de información estable con un gateway LoRa basado en Arduino. Esto permitió conocer la factibilidad técnica y los beneficios de LoRa.
 \end{itemize}
 
 Para desarrollar exitosamente el trabajo, se aplicaron los conocimientos obtenidos de varias de las materias cursadas en la Carrera de Especialización en Sistemas Embebidos. Estos fueron:
@@ -31,7 +34,7 @@ Para desarrollar exitosamente el trabajo, se aplicaron los conocimientos obtenid
 	\item Metodología de trabajo con repositorios locales y en la nube.
 	\item Programación orienta a objetos en lenguaje C.
 	\item Programación con sistemas operativos en tiempo real.
-	\item Protocolos de comunicación I2C y SPI.
+	\item Protocolos de comunicación I\textsuperscript{2}C y SPI.
 	\item Pruebas de software para sistemas embebidos.
 	\item Diseño de esquemáticos y circuitos impresos basados en normas internacionales.
 \end{itemize}
@@ -50,6 +53,8 @@ Por otra parte, para concluir exitosamente el trabajo también fue necesario adq
 \section{Próximos pasos}
 
 Como se especificó en esta memoria, el trabajo desarrollado es un prototipo comercial del dispositivo, que debe ser probado durante varios meses en un entorno real de trabajo para encontrar y solucionar posibles errores de firmware y hardware que no se presentaron en ninguna de las pruebas realizadas. Por lo tanto, posterior al periodo de pruebas del prototipo comercial el paso a seguir es la fabricación de una version final del dispositivo siguiendo buenas prácticas de manufacturabilidad.
+
+Debido a las limitaciones para obtener módulos LoRa de 915 MHz, se utilizaron los módulos disponibles en el mercado local que funcionaban a 433 MHz. Una tarea pendiente de este trabajo es implementar módulos con el circuito integrado SX1276 que funciona a 433 MHz, en lugar del SX1278 en los prototipos. Debido a que ambos circuitos integrados solo difieren en la frecuencia de transmisión y recepción, la biblioteca desarrollada en este trabajo podrá ser utilizada sin ningún tipo de inconveniente.
 
 También, existen algunas características que deben ser incorporadas para mejorar la calidad del dispositivo. Estas son:
 
