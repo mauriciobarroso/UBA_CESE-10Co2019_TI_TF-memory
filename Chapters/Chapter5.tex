@@ -13,13 +13,13 @@
 
 \section{Conclusiones generales }
 
-En este trabajo se logró diseñar e implementar el prototipo comercial de un dispositivo electrónico, que tiene la capacidad de utilizar la salida de pulso óptico de medidores de consumo eléctrico domiciliario para obtener, procesar y transmitir información sobre la cantidad de kWh consumidos por los abonados de la compañía eléctrica COPELECT.
+En este trabajo se logró diseñar e implementar el prototipo comercial de un dispositivo electrónico, que tiene la capacidad de utilizar la salida de pulsos ópticos de medidores de consumo eléctrico domiciliario para obtener, procesar y transmitir información sobre la cantidad de kWh consumidos por los abonados de la compañía eléctrica COPELECT.
 
 Para este fin, se diseñaron distintos módulos de firmware y hardware, que permiten transmitir diariamente la información obtenida a un gateway LoRa instalado en el edificio central de COPELECT. Asimismo, el dispositivo brinda a los abonados de COPELECT una interfaz gráfica web para conocer su consumo eléctrico de los últimos tres meses.
 
 Durante el desarrollo del trabajo se presentó el riesgo de demora al conseguir los componentes electrónicos requeridos. Se aplicó el mecanismo de mitigación descrito en la planificación y se destinaron más recursos económicos de los previstos para poder cumplir con los plazos establecidos. El motivo de la demora, fue la pandemia global provocada por la enfermedad infecciosa COVID-19, que demoró el arribo de componentes a los proveedores locales y encareció la importación de componentes de proveedores internacionales. A pesar de que el motivo de la demora fue insalvable y de fuerza mayor, en futuros trabajos se estimarán tiempos en la obtención de componentes menos optimistas, para manejar un margen de tiempo que no complique otras tareas implicadas.
 
-Otro punto importante fue el lanzamiento del decreto supremo que regula el uso de redes LPWAN en la frecuencia de 915 MHz \citep{WEBSITE:27}, que servirá como punto de partida para que los proveedores locales de componentes electrónicos comercialicen módulos LoRa de la frecuencia adecuada para el Bolivia.
+Otro punto importante fue el lanzamiento del decreto supremo que regula el uso de redes LPWAN en la frecuencia de 915 MHz \citep{WEBSITE:27}, que servirá como punto de partida para que los proveedores locales de componentes electrónicos comercialicen módulos LoRa de la frecuencia adecuada para Bolivia.
 
 Los requerimientos del trabajo fueron cubiertos de acuerdo con la planificación, con las siguientes modificaciones:
 \begin{itemize}
@@ -52,9 +52,9 @@ Por otra parte, para concluir exitosamente el trabajo también fue necesario adq
 %----------------------------------------------------------------------------------------
 \section{Próximos pasos}
 
-Como se especificó en esta memoria, el trabajo desarrollado es un prototipo comercial del dispositivo, que debe ser probado durante varios meses en un entorno real de trabajo para encontrar y solucionar posibles errores de firmware y hardware que no se presentaron en ninguna de las pruebas realizadas. Por lo tanto, posterior al periodo de pruebas del prototipo comercial el paso a seguir es la fabricación de una version final del dispositivo siguiendo buenas prácticas de manufacturabilidad.
+Como se especifica en esta memoria, el trabajo desarrollado es un prototipo comercial del dispositivo, que debe ser probado durante varios meses en un entorno real de trabajo para encontrar y solucionar posibles errores de firmware y hardware que no se presentaron en ninguna de las pruebas realizadas. Por lo tanto, posterior al periodo de pruebas del prototipo comercial el paso a seguir es la fabricación de una version final del dispositivo siguiendo buenas prácticas de manufacturabilidad.
 
-Debido a las limitaciones para obtener módulos LoRa de 915 MHz, se utilizaron los módulos disponibles en el mercado local que funcionaban a 433 MHz. Una tarea pendiente de este trabajo es implementar módulos con el circuito integrado SX1276 que funciona a 433 MHz, en lugar del SX1278 en los prototipos. Debido a que ambos circuitos integrados solo difieren en la frecuencia de transmisión y recepción, la biblioteca desarrollada en este trabajo podrá ser utilizada sin ningún tipo de inconveniente.
+Debido a las limitaciones para obtener módulos LoRa de 915 MHz, se utilizaron los módulos disponibles en el mercado local que funcionaban a 433 MHz. Una tarea pendiente de este trabajo es implementar módulos con el circuito integrado SX1276 que funciona a 915 MHz, en lugar del SX1278 en los prototipos y posteriormente en el dispositivo final. Debido a que ambos circuitos integrados solo difieren en la frecuencia de transmisión y recepción, la biblioteca desarrollada en este trabajo podrá ser utilizada sin ningún tipo de inconveniente.
 
 También, existen algunas características que deben ser incorporadas para mejorar la calidad del dispositivo. Estas son:
 

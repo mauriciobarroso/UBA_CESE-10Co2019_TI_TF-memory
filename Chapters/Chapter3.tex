@@ -188,7 +188,7 @@ La biblioteca para la EEPROM se desarrolló con ayuda del \textit{datasheet} \ci
 	\item escribir de valores de 8, 16 y 32 bits de una dirección determinada de la EPROM.
 \end{itemize}
 
-Para el módulo RTC se desarrolló una biblioteca que sirvió para configurar la hora, fecha y otras funciones incorporadas en el DS3231. La herramienta principal en el desarrollo de esta biblioteca fue el datasheet \citep{WEBSITE:25} de dicho circuito integrado. De este se obtuvo información sobre las direcciones de los registros que manejan sus funciones y la forma adecuada de configurarlos. Igual que para la biblioteca de la EEPROM, las funciones de la capa BSE para el protocolo I\textsuperscript{2}C permitieron que se disponga de una manera para que el ESP8266 pueda intercambiar datos con el DS3231 con la menor cantidad de pines posible. Esta biblioteca permite:
+Para el módulo RTC se desarrolló una biblioteca que sirvió para configurar la hora, fecha y otras funciones incorporadas en el DS3231. La herramienta principal en el desarrollo de esta biblioteca fue el datasheet \citep{WEBSITE:25} de dicho circuito integrado. De este se obtuvo información sobre las direcciones de los registros que manejan sus funciones y la forma adecuada de configurarlos. Igual que para la biblioteca de la EEPROM, las funciones de la capa BASE para el protocolo I\textsuperscript{2}C permitieron que se disponga de una manera para que el ESP8266 pueda intercambiar datos con el DS3231 con la menor cantidad de pines posible. Esta biblioteca permite:
 
 \begin{itemize}
 	\item leer y configurar las horas, minutos y segundos.
@@ -321,7 +321,7 @@ Este módulo posee una solo tarea que se ejecuta en el sistema operativo, nombra
 
 Del diagrama de la figura \ref{fig:loraTask}, esta tarea consulta la cola de mensajes para determinar si existe algún elemento pendiente de atención. Si existen mensajes pendientes en la cola se configura el transceptor LoRa en modo de transmisión, se arma un paquete con la información necesaria y se envía. Si la cola está vacía o se envió un paquete anteriormente, se configura el transceptor LoRa en modo de recepción y cuando se recibe un paquete se ejecuta la acción requerida por este. Finalizado todo este proceso la tarea se bloquea por un segundo y vuelve a repetirse mientras el dispositivo esté en funcionamiento.
 
-El formato de los paquetes es el que se muestra en la figura \ref{fig:loraTxPacket}. Donde SRC es un campo de 8 Bytes, identificador de la fuente del paquete. DEST tiene una longitud de 4 Bytes e indica el destinatario del paquete. OP es de 1 Byte y define las operaciones solicitadas al dispositivo, que pueden ser la modificación del archivo config.txt, configuración de la hora y fecha, solicitud de los datos de la EEPROM, por citar algunas. PARAM1 y PARAM2 son campos de 32 Bytes cada uno, contienen los parámetros con los que se deben ejecutar las operaciones requeridas por el campo OP.
+El formato de los paquetes es el que se muestra en la figura \ref{fig:loraRxPacket}. Donde SRC es un campo de 8 Bytes, identificador de la fuente del paquete. DEST tiene una longitud de 4 Bytes e indica el destinatario del paquete. OP es de 1 Byte y define las operaciones solicitadas al dispositivo, que pueden ser la modificación del archivo config.txt, configuración de la hora y fecha, solicitud de los datos de la EEPROM, por citar algunas. PARAM1 y PARAM2 son campos de 32 Bytes cada uno, contienen los parámetros con los que se deben ejecutar las operaciones requeridas por el campo OP.
 
 \begin{figure}[h]
 	\centering

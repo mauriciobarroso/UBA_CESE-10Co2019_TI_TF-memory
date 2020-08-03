@@ -8,7 +8,7 @@
 
 %\section{Introducción}
 
-En este capítulo se presentan las pruebas realizadas sobre los prototipos de pruebas y comercial. Además se exhiben los resultados obtenidos que validan su correcto funcionamiento. Las pruebas fueron realizadas sobre el firmware y hardware expuestos en el capítulo \ref{Chapter3}.
+En este capítulo se presentan los ensayos realizados sobre los prototipos de pruebas y comercial. Además se exhiben los resultados obtenidos que validan su correcto funcionamiento. Las pruebas fueron realizadas sobre el firmware y hardware expuestos en el capítulo \ref{Chapter3}.
 
 %----------------------------------------------------------------------------------------
 
@@ -98,7 +98,7 @@ Las pruebas realizadas sobre la interfaz web tuvieron la finalidad de corroborar
 	\label{fig:testInterface}
 \end{figure}
 
-El primer paso fue eliminar todas las configuraciones existentes en el sistema de archivos del dispositivo, lo que provocó que al iniciar se ejecuten las instrucciones por defecto del mismo. Entonces, el dispositivo se configuró automáticamente como punto de acceso y se conectó la laptop a la red Wi-Fi que generó. En la figura \ref{fig:testScreenNet} se observa la red Wi-Fi generada por el dispositivo en el administrador de redes de la laptop. 
+El primer paso fue eliminar todas las configuraciones existentes en el sistema de archivos del dispositivo, lo que provocó que al iniciar se ejecutaran las instrucciones por defecto del mismo. Por defecto el dispositivo se configura como punto de acceso. Luego, se conectó la laptop a la red Wi-Fi del dispositivo. En la figura \ref{fig:testScreenNet} se observa la red Wi-Fi generada por el dispositivo en el administrador de redes de la laptop. 
 
 \begin{figure}[ht]
 	\centering
@@ -146,7 +146,7 @@ Al finalizar estas pruebas se pudo evidenciar el correcto funcionamiento de las 
 
 Estas pruebas tuvieron como objetivo principal utilizar instrumentación especializada para verificar el buen funcionamiento del conversor óptico-eléctrico y la fuente de alimentación. 
 
-El propósito de la prueba del conversor óptico-eléctrico fue observar la forma de onda que genera, para implementar un algoritmo en el firmware que evite la detección de pulsos falsos consecuencia de las características intrínsecas del LED del medidor de consumo eléctrico proporcionado por COPELECT. Para llevar a cabo esta prueba se utilizó un osciloscopio TDS2000C de la firma Tektronix, el prototipo comercial y el medidor proporcionado por COPELECT. El banco de pruebas puede observarse en el diagrama de la figura \ref{fig:testHWBankCOE}.
+El propósito de la prueba del conversor óptico-eléctrico fue observar la forma de onda que genera, para implementar un algoritmo en el firmware que evitará la detección de pulsos falsos consecuencia de las características intrínsecas del LED del medidor de consumo eléctrico proporcionado por COPELECT. Para llevar a cabo esta prueba se utilizó un osciloscopio TDS2000C de la firma Tektronix, el prototipo comercial y el medidor proporcionado por COPELECT. El banco de pruebas puede observarse en el diagrama de la figura \ref{fig:testHWBankCOE}.
 
 \begin{figure}[ht]
 	\centering
@@ -178,16 +178,16 @@ El procedimiento consistió en establecer el nivel de tensión de entrada en un 
 
 \begin{table}[h]
 	\centering
-	\caption[Prueba de la fuente de alimentación 176 VAC]{Tabla de resultados de la prueba de la fuente de alimentación con 176 VAC}
-	\begin{tabular}{l c}    
+	\caption[Prueba de la fuente de alimentación 176 VAC]{Tabla de resultados de la prueba de la fuente de alimentación con 176 VAC.}
+	\begin{tabular}{c c}    
 		\toprule
-		\textbf{Voltaje (V)} & \textbf{Corriente (A)} \\
+		\textbf{Tensión (V)} & \textbf{Corriente (A)} \\
 		\midrule
-		3.27 & 0.2 \\		
-		3.26 & 0.4 \\		
-		3.24 & 0.6 \\
-		3.21 & 0.8 \\
-		3.15 & 1 \\		
+		3,27 & 0,2 \\		
+		3,26 & 0,4 \\		
+		3,24 & 0,6 \\
+		3,21 & 0,8 \\
+		3,15 & 1 \\		
 		\bottomrule
 		\hline
 	\end{tabular}
@@ -196,16 +196,16 @@ El procedimiento consistió en establecer el nivel de tensión de entrada en un 
 
 \begin{table}[h]
 	\centering
-	\caption[Prueba de la fuente de alimentación 220 VAC]{Tabla de resultados de la prueba de la fuente de alimentación con 220 VAC}
-	\begin{tabular}{l c}    
+	\caption[Prueba de la fuente de alimentación 220 VAC]{Tabla de resultados de la prueba de la fuente de alimentación con 220 VAC.}
+	\begin{tabular}{c c}    
 		\toprule
-		\textbf{Voltaje (V)} & \textbf{Corriente (A)} \\
+		\textbf{Tensión (V)} & \textbf{Corriente (A)} \\
 		\midrule
-		3.33 & 0.2 \\		
-		3.32 & 0.4 \\		
-		3.3 & 0.6 \\
-		3.28 & 0.8 \\
-		3.24 & 1 \\
+		3,33 & 0,2 \\		
+		3,32 & 0,4 \\		
+		3,3 & 0,6 \\
+		3,28 & 0,8 \\
+		3,24 & 1 \\
 		\bottomrule
 		\hline
 	\end{tabular}
@@ -214,23 +214,23 @@ El procedimiento consistió en establecer el nivel de tensión de entrada en un 
 
 \begin{table}[h]
 	\centering
-	\caption[Prueba de la fuente de alimentación 264 VAC]{Tabla de resultados de la prueba de la fuente de alimentación con 264 VAC}
-	\begin{tabular}{l c}    
+	\caption[Prueba de la fuente de alimentación 264 VAC]{Tabla de resultados de la prueba de la fuente de alimentación con 264 VAC.}
+	\begin{tabular}{c c}    
 		\toprule
-		\textbf{Voltaje (V)} & \textbf{Corriente (A)} \\
+		\textbf{Tensión (V)} & \textbf{Corriente (A)} \\
 		\midrule
-		3.38 & 0.2 \\		
-		3.36 & 0.4 \\		
-		3.33 & 0.6 \\
-		3.31 & 0.8 \\
-		3.28 & 1 \\
+		3,38 & 0,2 \\		
+		3,36 & 0,4 \\		
+		3,33 & 0,6 \\
+		3,31 & 0,8 \\
+		3,28 & 1 \\
 		\bottomrule
 		\hline
 	\end{tabular}
 	\label{tab:testPower264}
 \end{table}
 
-Para visualizar más fácilmente los resultados de estas pruebas y tener una perspectiva más clara sobre la variación de la tensión de salida en función de la corriente que circula por la carga, en la figura \ref{fig:testPowerGraph} se presentan gráficamente los resultados de las pruebas anteriores. Donde la línea roja representa la prueba con 264 VAC, la línea verde la prueba con 220 VAC y la línea azul la prueba con 176 VAC.
+Para visualizar más fácilmente los resultados de estas pruebas y tener una perspectiva más clara sobre la variación de la tensión de salida en función de la corriente que circula por la carga, en la figura \ref{fig:testPowerGraph} se presentan gráficamente los resultados de las pruebas anteriores. La línea roja representa la prueba con 264 VAC, la línea verde la prueba con 220 VAC y la línea azul la prueba con 176 VAC.
 
 \begin{figure}[ht]
 	\centering
@@ -263,7 +263,7 @@ El gateway LoRa fue ubicado en la azotea del edificio central de COPELECT, que e
 	\label{fig:testLoraUbi}
 \end{figure}
 
-Básicamente la prueba realizada consistieró en el envío de un paquete como que tiene la estructura expuesta en la figura \ref{fig:loraTxPacket} por parte del prototipo comercial. Una vez que el gateway lo recibe y procesa, devuelve como respuesta un paquete con la estructura que exhibe la figura \ref{fig:loraRxPacket}. Con el serial monitor de Arduino instalado en la lapto se monitoreó el gateway. Mientras que para monitorear el prototipo comercial se utilizó el idf-monitor instalado en la PC. 
+La prueba realizada consistió en el envío de un paquete con la estructura expuesta en la figura \ref{fig:loraRxPacket} por parte del prototipo comercial. Una vez que el gateway lo recibe y procesa, devuelve como respuesta un paquete con la misma estructura, que solicita una operación en el dispositivo. Con el serial monitor de Arduino instalado en la laptop se monitoreó el gateway. Mientras que para monitorear el prototipo comercial se utilizó el idf-monitor instalado en la PC. 
 %Las capturas de pantalla del serial monitor y del idf-monitor, pueden observarse en las figuras \ref{fig:testLoraScreenSerial} y \ref{fig:testLoraScreenIDF}, respectivamente.
 %
 %\begin{figure}[ht]
@@ -285,11 +285,11 @@ Se probaron distintos tipos de configuraciones para lograr una comunicación exi
 \begin{table}[h]
 	\centering
 	\caption[Parámetros del transceptor LoRa]{Tabla de parámetros de configuración por software del transceptor LoRa.}
-	\begin{tabular}{l c c c}    
+	\begin{tabular}{c c c c}    
 		\toprule
-		\textbf{Frecuencia} & \textbf{BW (MHz)} & \textbf{SF} & \textbf{CR}  \\
+		\textbf{Frecuencia (MHz)} & \textbf{BW (MHz)} & \textbf{SF} & \textbf{CR}  \\
 		\midrule
-		433 & 41.7 & 12 (4096 chips/symbol) & 4/5 \\		
+		433 & 41,7 & 12 (4096 chips/symbol) & 4/5 \\		
 		\bottomrule
 		\hline
 	\end{tabular}
@@ -300,8 +300,8 @@ De acuerdo a los parámetros de la tabla \ref{tab:testLoraTable} se determina lo
 
 \begin{itemize}
 	\item Entre mayor sea el BW, mayor tiempo tomará la comunicación y esto se debe a que la frecuencia es inversamente proporcional al tiempo. Sin embargo, entre menor sea la frecuencia, mayor será el alcance de transmisión esperado.
-	 \item El valor de SF determina el rendimiento en la transmisión de datos, es decir, que entre mayor sea este valor, el dispositivo tendrá menor probabilidad de recibir datos incorrectos y tendrá mayor radio de cobertura.
-	 \item El CR asegura la fiabilidad de los datos, pero entre mayor sea este valor se sobrecarga el tiempo de transmisión.
+	 \item El valor de SF determina el rendimiento en la transmisión de datos, es decir, que cuanto mayor sea este valor, el dispositivo tendrá menor probabilidad de recibir datos incorrectos y tendrá mayor radio de cobertura.
+	 \item El CR asegura la fiabilidad de los datos, pero cuanto mayor sea este valor más se sobrecarga el tiempo de transmisión.
 \end{itemize}                                
 
 %----------------------------------------------------------------------------------------

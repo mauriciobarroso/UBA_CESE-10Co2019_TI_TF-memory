@@ -10,7 +10,7 @@
 \contentsline {chapter}{\numberline {2}Introducci\IeC {\'o}n espec\IeC {\'\i }fica}{7}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Requerimientos}{7}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}Requerimientos funcionales}{7}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Requerimientos no funcionales}{7}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.2}Requerimientos de documentaci\IeC {\'o}n y producci\IeC {\'o}n}{7}{subsection.2.1.2}% 
 \contentsline {section}{\numberline {2.2}Esquema general del sistema}{8}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}Conversor \IeC {\'o}ptico-el\IeC {\'e}ctrico}{8}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}Microcontrolador}{9}{subsection.2.2.2}% 

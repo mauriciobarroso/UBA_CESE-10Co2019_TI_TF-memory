@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.2)  2 AUG 2020 01:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.2)  3 AUG 2020 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1307,11 +1307,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 26.
-<./Figures/analog_meter.jpg, id=493, 552.0625pt x 552.0625pt>
-File: ./Figures/analog_meter.jpg Graphic file (type jpg)
-<use ./Figures/analog_meter.jpg>
-Package pdftex.def Info: ./Figures/analog_meter.jpg  used on input line 41.
-(pdftex.def)             Requested size: 160.09402pt x 160.09402pt.
+<./Figures/analog_meter.png, id=493, 682.80093pt x 414.04688pt>
+File: ./Figures/analog_meter.png Graphic file (type png)
+<use ./Figures/analog_meter.png>
+Package pdftex.def Info: ./Figures/analog_meter.png  used on input line 41.
+(pdftex.def)             Requested size: 293.59868pt x 178.03668pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1329,11 +1329,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  / 2020 / 05 / 23 /
  []
 
-<./Figures/digital_meter.jpg, id=505, 414.04688pt x 414.04688pt>
-File: ./Figures/digital_meter.jpg Graphic file (type jpg)
-<use ./Figures/digital_meter.jpg>
-Package pdftex.def Info: ./Figures/digital_meter.jpg  used on input line 49.
-(pdftex.def)             Requested size: 198.74023pt x 198.74023pt.
+<./Figures/digital_meter.png, id=506, 510.40688pt x 301.125pt>
+File: ./Figures/digital_meter.png Graphic file (type png)
+<use ./Figures/digital_meter.png>
+Package pdftex.def Info: ./Figures/digital_meter.png  used on input line 49.
+(pdftex.def)             Requested size: 280.72464pt x 165.61925pt.
 
 Overfull \hbox (94.2099pt too wide) in paragraph at lines 53--53
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . casasbahia . com
@@ -1341,11 +1341,11 @@ Overfull \hbox (94.2099pt too wide) in paragraph at lines 53--53
 /$[][]| 
  []
 
-LaTeX Info: Redefining \sptext on input line 58.
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-[2 <./Figures/analog_meter.jpg> <./Figures/digital_meter.jpg>]
-<./Figures/smart_meter.jpg, id=518, 803.0pt x 803.0pt>
+LaTeX Info: Redefining \sptext on input line 59.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+[2 <./Figures/analog_meter.png> <./Figures/digital_meter.png>]
+<./Figures/smart_meter.jpg, id=521, 803.0pt x 803.0pt>
 File: ./Figures/smart_meter.jpg Graphic file (type jpg)
 <use ./Figures/smart_meter.jpg>
 Package pdftex.def Info: ./Figures/smart_meter.jpg  used on input line 71.
@@ -1354,7 +1354,7 @@ LaTeX Info: Redefining \sptext on input line 79.
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
  [3 <./Figures/smart_meter.jpg>]
-<./Figures/PA-FL.png, id=532, 240.9pt x 414.54875pt>
+<./Figures/PA-FL.png, id=535, 240.9pt x 414.54875pt>
 File: ./Figures/PA-FL.png Graphic file (type png)
 <use ./Figures/PA-FL.png>
 Package pdftex.def Info: ./Figures/PA-FL.png  used on input line 102.
@@ -1367,7 +1367,7 @@ LaTeX Info: Redefining \sptext on input line 109.
 LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
 [4]
-<./Figures/airtm-100s.pdf, id=548, 597.23125pt x 597.23125pt>
+<./Figures/airtm-100s.pdf, id=550, 597.23125pt x 597.23125pt>
 File: ./Figures/airtm-100s.pdf Graphic file (type pdf)
 <use ./Figures/airtm-100s.pdf>
 Package pdftex.def Info: ./Figures/airtm-100s.pdf  used on input line 113.
@@ -1393,7 +1393,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 
 
 ]
-<./Figures/general_blocks.pdf, id=576, 296.06609pt x 188.6247pt>
+<./Figures/general_blocks.pdf, id=578, 296.06609pt x 188.6247pt>
 File: ./Figures/general_blocks.pdf Graphic file (type pdf)
 <use ./Figures/general_blocks.pdf>
 Package pdftex.def Info: ./Figures/general_blocks.pdf  used on input line 45.
@@ -1407,7 +1407,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figures/general_blocks.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<./Figures/ldr.jpg, id=594, 803.0pt x 803.0pt>
+<./Figures/ldr.jpg, id=596, 803.0pt x 803.0pt>
 File: ./Figures/ldr.jpg Graphic file (type jpg)
 <use ./Figures/ldr.jpg>
 Package pdftex.def Info: ./Figures/ldr.jpg  used on input line 65.
@@ -1418,7 +1418,7 @@ Underfull \hbox (badness 3503) in paragraph at lines 70--70
 en / photosensors / 38-[]photoresistor-[]ldr07 .
  []
 
-<./Figures/phototransistor.jpg, id=599, 421.575pt x 421.575pt>
+<./Figures/phototransistor.jpg, id=601, 421.575pt x 421.575pt>
 File: ./Figures/phototransistor.jpg Graphic file (type jpg)
 <use ./Figures/phototransistor.jpg>
 Package pdftex.def Info: ./Figures/phototransistor.jpg  used on input line 77.
@@ -1433,7 +1433,7 @@ LaTeX Info: Redefining \sptext on input line 93.
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
 [9 <./Figures/ldr.jpg> <./Figures/phototransistor.jpg>]
-<./Figures/microcontroller_dev.jpg, id=615, 436.63126pt x 499.8675pt>
+<./Figures/microcontroller_dev.jpg, id=617, 436.63126pt x 499.8675pt>
 File: ./Figures/microcontroller_dev.jpg Graphic file (type jpg)
 <use ./Figures/microcontroller_dev.jpg>
 Package pdftex.def Info: ./Figures/microcontroller_dev.jpg  used on input line 
@@ -1460,18 +1460,18 @@ LaTeX Info: Redefining \sptext on input line 128.
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
 [10 <./Figures/microcontroller_dev.jpg>]
-<./Figures/osi_model.jpg, id=635, 301.125pt x 206.7725pt>
+<./Figures/osi_model.jpg, id=637, 301.125pt x 206.7725pt>
 File: ./Figures/osi_model.jpg Graphic file (type jpg)
 <use ./Figures/osi_model.jpg>
 Package pdftex.def Info: ./Figures/osi_model.jpg  used on input line 131.
 (pdftex.def)             Requested size: 210.78606pt x 144.73975pt.
-<./Figures/wifi_architecture.jpg, id=639, 903.375pt x 453.695pt>
+<./Figures/wifi_architecture.jpg, id=641, 903.375pt x 453.695pt>
 File: ./Figures/wifi_architecture.jpg Graphic file (type jpg)
 <use ./Figures/wifi_architecture.jpg>
 Package pdftex.def Info: ./Figures/wifi_architecture.jpg  used on input line 14
 2.
 (pdftex.def)             Requested size: 316.18599pt x 158.79562pt.
-<./Figures/wifi_module.jpg, id=643, 556.0775pt x 352.31625pt>
+<./Figures/wifi_module.jpg, id=645, 556.0775pt x 352.31625pt>
 File: ./Figures/wifi_module.jpg Graphic file (type jpg)
 <use ./Figures/wifi_module.jpg>
 Package pdftex.def Info: ./Figures/wifi_module.jpg  used on input line 159.
@@ -1495,7 +1495,7 @@ LaTeX Info: Redefining \sptext on input line 166.
 LaTeX Info: Redefining \. on input line 166.
 LaTeX Info: Redefining \% on input line 166.
 [11 <./Figures/osi_model.jpg> <./Figures/wifi_architecture.jpg>]
-<./Figures/lorawan.jpg, id=658, 1018.80624pt x 364.36125pt>
+<./Figures/lorawan.jpg, id=660, 1018.80624pt x 364.36125pt>
 File: ./Figures/lorawan.jpg Graphic file (type jpg)
 <use ./Figures/lorawan.jpg>
 Package pdftex.def Info: ./Figures/lorawan.jpg  used on input line 178.
@@ -1504,7 +1504,7 @@ LaTeX Info: Redefining \sptext on input line 186.
 LaTeX Info: Redefining \. on input line 186.
 LaTeX Info: Redefining \% on input line 186.
  [12 <./Figures/wifi_module.jpg> <./Figures/lorawan.jpg>]
-<./Figures/lorawan_architecture.pdf, id=673, 845.1575pt x 453.695pt>
+<./Figures/lorawan_architecture.pdf, id=675, 845.1575pt x 453.695pt>
 File: ./Figures/lorawan_architecture.pdf Graphic file (type pdf)
 <use ./Figures/lorawan_architecture.pdf>
 Package pdftex.def Info: ./Figures/lorawan_architecture.pdf  used on input line
@@ -1515,7 +1515,7 @@ Overfull \hbox (32.77502pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
-<./Figures/lora_module.jpg, id=679, 389.455pt x 361.35pt>
+<./Figures/lora_module.jpg, id=681, 389.455pt x 361.35pt>
 File: ./Figures/lora_module.jpg Graphic file (type jpg)
 <use ./Figures/lora_module.jpg>
 Package pdftex.def Info: ./Figures/lora_module.jpg  used on input line 208.
@@ -1533,7 +1533,7 @@ LaTeX Info: Redefining \sptext on input line 215.
 LaTeX Info: Redefining \. on input line 215.
 LaTeX Info: Redefining \% on input line 215.
 [13 <./Figures/lorawan_architecture.pdf>]
-<./Figures/rtc.jpg, id=690, 929.4725pt x 532.99126pt>
+<./Figures/rtc.jpg, id=692, 929.4725pt x 532.99126pt>
 File: ./Figures/rtc.jpg Graphic file (type jpg)
 <use ./Figures/rtc.jpg>
 Package pdftex.def Info: ./Figures/rtc.jpg  used on input line 225.
@@ -1544,7 +1544,7 @@ Underfull \hbox (badness 1796) in paragraph at lines 226--226
 -cui-to in-te-gra-do 
  []
 
-<./Figures/eeprom.jpg, id=695, 487.8225pt x 490.83376pt>
+<./Figures/eeprom.jpg, id=697, 487.8225pt x 490.83376pt>
 File: ./Figures/eeprom.jpg Graphic file (type jpg)
 <use ./Figures/eeprom.jpg>
 Package pdftex.def Info: ./Figures/eeprom.jpg  used on input line 242.
@@ -1559,7 +1559,7 @@ Overfull \hbox (59.19098pt too wide) in paragraph at lines 247--247
 []| 
  []
 
-<./Figures/flash.jpg, id=707, 572.1375pt x 509.905pt>
+<./Figures/flash.jpg, id=709, 572.1375pt x 509.905pt>
 File: ./Figures/flash.jpg Graphic file (type jpg)
 <use ./Figures/flash.jpg>
 Package pdftex.def Info: ./Figures/flash.jpg  used on input line 252.
@@ -1580,12 +1580,12 @@ LaTeX Info: Redefining \sptext on input line 266.
 LaTeX Info: Redefining \. on input line 266.
 LaTeX Info: Redefining \% on input line 266.
 [15 <./Figures/eeprom.jpg> <./Figures/flash.jpg>]
-<./Figures/aon.pdf, id=718, 368.33609pt x 289.08pt>
+<./Figures/aon.pdf, id=720, 368.33609pt x 289.08pt>
 File: ./Figures/aon.pdf Graphic file (type pdf)
 <use ./Figures/aon.pdf>
 Package pdftex.def Info: ./Figures/aon.pdf  used on input line 271.
 (pdftex.def)             Requested size: 368.33517pt x 289.07928pt.
-<./Figures/gantt1.png, id=719, 418.56375pt x 229.60782pt>
+<./Figures/gantt1.png, id=721, 418.56375pt x 229.60782pt>
 File: ./Figures/gantt1.png Graphic file (type png)
 <use ./Figures/gantt1.png>
 Package pdftex.def Info: ./Figures/gantt1.png  used on input line 282.
@@ -1598,7 +1598,7 @@ Overfull \hbox (28.76003pt too wide) in paragraph at lines 282--283
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/gantt2.png, id=720, 467.49657pt x 243.15843pt>
+<./Figures/gantt2.png, id=722, 467.49657pt x 243.15843pt>
 File: ./Figures/gantt2.png Graphic file (type png)
 <use ./Figures/gantt2.png>
 Package pdftex.def Info: ./Figures/gantt2.png  used on input line 289.
@@ -1611,7 +1611,7 @@ Overfull \hbox (77.69273pt too wide) in paragraph at lines 289--290
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/gantt3.png, id=721, 439.6425pt x 363.60844pt>
+<./Figures/gantt3.png, id=723, 439.6425pt x 363.60844pt>
 File: ./Figures/gantt3.png Graphic file (type png)
 <use ./Figures/gantt3.png>
 Package pdftex.def Info: ./Figures/gantt3.png  used on input line 296.
@@ -1651,7 +1651,7 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )
-<./Figures/test_blocks.pdf, id=748, 202.8378pt x 188.6247pt>
+<./Figures/test_blocks.pdf, id=750, 202.8378pt x 188.6247pt>
 File: ./Figures/test_blocks.pdf Graphic file (type pdf)
 <use ./Figures/test_blocks.pdf>
 Package pdftex.def Info: ./Figures/test_blocks.pdf  used on input line 58.
@@ -1668,7 +1668,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figures/test_blocks.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >]
-<./Figures/nodemcu.jpg, id=766, 435.6275pt x 331.2375pt>
+<./Figures/nodemcu.jpg, id=768, 435.6275pt x 331.2375pt>
 File: ./Figures/nodemcu.jpg Graphic file (type jpg)
 <use ./Figures/nodemcu.jpg>
 Package pdftex.def Info: ./Figures/nodemcu.jpg  used on input line 73.
@@ -1683,7 +1683,7 @@ LaTeX Info: Redefining \sptext on input line 89.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
 [20 <./Figures/nodemcu.jpg>]
-<./Figures/pm1280.jpg, id=781, 680.5425pt x 607.26875pt>
+<./Figures/pm1280.jpg, id=783, 680.5425pt x 607.26875pt>
 File: ./Figures/pm1280.jpg Graphic file (type jpg)
 <use ./Figures/pm1280.jpg>
 Package pdftex.def Info: ./Figures/pm1280.jpg  used on input line 99.
@@ -1698,7 +1698,7 @@ LaTeX Info: Redefining \sptext on input line 115.
 LaTeX Info: Redefining \. on input line 115.
 LaTeX Info: Redefining \% on input line 115.
 [21 <./Figures/pm1280.jpg>]
-<./Figures/rtc_eeprom.jpg, id=793, 221.82875pt x 444.66125pt>
+<./Figures/rtc_eeprom.jpg, id=795, 221.82875pt x 444.66125pt>
 File: ./Figures/rtc_eeprom.jpg Graphic file (type jpg)
 <use ./Figures/rtc_eeprom.jpg>
 Package pdftex.def Info: ./Figures/rtc_eeprom.jpg  used on input line 127.
@@ -1707,7 +1707,7 @@ LaTeX Info: Redefining \sptext on input line 139.
 LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
  [22 <./Figures/rtc_eeprom.jpg>]
-<./Figures/coe.jpg, id=803, 794.97pt x 800.9925pt>
+<./Figures/coe.jpg, id=805, 794.97pt x 800.9925pt>
 File: ./Figures/coe.jpg Graphic file (type jpg)
 <use ./Figures/coe.jpg>
 Package pdftex.def Info: ./Figures/coe.jpg  used on input line 142.
@@ -1722,7 +1722,7 @@ LaTeX Info: Redefining \sptext on input line 160.
 LaTeX Info: Redefining \. on input line 160.
 LaTeX Info: Redefining \% on input line 160.
 [23 <./Figures/coe.jpg>]
-<./Figures/firmware_layers.pdf, id=818, 211.7511pt x 132.495pt>
+<./Figures/firmware_layers.pdf, id=820, 211.7511pt x 132.495pt>
 File: ./Figures/firmware_layers.pdf Graphic file (type pdf)
 <use ./Figures/firmware_layers.pdf>
 Package pdftex.def Info: ./Figures/firmware_layers.pdf  used on input line 166.
@@ -1756,13 +1756,13 @@ LaTeX Info: Redefining \sptext on input line 246.
 LaTeX Info: Redefining \. on input line 246.
 LaTeX Info: Redefining \% on input line 246.
 [26]
-<./Figures/data_logger_diagram.pdf, id=852, 153.6942pt x 125.5089pt>
+<./Figures/data_logger_diagram.pdf, id=854, 153.6942pt x 125.5089pt>
 File: ./Figures/data_logger_diagram.pdf Graphic file (type pdf)
 <use ./Figures/data_logger_diagram.pdf>
 Package pdftex.def Info: ./Figures/data_logger_diagram.pdf  used on input line 
 253.
 (pdftex.def)             Requested size: 153.6938pt x 125.50858pt.
-<./Figures/data_logger_com.pdf, id=854, 211.7511pt x 99.2508pt>
+<./Figures/data_logger_com.pdf, id=856, 211.7511pt x 99.2508pt>
 File: ./Figures/data_logger_com.pdf Graphic file (type pdf)
 <use ./Figures/data_logger_com.pdf>
 Package pdftex.def Info: ./Figures/data_logger_com.pdf  used on input line 264.
@@ -1772,13 +1772,13 @@ LaTeX Info: Redefining \sptext on input line 270.
 LaTeX Info: Redefining \. on input line 270.
 LaTeX Info: Redefining \% on input line 270.
  [27 <./Figures/data_logger_diagram.pdf> <./Figures/data_logger_com.pdf>]
-<./Figures/data_logger_pulses.pdf, id=881, 178.7478pt x 146.4672pt>
+<./Figures/data_logger_pulses.pdf, id=883, 178.7478pt x 146.4672pt>
 File: ./Figures/data_logger_pulses.pdf Graphic file (type pdf)
 <use ./Figures/data_logger_pulses.pdf>
 Package pdftex.def Info: ./Figures/data_logger_pulses.pdf  used on input line 2
 73.
 (pdftex.def)             Requested size: 162.66074pt x 133.28534pt.
-<./Figures/data_logger_alarm.pdf, id=882, 377.49028pt x 312.20638pt>
+<./Figures/data_logger_alarm.pdf, id=884, 377.49028pt x 312.20638pt>
 File: ./Figures/data_logger_alarm.pdf Graphic file (type pdf)
 <use ./Figures/data_logger_alarm.pdf>
 Package pdftex.def Info: ./Figures/data_logger_alarm.pdf  used on input line 28
@@ -1789,7 +1789,7 @@ LaTeX Info: Redefining \. on input line 288.
 LaTeX Info: Redefining \% on input line 288.
 
 [28 <./Figures/data_logger_pulses.pdf> <./Figures/data_logger_alarm.pdf>]
-<./Figures/data_logger_init.pdf, id=908, 202.8378pt x 253.90858pt>
+<./Figures/data_logger_init.pdf, id=910, 202.8378pt x 253.90858pt>
 File: ./Figures/data_logger_init.pdf Graphic file (type pdf)
 <use ./Figures/data_logger_init.pdf>
 Package pdftex.def Info: ./Figures/data_logger_init.pdf  used on input line 293
@@ -1800,13 +1800,13 @@ LaTeX Info: Redefining \. on input line 303.
 LaTeX Info: Redefining \% on input line 303.
 
 [29 <./Figures/data_logger_init.pdf>]
-<./Figures/lora_communication_diagram.pdf, id=924, 109.3686pt x 125.5089pt>
+<./Figures/lora_communication_diagram.pdf, id=926, 109.3686pt x 125.5089pt>
 File: ./Figures/lora_communication_diagram.pdf Graphic file (type pdf)
 <use ./Figures/lora_communication_diagram.pdf>
 Package pdftex.def Info: ./Figures/lora_communication_diagram.pdf  used on inpu
 t line 306.
 (pdftex.def)             Requested size: 109.36832pt x 125.50858pt.
-<./Figures/lora_communication_task.pdf, id=926, 217.77359pt x 269.08528pt>
+<./Figures/lora_communication_task.pdf, id=928, 217.77359pt x 269.08528pt>
 File: ./Figures/lora_communication_task.pdf Graphic file (type pdf)
 <use ./Figures/lora_communication_task.pdf>
 Package pdftex.def Info: ./Figures/lora_communication_task.pdf  used on input l
@@ -1817,17 +1817,13 @@ LaTeX Info: Redefining \. on input line 323.
 LaTeX Info: Redefining \% on input line 323.
  [30 <./Figures/lora_communication_diagram.pdf> <./Figures/lora_communication_t
 ask.pdf>]
-
-LaTeX Warning: Reference `fig:loraTxPacket' on page 31 undefined on input line 
-324.
-
-<./Figures/lora_communication_rx_packet.pdf, id=950, 145.50359pt x 17.1039pt>
+<./Figures/lora_communication_rx_packet.pdf, id=953, 145.50359pt x 17.1039pt>
 File: ./Figures/lora_communication_rx_packet.pdf Graphic file (type pdf)
 <use ./Figures/lora_communication_rx_packet.pdf>
 Package pdftex.def Info: ./Figures/lora_communication_rx_packet.pdf  used on in
 put line 328.
 (pdftex.def)             Requested size: 145.50322pt x 17.10384pt.
-<./Figures/lora_communication_init.pdf, id=952, 202.8378pt x 181.6386pt>
+<./Figures/lora_communication_init.pdf, id=955, 202.8378pt x 181.6386pt>
 File: ./Figures/lora_communication_init.pdf Graphic file (type pdf)
 <use ./Figures/lora_communication_init.pdf>
 Package pdftex.def Info: ./Figures/lora_communication_init.pdf  used on input l
@@ -1836,20 +1832,20 @@ ine 337.
 LaTeX Info: Redefining \sptext on input line 347.
 LaTeX Info: Redefining \. on input line 347.
 LaTeX Info: Redefining \% on input line 347.
-[31 <./Figures/lora_communication_rx_packet.pdf> <./Figures/lora_communication_
-init.pdf>]
-<./Figures/web_server_diagram.pdf, id=975, 131.53139pt x 146.4672pt>
+ [31 <./Figures/lora_communication_rx_packet.pdf> <./Figures/lora_communication
+_init.pdf>]
+<./Figures/web_server_diagram.pdf, id=978, 131.53139pt x 146.4672pt>
 File: ./Figures/web_server_diagram.pdf Graphic file (type pdf)
 <use ./Figures/web_server_diagram.pdf>
 Package pdftex.def Info: ./Figures/web_server_diagram.pdf  used on input line 3
 50.
 (pdftex.def)             Requested size: 131.53105pt x 146.46683pt.
-<./Figures/web_server_ap.pdf, id=978, 152.4897pt x 95.39641pt>
+<./Figures/web_server_ap.pdf, id=981, 152.4897pt x 95.39641pt>
 File: ./Figures/web_server_ap.pdf Graphic file (type pdf)
 <use ./Figures/web_server_ap.pdf>
 Package pdftex.def Info: ./Figures/web_server_ap.pdf  used on input line 361.
 (pdftex.def)             Requested size: 167.73917pt x 104.93634pt.
-<./Figures/web_server_sta.pdf, id=979, 231.74579pt x 95.39641pt>
+<./Figures/web_server_sta.pdf, id=982, 231.74579pt x 95.39641pt>
 File: ./Figures/web_server_sta.pdf Graphic file (type pdf)
 <use ./Figures/web_server_sta.pdf>
 Package pdftex.def Info: ./Figures/web_server_sta.pdf  used on input line 368.
@@ -1859,7 +1855,7 @@ LaTeX Info: Redefining \. on input line 374.
 LaTeX Info: Redefining \% on input line 374.
  [32 <./Figures/web_server_diagram.pdf> <./Figures/web_server_ap.pdf> <./Figure
 s/web_server_sta.pdf>]
-<./Figures/web_server_init.pdf, id=1015, 252.945pt x 211.7511pt>
+<./Figures/web_server_init.pdf, id=1018, 252.945pt x 211.7511pt>
 File: ./Figures/web_server_init.pdf Graphic file (type pdf)
 <use ./Figures/web_server_init.pdf>
 Package pdftex.def Info: ./Figures/web_server_init.pdf  used on input line 381.
@@ -1868,8 +1864,8 @@ Package pdftex.def Info: ./Figures/web_server_init.pdf  used on input line 381.
 LaTeX Info: Redefining \sptext on input line 393.
 LaTeX Info: Redefining \. on input line 393.
 LaTeX Info: Redefining \% on input line 393.
- [33 <./Figures/web_server_init.pdf>]
-<./Figures/interface_main.png, id=1030, 737.75626pt x 696.6025pt>
+[33 <./Figures/web_server_init.pdf>]
+<./Figures/interface_main.png, id=1033, 737.75626pt x 696.6025pt>
 File: ./Figures/interface_main.png Graphic file (type png)
 <use ./Figures/interface_main.png>
 Package pdftex.def Info: ./Figures/interface_main.png  used on input line 411.
@@ -1882,7 +1878,7 @@ LaTeX Info: Redefining \sptext on input line 419.
 LaTeX Info: Redefining \. on input line 419.
 LaTeX Info: Redefining \% on input line 419.
 [34]
-<./Figures/interface_conf.png, id=1036, 737.75626pt x 692.5875pt>
+<./Figures/interface_conf.png, id=1039, 737.75626pt x 692.5875pt>
 File: ./Figures/interface_conf.png Graphic file (type png)
 <use ./Figures/interface_conf.png>
 Package pdftex.def Info: ./Figures/interface_conf.png  used on input line 422.
@@ -1891,7 +1887,7 @@ LaTeX Info: Redefining \sptext on input line 431.
 LaTeX Info: Redefining \. on input line 431.
 LaTeX Info: Redefining \% on input line 431.
  [35 <./Figures/interface_main.png> <./Figures/interface_conf.png>]
-<./Figures/case.jpg, id=1044, 650.43pt x 591.20876pt>
+<./Figures/case.jpg, id=1047, 650.43pt x 591.20876pt>
 File: ./Figures/case.jpg Graphic file (type jpg)
 <use ./Figures/case.jpg>
 Package pdftex.def Info: ./Figures/case.jpg  used on input line 436.
@@ -1906,7 +1902,7 @@ LaTeX Info: Redefining \sptext on input line 444.
 LaTeX Info: Redefining \. on input line 444.
 LaTeX Info: Redefining \% on input line 444.
 [36 <./Figures/case.jpg>]
-<./Figures/acdc_module.jpg, id=1057, 493.845pt x 451.6875pt>
+<./Figures/acdc_module.jpg, id=1060, 493.845pt x 451.6875pt>
 File: ./Figures/acdc_module.jpg Graphic file (type jpg)
 <use ./Figures/acdc_module.jpg>
 Package pdftex.def Info: ./Figures/acdc_module.jpg  used on input line 472.
@@ -1917,7 +1913,7 @@ Underfull \hbox (badness 1418) in paragraph at lines 477--477
 / item / 33004284623 . html ? spm = a2g0o . cart . 0 . 0 .
  []
 
-<./Figures/schematic.pdf, id=1062, 460.72125pt x 412.54124pt>
+<./Figures/schematic.pdf, id=1065, 460.72125pt x 412.54124pt>
 File: ./Figures/schematic.pdf Graphic file (type pdf)
 <use ./Figures/schematic.pdf>
 Package pdftex.def Info: ./Figures/schematic.pdf  used on input line 483.
@@ -1938,17 +1934,17 @@ LaTeX Info: Redefining \sptext on input line 493.
 LaTeX Info: Redefining \. on input line 493.
 LaTeX Info: Redefining \% on input line 493.
  [38 <./Figures/schematic.pdf>]
-<./Figures/pcb_top.pdf, id=1110, 585.18625pt x 415.5525pt>
+<./Figures/pcb_top.pdf, id=1113, 585.18625pt x 415.5525pt>
 File: ./Figures/pcb_top.pdf Graphic file (type pdf)
 <use ./Figures/pcb_top.pdf>
 Package pdftex.def Info: ./Figures/pcb_top.pdf  used on input line 496.
 (pdftex.def)             Requested size: 292.5924pt x 207.77574pt.
-<./Figures/pcb_bot.pdf, id=1111, 580.1675pt x 410.53375pt>
+<./Figures/pcb_bot.pdf, id=1114, 580.1675pt x 410.53375pt>
 File: ./Figures/pcb_bot.pdf Graphic file (type pdf)
 <use ./Figures/pcb_bot.pdf>
 Package pdftex.def Info: ./Figures/pcb_bot.pdf  used on input line 503.
 (pdftex.def)             Requested size: 290.08302pt x 205.26637pt.
-<./Figures/pcb_3d.jpg, id=1112, 840.13875pt x 725.71124pt>
+<./Figures/pcb_3d.jpg, id=1115, 840.13875pt x 725.71124pt>
 File: ./Figures/pcb_3d.jpg Graphic file (type jpg)
 <use ./Figures/pcb_3d.jpg>
 Package pdftex.def Info: ./Figures/pcb_3d.jpg  used on input line 510.
@@ -1957,7 +1953,7 @@ Package pdftex.def Info: ./Figures/pcb_3d.jpg  used on input line 510.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/pcb_real.pdf, id=1113, 653.44125pt x 561.09625pt>
+<./Figures/pcb_real.pdf, id=1116, 653.44125pt x 561.09625pt>
 File: ./Figures/pcb_real.pdf Graphic file (type pdf)
 <use ./Figures/pcb_real.pdf>
 Package pdftex.def Info: ./Figures/pcb_real.pdf  used on input line 517.
@@ -1983,7 +1979,7 @@ LaTeX Info: Redefining \% on input line 193.
 
 (./Chapters/Chapter4.tex
 Cap\'{\i }tulo 4.
-<./Figures/test_firmware_functional.pdf, id=1132, 202.8378pt x 153.6942pt>
+<./Figures/test_firmware_functional.pdf, id=1135, 202.8378pt x 153.6942pt>
 File: ./Figures/test_firmware_functional.pdf Graphic file (type pdf)
 <use ./Figures/test_firmware_functional.pdf>
 Package pdftex.def Info: ./Figures/test_firmware_functional.pdf  used on input 
@@ -1995,7 +1991,7 @@ line 61.
 
 
 ]
-<./Figures/test_firmware_init.png, id=1140, 331.2375pt x 466.74374pt>
+<./Figures/test_firmware_init.png, id=1143, 331.2375pt x 466.74374pt>
 File: ./Figures/test_firmware_init.png Graphic file (type png)
 <use ./Figures/test_firmware_init.png>
 Package pdftex.def Info: ./Figures/test_firmware_init.png  used on input line 7
@@ -2006,13 +2002,13 @@ LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
  [42 <./Figures/test_firmware_functional.pdf> <./Figures/test_firmware_init.png
 >]
-<./Figures/test_firmware_tasks.png, id=1158, 332.24126pt x 239.89626pt>
+<./Figures/test_firmware_tasks.png, id=1161, 332.24126pt x 239.89626pt>
 File: ./Figures/test_firmware_tasks.png Graphic file (type png)
 <use ./Figures/test_firmware_tasks.png>
 Package pdftex.def Info: ./Figures/test_firmware_tasks.png  used on input line 
 81.
 (pdftex.def)             Requested size: 182.73325pt x 131.94334pt.
-<./Figures/test_interface_bank.pdf, id=1162, 246.9225pt x 153.6942pt>
+<./Figures/test_interface_bank.pdf, id=1165, 246.9225pt x 153.6942pt>
 File: ./Figures/test_interface_bank.pdf Graphic file (type pdf)
 <use ./Figures/test_interface_bank.pdf>
 Package pdftex.def Info: ./Figures/test_interface_bank.pdf  used on input line 
@@ -2022,19 +2018,19 @@ LaTeX Info: Redefining \sptext on input line 102.
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
  [43 <./Figures/test_firmware_tasks.png> <./Figures/test_interface_bank.pdf>]
-<./Figures/test_interface_nets.png, id=1183, 350.81062pt x 339.51843pt>
+<./Figures/test_interface_nets.png, id=1186, 350.81062pt x 339.51843pt>
 File: ./Figures/test_interface_nets.png Graphic file (type png)
 <use ./Figures/test_interface_nets.png>
 Package pdftex.def Info: ./Figures/test_interface_nets.png  used on input line 
 105.
 (pdftex.def)             Requested size: 185.92873pt x 179.94391pt.
-<./Figures/test_interface_chrome_ap.png, id=1186, 517.18219pt x 402.00188pt>
+<./Figures/test_interface_chrome_ap.png, id=1189, 517.18219pt x 402.00188pt>
 File: ./Figures/test_interface_chrome_ap.png Graphic file (type png)
 <use ./Figures/test_interface_chrome_ap.png>
 Package pdftex.def Info: ./Figures/test_interface_chrome_ap.png  used on input 
 line 114.
 (pdftex.def)             Requested size: 258.59045pt x 201.00044pt.
-<./Figures/test_interface_idf_downloads.png, id=1187, 338.26375pt x 404.51125pt
+<./Figures/test_interface_idf_downloads.png, id=1190, 338.26375pt x 404.51125pt
 >
 File: ./Figures/test_interface_idf_downloads.png Graphic file (type png)
 <use ./Figures/test_interface_idf_downloads.png>
@@ -2046,13 +2042,13 @@ LaTeX Info: Redefining \. on input line 127.
 LaTeX Info: Redefining \% on input line 127.
  [44 <./Figures/test_interface_nets.png> <./Figures/test_interface_chrome_ap.pn
 g>]
-<./Figures/test_interface_form.png, id=1196, 516.42938pt x 402.75468pt>
+<./Figures/test_interface_form.png, id=1199, 516.42938pt x 402.75468pt>
 File: ./Figures/test_interface_form.png Graphic file (type png)
 <use ./Figures/test_interface_form.png>
 Package pdftex.def Info: ./Figures/test_interface_form.png  used on input line 
 130.
 (pdftex.def)             Requested size: 258.21405pt x 201.37685pt.
-<./Figures/test_interface_idf.png, id=1197, 340.27126pt x 146.5475pt>
+<./Figures/test_interface_idf.png, id=1200, 340.27126pt x 146.5475pt>
 File: ./Figures/test_interface_idf.png Graphic file (type png)
 <use ./Figures/test_interface_idf.png>
 Package pdftex.def Info: ./Figures/test_interface_idf.png  used on input line 1
@@ -2063,13 +2059,13 @@ LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
  [45 <./Figures/test_interface_idf_downloads.png> <./Figures/test_interface_for
 m.png>]
-<./Figures/test_pulses_bank.pdf, id=1205, 159.71669pt x 131.53139pt>
+<./Figures/test_pulses_bank.pdf, id=1208, 159.71669pt x 131.53139pt>
 File: ./Figures/test_pulses_bank.pdf Graphic file (type pdf)
 <use ./Figures/test_pulses_bank.pdf>
 Package pdftex.def Info: ./Figures/test_pulses_bank.pdf  used on input line 153
 .
 (pdftex.def)             Requested size: 191.65906pt x 157.83685pt.
-<./Figures/pulses_debounce.jpg, id=1206, 436.5108pt x 327.3831pt>
+<./Figures/pulses_debounce.jpg, id=1209, 436.5108pt x 327.3831pt>
 File: ./Figures/pulses_debounce.jpg Graphic file (type jpg)
 <use ./Figures/pulses_debounce.jpg>
 Package pdftex.def Info: ./Figures/pulses_debounce.jpg  used on input line 160.
@@ -2079,7 +2075,7 @@ LaTeX Info: Redefining \sptext on input line 168.
 LaTeX Info: Redefining \. on input line 168.
 LaTeX Info: Redefining \% on input line 168.
  [46 <./Figures/test_interface_idf.png> <./Figures/test_pulses_bank.pdf>]
-<./Figures/test_power_bank.pdf, id=1223, 210.7875pt x 109.3686pt>
+<./Figures/test_power_bank.pdf, id=1226, 210.7875pt x 109.3686pt>
 File: ./Figures/test_power_bank.pdf Graphic file (type pdf)
 <use ./Figures/test_power_bank.pdf>
 Package pdftex.def Info: ./Figures/test_power_bank.pdf  used on input line 171.
@@ -2096,7 +2092,7 @@ LaTeX Info: Redefining \sptext on input line 234.
 LaTeX Info: Redefining \. on input line 234.
 LaTeX Info: Redefining \% on input line 234.
 [47 <./Figures/pulses_debounce.jpg> <./Figures/test_power_bank.pdf>]
-<./Figures/test_power_graph.pdf, id=1242, 520.94624pt x 471.7625pt>
+<./Figures/test_power_graph.pdf, id=1245, 520.94624pt x 471.7625pt>
 File: ./Figures/test_power_graph.pdf Graphic file (type pdf)
 <use ./Figures/test_power_graph.pdf>
 Package pdftex.def Info: ./Figures/test_power_graph.pdf  used on input line 237
@@ -2106,31 +2102,25 @@ LaTeX Info: Redefining \sptext on input line 249.
 LaTeX Info: Redefining \. on input line 249.
 LaTeX Info: Redefining \% on input line 249.
  [48 <./Figures/test_power_graph.pdf>]
-<./Figures/test_lora_bank.pdf, id=1291, 189.8292pt x 88.41031pt>
+<./Figures/test_lora_bank.pdf, id=1294, 189.8292pt x 88.41031pt>
 File: ./Figures/test_lora_bank.pdf Graphic file (type pdf)
 <use ./Figures/test_lora_bank.pdf>
 Package pdftex.def Info: ./Figures/test_lora_bank.pdf  used on input line 252.
 (pdftex.def)             Requested size: 189.82872pt x 88.41008pt.
-<./Figures/test_lora_location.png, id=1293, 479.7925pt x 595.22375pt>
+<./Figures/test_lora_location.png, id=1296, 479.7925pt x 595.22375pt>
 File: ./Figures/test_lora_location.png Graphic file (type png)
 <use ./Figures/test_lora_location.png>
 Package pdftex.def Info: ./Figures/test_lora_location.png  used on input line 2
 61.
 (pdftex.def)             Requested size: 196.71619pt x 244.04332pt.
-
-
-LaTeX Warning: Reference `fig:loraTxPacket' on page 49 undefined on input line 
-266.
-
 LaTeX Info: Redefining \sptext on input line 282.
 LaTeX Info: Redefining \. on input line 282.
 LaTeX Info: Redefining \% on input line 282.
-[49 <./Figures/test_lora_bank.pdf> <./Figures/test_lora_location.png>])
+ [49 <./Figures/test_lora_bank.pdf> <./Figures/test_lora_location.png>])
 LaTeX Info: Redefining \sptext on input line 194.
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
-
-[50]
+ [50]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
@@ -2183,12 +2173,15 @@ LaTeX Info: Redefining \% on input line 30.
 (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
-Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: CC533E9E61C7A5AC9D2D2891924CCDD3;2818.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `memoria.out':
+(rerunfilecheck)             Before: CC533E9E61C7A5AC9D2D2891924CCDD3;2818
+(rerunfilecheck)             After:  19EA6EBD012B3E01992FD37EDDD35923;2839.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2197,10 +2190,10 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34990 strings out of 494377
- 721664 string characters out of 6172843
- 1141581 words of memory out of 5000000
- 37989 multiletter control sequences out of 15000+600000
+ 34989 strings out of 494377
+ 721646 string characters out of 6172843
+ 1141580 words of memory out of 5000000
+ 37988 multiletter control sequences out of 15000+600000
  585786 words of font info for 105 fonts, out of 8000000 for 9000
  108 hyphenation exceptions out of 8191
  60i,21n,83p,1595b,2628s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2279,10 +2272,10 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memoria.pdf (70 pages, 4713866 bytes).
+Output written on memoria.pdf (70 pages, 5304878 bytes).
 PDF statistics:
- 1467 PDF objects out of 1728 (max. 8388607)
- 1177 compressed objects within 12 object streams
+ 1470 PDF objects out of 1728 (max. 8388607)
+ 1178 compressed objects within 12 object streams
  270 named destinations out of 1000 (max. 500000)
  659 words of extra memory for PDF output out of 10000 (max. 10000000)
 
