@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.2)  3 AUG 2020 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.2)  6 AUG 2020 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,18 +1244,18 @@ NG copy)>] [2
 --------------------
  Agradecimientos
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 156.
 1: section
 [5] [6
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 165.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 170.
  (./memoria.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 3.
 
@@ -1295,7 +1295,7 @@ LaTeX Info: Redefining \% on input line 2.
  Dedicatory
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 176.
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 181.
 1: section
 [13] [14
 
@@ -1376,9 +1376,9 @@ LaTeX Info: Redefining \sptext on input line 126.
 LaTeX Info: Redefining \. on input line 126.
 LaTeX Info: Redefining \% on input line 126.
  [5 <./Figures/PA-FL.png> <./Figures/airtm-100s.pdf>])
-LaTeX Info: Redefining \sptext on input line 191.
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \sptext on input line 196.
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
  [6]
 \openout2 = `Chapters/Chapter2.aux'.
 
@@ -1398,21 +1398,20 @@ File: ./Figures/general_blocks.pdf Graphic file (type pdf)
 <use ./Figures/general_blocks.pdf>
 Package pdftex.def Info: ./Figures/general_blocks.pdf  used on input line 45.
 (pdftex.def)             Requested size: 296.06535pt x 188.62422pt.
-LaTeX Info: Redefining \sptext on input line 62.
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
+<./Figures/ldr.jpg, id=581, 803.0pt x 803.0pt>
+File: ./Figures/ldr.jpg Graphic file (type jpg)
+<use ./Figures/ldr.jpg>
+Package pdftex.def Info: ./Figures/ldr.jpg  used on input line 65.
+(pdftex.def)             Requested size: 104.39366pt x 104.39366pt.
+LaTeX Info: Redefining \sptext on input line 68.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
  [8 <./Figures/general_blocks.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/general_blocks.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
 >]
-<./Figures/ldr.jpg, id=596, 803.0pt x 803.0pt>
-File: ./Figures/ldr.jpg Graphic file (type jpg)
-<use ./Figures/ldr.jpg>
-Package pdftex.def Info: ./Figures/ldr.jpg  used on input line 65.
-(pdftex.def)             Requested size: 104.39366pt x 104.39366pt.
-
 Underfull \hbox (badness 3503) in paragraph at lines 70--70
 [][][]\T1/ppl/m/n/9 Imagen to-ma-da de: [][]$https : / / www . devobox . com / 
 en / photosensors / 38-[]photoresistor-[]ldr07 .
@@ -1625,21 +1624,21 @@ Overfull \hbox (49.83873pt too wide) in paragraph at lines 296--297
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-LaTeX Info: Redefining \sptext on input line 192.
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+LaTeX Info: Redefining \sptext on input line 197.
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
  [16 <./Figures/aon.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/aon.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-LaTeX Info: Redefining \sptext on input line 192.
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+LaTeX Info: Redefining \sptext on input line 197.
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
  [17 <./Figures/gantt1.png> <./Figures/gantt2.png>]
-LaTeX Info: Redefining \sptext on input line 192.
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+LaTeX Info: Redefining \sptext on input line 197.
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
  [18 <./Figures/gantt3.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
@@ -1962,17 +1961,17 @@ Package pdftex.def Info: ./Figures/pcb_real.pdf  used on input line 517.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-LaTeX Info: Redefining \sptext on input line 193.
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
+LaTeX Info: Redefining \sptext on input line 198.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
  [39 <./Figures/pcb_top.pdf> <./Figures/pcb_bot.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/pcb_bot.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-LaTeX Info: Redefining \sptext on input line 193.
-LaTeX Info: Redefining \. on input line 193.
-LaTeX Info: Redefining \% on input line 193.
+LaTeX Info: Redefining \sptext on input line 198.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
  [40 <./Figures/pcb_3d.jpg> <./Figures/pcb_real.pdf>]
 \openout2 = `Chapters/Chapter4.aux'.
 
@@ -2117,9 +2116,9 @@ LaTeX Info: Redefining \sptext on input line 282.
 LaTeX Info: Redefining \. on input line 282.
 LaTeX Info: Redefining \% on input line 282.
  [49 <./Figures/test_lora_bank.pdf> <./Figures/test_lora_location.png>])
-LaTeX Info: Redefining \sptext on input line 194.
-LaTeX Info: Redefining \. on input line 194.
-LaTeX Info: Redefining \% on input line 194.
+LaTeX Info: Redefining \sptext on input line 199.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
  [50]
 \openout2 = `Chapters/Chapter5.aux'.
 
@@ -2140,30 +2139,30 @@ LaTeX Info: Redefining \sptext on input line 63.
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
 [52])
-LaTeX Info: Redefining \sptext on input line 195.
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
+LaTeX Info: Redefining \sptext on input line 200.
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
  [53] [54
 
 
 ]
 1: section
 [55]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 216.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 221.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
 LaTeX Font Info:    Font shape `OMS/ppl/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
-LaTeX Info: Redefining \sptext on input line 220.
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+LaTeX Info: Redefining \sptext on input line 225.
+LaTeX Info: Redefining \. on input line 225.
+LaTeX Info: Redefining \% on input line 225.
  [56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
 
 (./memoria.aux
 LaTeX Info: Redefining \sptext on input line 30.
@@ -2171,17 +2170,11 @@ LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
  (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
 (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package rerunfilecheck Info: File `memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 19EA6EBD012B3E01992FD37EDDD35923;2839.
 
-
-Package rerunfilecheck Warning: File `memoria.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `memoria.out':
-(rerunfilecheck)             Before: CC533E9E61C7A5AC9D2D2891924CCDD3;2818
-(rerunfilecheck)             After:  19EA6EBD012B3E01992FD37EDDD35923;2839.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2272,7 +2265,7 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memoria.pdf (70 pages, 5304878 bytes).
+Output written on memoria.pdf (70 pages, 5307654 bytes).
 PDF statistics:
  1470 PDF objects out of 1728 (max. 8388607)
  1178 compressed objects within 12 object streams

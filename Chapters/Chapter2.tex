@@ -53,7 +53,7 @@ En el diagrama de la figura \ref{fig:diagramBlocks}, el conversor óptico-eléct
 
 Es el encargado de convertir la salida de pulso óptico de medidores eléctricos digitales a pulsos eléctricos, para que puedan ser interpretados por un microcontrolador. Esta información determina el consumo eléctrico que registra el medidor.
 
-La salida de pulso óptico de los medidores eléctricos digitales está compuesta por un LED de color rojo, que emite luz cuando se ha consumido una cierta cantidad de kWh. El valor de la relación entre los pulsos emitidos y el consumo eléctrico es un parámetro intrínseco del medidor, que varía según el modelo y la firma que lo fabrica.
+La salida de pulso óptico de los medidores eléctricos digitales está compuesta por un LED de color rojo, que emite luz cuando se ha consumido una cierta cantidad de kWh. El valor de la relación entre los pulsos emitidos y el consumo eléctrico es un parámetro del medidor que varía según el modelo y la firma que lo fabrica.
 
 Para realizar la conversión de pulsos de luz a pulsos eléctricos, existen principalmente dos transductores que cumplen cabalmente esta función:
 
@@ -167,7 +167,7 @@ Dentro de lo referido al desarrollo de sistemas embebidos, comercialmente pueden
 
 LoRa (\textit{Long Range}, largo alcance), es una técnica de modulación de espectro extendido derivada de la tecnología CSS (\textit{Chirp Spread Spectrum}, espectro extendido de tipo chirp) \citep{WEBSITE:9}. Fue desarrollado por la firma Semtech y es utilizada principalmente en dispositivos orientados a IoT (\textit{Internet of Things}, Internet de las cosas) y dispositivos alimentados por baterías. Opera en las bandas de 433 Mhz, 868 Mhz y 915 MHz, según el país.
 
-Las comunicaciones LoRa son del tipo punto a punto, es decir, que un dispositivo con esta tecnología debe establecer un enlace directo con otro para intercambiar información. Para formar redes LoRa, es necesaria una capa MAC (\textit{Media Access Control}, control de acceso al medio), la cual es llamada LoRaWAN (\textit{Long Range Wide Area Network}, red de área amplia LoRa).
+Las comunicaciones LoRa son del tipo punto a punto, es decir, que un dispositivo con esta tecnología debe establecer un enlace directo con otro para intercambiar información. Para formar redes LoRa, es necesaria una capa de control de acceso al medio, que es llamada LoRaWAN (\textit{Long Range Wide Area Network}, red de área amplia LoRa).
 
 LoRaWAN, es una especificación de redes LPWAN (\textit{Low Power Wide Area Network}, red de área amplia de baja potencia) y LoRa Alliance es la encargada de su estandarización. Está diseñada para conectar dispositivos de bajo consumo energético a Internet a través de redes regionales, nacionales o globales. Además proporciona comunicación bidireccional, seguridad, movilidad y servicios de localización\citep{WEBSITE:10}.
 
