@@ -24,9 +24,9 @@ Se hicieron pruebas unitarias sobre las bibliotecas desarrolladas para el manejo
 		\toprule
 		\textbf{Biblioteca} & \textbf{Cantidad de tests} & \textbf{Exitosos} & \textbf{Fallidos}  \\
 		\midrule
-		AT24C32 & 8	& 8 & 0 \\		
-		DS3231 & 11 & 11 & 0 \\
-		SX1278 & 14 & 14 & 0 \\
+		EEPROM & 8	& 8 & 0 \\		
+		RTC & 11 & 11 & 0 \\
+		LORA & 14 & 14 & 0 \\
 		\bottomrule
 		\hline
 	\end{tabular}
@@ -40,9 +40,9 @@ Se hicieron pruebas unitarias sobre las bibliotecas desarrolladas para el manejo
 		\toprule
 		\textbf{Archivo} & \textbf{Líneas ejecutadas} & \textbf{Funciones ejecutadas}  \\
 		\midrule
-		at24c32.c & 52/52 & 6/6 \\		
-		ds3231.c & 54/62 & 11/13 \\
-		sx1278.c & 172/220 & 26/31 \\
+		eeprom.c & 52/52 & 6/6 \\		
+		rtc.c & 54/62 & 11/13 \\
+		lora.c & 172/220 & 26/31 \\
 		\bottomrule
 		\hline
 	\end{tabular}
@@ -54,7 +54,7 @@ Se hicieron pruebas unitarias sobre las bibliotecas desarrolladas para el manejo
 \section{Pruebas funcionales de firmware}
 \label{sec:pruebasFW}
 
-Se probaron los módulos DATA LOGGER, LORA COMMUNICATION y WEB SERVER de la capa superior del firmware, APP. Durante la etapa de desarrollo del firmware, estos módulos fueron probados para garantizar su correcto funcionamiento, de acuerdo con la planificación del trabajo descrita en el capítulo \ref{Chapter2}. El banco de pruebas utilizado consiste en el prototipo de pruebas conectado a una PC por medio de un cable micro USB. También se utilizó un medidor eléctrico modelo LUMEN 2 MC de la firma Nansen, que fue facilitado por COPELECT. El banco de pruebas se muestra en la figura \ref{fig:testFunctional}.
+Se probaron los módulos DATA LOGGER, LORA COMMUNICATION y WEB SERVER de la capa superior del firmware, APP. Durante la etapa de desarrollo del firmware, estos módulos fueron probados para garantizar su correcto funcionamiento, de acuerdo con la planificación del trabajo descrita en el capítulo \ref{Chapter2}. El banco de pruebas utilizado consiste en el prototipo de pruebas conectado a una PC por medio de un cable micro USB. También se utilizó un medidor eléctrico modelo LUMEN 2 MC de la firma Nansen, que fue facilitado por COOPELECT. El banco de pruebas se muestra en la figura \ref{fig:testFunctional}.
 
 \begin{figure}[ht]
 	\centering
@@ -146,7 +146,7 @@ Al finalizar estas pruebas se pudo evidenciar el correcto funcionamiento de las 
 
 Estas pruebas tuvieron como objetivo principal utilizar instrumentación especializada para verificar el buen funcionamiento del conversor óptico-eléctrico y la fuente de alimentación. 
 
-El propósito de la prueba del conversor óptico-eléctrico fue observar la forma de onda que genera, para implementar un algoritmo en el firmware que evitará la detección de pulsos falsos consecuencia de las características intrínsecas del LED del medidor de consumo eléctrico proporcionado por COPELECT. Para llevar a cabo esta prueba se utilizó un osciloscopio TDS2000C de la firma Tektronix, el prototipo comercial y el medidor proporcionado por COPELECT. El banco de pruebas puede observarse en el diagrama de la figura \ref{fig:testHWBankCOE}.
+El propósito de la prueba del conversor óptico-eléctrico fue observar la forma de onda que genera, para implementar un algoritmo en el firmware que evitará la detección de pulsos falsos consecuencia de las características intrínsecas del LED del medidor de consumo eléctrico proporcionado por COOPELECT. Para llevar a cabo esta prueba se utilizó un osciloscopio TDS2000C de la firma Tektronix, el prototipo comercial y el medidor proporcionado por COOPELECT. El banco de pruebas puede observarse en el diagrama de la figura \ref{fig:testHWBankCOE}.
 
 \begin{figure}[ht]
 	\centering
@@ -245,7 +245,7 @@ Entonces, según los valores necesarios para alimentar los componentes del proto
 
 \section{Pruebas del transceptor LoRa}
 
-Estas pruebas fueron realizadas para determinar los parámetros adecuados del transceptor LoRa, para intercambiar información con un gateway de la misma tecnología que está ubicado en el edificio central de COPELECT. Para esto se utilizaron principalmente el prototipo comercial del dispositivo y un gateway LoRa basado en la plataforma Arduino y en el módulo LoRa PM1280. Otros elementos utilizados fueron una PC, una laptop y cables micro USB. El banco de ensayos puede observarse en la figura \ref{fig:testLoraBank}.
+Estas pruebas fueron realizadas para determinar los parámetros adecuados del transceptor LoRa, para intercambiar información con un gateway de la misma tecnología que está ubicado en el edificio central de COOPELECT. Para esto se utilizaron principalmente el prototipo comercial del dispositivo y un gateway LoRa basado en la plataforma Arduino y en el módulo LoRa PM1280. Otros elementos utilizados fueron una PC, una laptop y cables micro USB. El banco de ensayos puede observarse en la figura \ref{fig:testLoraBank}.
 
 \begin{figure}[ht]
 	\centering
@@ -254,7 +254,7 @@ Estas pruebas fueron realizadas para determinar los parámetros adecuados del tr
 	\label{fig:testLoraBank}
 \end{figure}
 
-El gateway LoRa fue ubicado en la azotea del edificio central de COPELECT, que es el lugar donde debería instalarse un gateway LoRaWAN finalmente. El prototipo comercial se dispuso en el domicilio del autor, más precisamente en el mismo gabinete donde se encuentra instalado el medidor eléctrico. En la figura \ref{fig:testLoraUbi} se muestra la ubicación del gateway LoRa y el prototipo comercial.
+El gateway LoRa fue ubicado en la azotea del edificio central de COOPELECT, que es el lugar donde debería instalarse un gateway LoRaWAN finalmente. El prototipo comercial se dispuso en el domicilio del autor, más precisamente en el mismo gabinete donde se encuentra instalado el medidor eléctrico. En la figura \ref{fig:testLoraUbi} se muestra la ubicación del gateway LoRa y el prototipo comercial.
 
 \begin{figure}[ht]
 	\centering

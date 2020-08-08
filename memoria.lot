@@ -5,12 +5,13 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces IEEE 802.11}}{10}{table.caption.16}% 
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Contenido SPIFFS}}{26}{table.caption.36}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Consumo de corriente del prototipo comercial}}{37}{table.caption.53}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Contenido kwh.csv}}{30}{table.caption.42}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Consumo de corriente del prototipo comercial}}{37}{table.caption.55}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Pruebas unitarias}}{41}{table.caption.60}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces An\IeC {\'a}lisis de cobertura}}{41}{table.caption.61}% 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Prueba de la fuente de alimentaci\IeC {\'o}n 176 VAC}}{47}{table.caption.74}% 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Prueba de la fuente de alimentaci\IeC {\'o}n 220 VAC}}{48}{table.caption.75}% 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Prueba de la fuente de alimentaci\IeC {\'o}n 264 VAC}}{48}{table.caption.76}% 
-\contentsline {table}{\numberline {4.6}{\ignorespaces Par\IeC {\'a}metros del transceptor LoRa}}{50}{table.caption.80}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Pruebas unitarias}}{43}{table.caption.62}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces An\IeC {\'a}lisis de cobertura}}{43}{table.caption.63}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Prueba de la fuente de alimentaci\IeC {\'o}n 176 VAC}}{49}{table.caption.76}% 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Prueba de la fuente de alimentaci\IeC {\'o}n 220 VAC}}{50}{table.caption.77}% 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Prueba de la fuente de alimentaci\IeC {\'o}n 264 VAC}}{50}{table.caption.78}% 
+\contentsline {table}{\numberline {4.6}{\ignorespaces Par\IeC {\'a}metros del transceptor LoRa}}{52}{table.caption.82}% 
 \addvspace {10\p@ }

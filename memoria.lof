@@ -35,38 +35,39 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de conexi\IeC {\'o}n con las herramientas de FreeRTOS de DATA LOGGER.\relax }}{27}{figure.caption.38}% 
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de flujo de la tarea pulses\_task.\relax }}{28}{figure.caption.39}% 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de flujo de la tarea alarm\_task.\relax }}{28}{figure.caption.40}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de flujo de la funci\IeC {\'o}n de inicializaci\IeC {\'o}n de DATA LOGGER.\relax }}{29}{figure.caption.41}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de capas para LORA COMMUNICATION.\relax }}{30}{figure.caption.42}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de flujo de la tarea lora\_task.\relax }}{30}{figure.caption.43}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Formato de los paquetes enviados y recibidos por DATA COMMUNICATION.\relax }}{31}{figure.caption.44}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagrama de flujo de la funci\IeC {\'o}n de inicializaci\IeC {\'o}n del m\IeC {\'o}dulo LORA COMMUNICATION.\relax }}{31}{figure.caption.45}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagrama de capas para WEB SERVER.\relax }}{32}{figure.caption.46}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces WEB SERVER en modo punto de acceso.\relax }}{32}{figure.caption.47}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces WEB SERVER en modo estaci\IeC {\'o}n.\relax }}{32}{figure.caption.48}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Diagrama de flujo de la funci\IeC {\'o}n de inicializaci\IeC {\'o}n del m\IeC {\'o}dulo WEB SERVER.\relax }}{33}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Pantalla principal de la interfaz web.\relax }}{35}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Pantalla de configuraci\IeC {\'o}n de la interfaz web.\relax }}{35}{figure.caption.51}% 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Carcasa VG-S43 de la firma Vange\footnotemark .\relax }}{36}{figure.caption.52}% 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces M\IeC {\'o}dulo de alimentaci\IeC {\'o}n HLK-PM03 de la firma Hi-Link\footnotemark .\relax }}{37}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagrama esquem\IeC {\'a}tico del prototipo comercial.\relax }}{38}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Capa top del PCB.\relax }}{39}{figure.caption.56}% 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Capa bottom del PCB.\relax }}{39}{figure.caption.57}% 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Modelo 3D del PCB montado del prototipo comercial.\relax }}{40}{figure.caption.58}% 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces PCB montado del prototipo comercial.\relax }}{40}{figure.caption.59}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de flujo de la funci\IeC {\'o}n data\_logger\_init.\relax }}{29}{figure.caption.41}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de capas para DATA COMMUNICATION.\relax }}{30}{figure.caption.43}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de conexi\IeC {\'o}n con las herramientas de FreeRTOS de DATA COMMUNICATION.\relax }}{31}{figure.caption.44}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagrama de flujo de la tarea lora\_task.\relax }}{31}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Formato de los paquetes enviados y recibidos por DATA COMMUNICATION.\relax }}{32}{figure.caption.46}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagrama de flujo de la funci\IeC {\'o}n data\_communication\_init.\relax }}{32}{figure.caption.47}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagrama de capas para WEB SERVER.\relax }}{33}{figure.caption.48}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces WEB SERVER en modo punto de acceso.\relax }}{33}{figure.caption.49}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces WEB SERVER en modo estaci\IeC {\'o}n.\relax }}{33}{figure.caption.50}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de flujo de la funci\IeC {\'o}n de inicializaci\IeC {\'o}n del m\IeC {\'o}dulo WEB SERVER.\relax }}{34}{figure.caption.51}% 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Pantalla principal de la interfaz web.\relax }}{35}{figure.caption.52}% 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Pantalla de configuraci\IeC {\'o}n de la interfaz web.\relax }}{36}{figure.caption.53}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Carcasa VG-S43 de la firma Vange\footnotemark .\relax }}{37}{figure.caption.54}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces M\IeC {\'o}dulo de alimentaci\IeC {\'o}n HLK-PM03 de la firma Hi-Link\footnotemark .\relax }}{38}{figure.caption.56}% 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagrama esquem\IeC {\'a}tico del prototipo comercial.\relax }}{39}{figure.caption.57}% 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Capa top del PCB.\relax }}{40}{figure.caption.58}% 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Capa bottom del PCB.\relax }}{40}{figure.caption.59}% 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Modelo 3D del PCB montado del prototipo comercial.\relax }}{41}{figure.caption.60}% 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces PCB montado del prototipo comercial.\relax }}{41}{figure.caption.61}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Banco de pruebas para evaluar el funcionamiento del firmware.\relax }}{42}{figure.caption.62}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Captura de pantalla de idf-monitor cuando el dispositivo inicia.\relax }}{42}{figure.caption.63}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Captura de pantalla de idf-monitor cuando el dispositivo ejecuta sus funciones normales.\relax }}{43}{figure.caption.64}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Banco de pruebas para verificar el funcionamiento de la interfaz web cuando el dispositivo est\IeC {\'a} en modo punto de acceso.\relax }}{43}{figure.caption.65}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Captura de pantalla de las redes Wi-Fi disponibles en la laptop.\relax }}{44}{figure.caption.66}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Captura de pantalla de la p\IeC {\'a}gina principal de la interfaz web con la utilidad de depuraci\IeC {\'o}n funcionando.\relax }}{44}{figure.caption.67}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Captura de pantalla del idf-monitor despu\IeC {\'e}s de enviar los archivos solicitados por el navegador web y el dispositivo en modo punto de acceso.\relax }}{45}{figure.caption.68}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Captura de pantalla de la p\IeC {\'a}gina de configuraci\IeC {\'o}n de la interfaz web con la utilidad de depuraci\IeC {\'o}n funcionando.\relax }}{45}{figure.caption.69}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Captura de pantalla del idf-monitor despu\IeC {\'e}s de configurar el dispositivo en modo estaci\IeC {\'o}n con los datos enviados por la interfaz web.\relax }}{46}{figure.caption.70}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Banco de pruebas para el conversor \IeC {\'o}ptico-el\IeC {\'e}ctrico.\relax }}{46}{figure.caption.71}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Salida de la pantalla del osciloscopio.\relax }}{47}{figure.caption.72}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Banco de pruebas para el conversor \IeC {\'o}ptico-el\IeC {\'e}ctrico.\relax }}{47}{figure.caption.73}% 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Gr\IeC {\'a}fico de l\IeC {\'\i }neas del comportamiento de la fuente de alimentaci\IeC {\'o}n.\relax }}{48}{figure.caption.77}% 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Captura de pantalla de idf-monitor despu\IeC {\'e}s de enviar los archivos para la interfaz web.\relax }}{49}{figure.caption.78}% 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Captura de pantalla de la ubicaci\IeC {\'o}n del gateway LoRa y el prototipo comercial.\relax }}{49}{figure.caption.79}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Banco de pruebas para evaluar el funcionamiento del firmware.\relax }}{44}{figure.caption.64}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Captura de pantalla de idf-monitor cuando el dispositivo inicia.\relax }}{44}{figure.caption.65}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Captura de pantalla de idf-monitor cuando el dispositivo ejecuta sus funciones normales.\relax }}{45}{figure.caption.66}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Banco de pruebas para verificar el funcionamiento de la interfaz web cuando el dispositivo est\IeC {\'a} en modo punto de acceso.\relax }}{45}{figure.caption.67}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Captura de pantalla de las redes Wi-Fi disponibles en la laptop.\relax }}{46}{figure.caption.68}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Captura de pantalla de la p\IeC {\'a}gina principal de la interfaz web con la utilidad de depuraci\IeC {\'o}n funcionando.\relax }}{46}{figure.caption.69}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Captura de pantalla del idf-monitor despu\IeC {\'e}s de enviar los archivos solicitados por el navegador web y el dispositivo en modo punto de acceso.\relax }}{47}{figure.caption.70}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Captura de pantalla de la p\IeC {\'a}gina de configuraci\IeC {\'o}n de la interfaz web con la utilidad de depuraci\IeC {\'o}n funcionando.\relax }}{47}{figure.caption.71}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Captura de pantalla del idf-monitor despu\IeC {\'e}s de configurar el dispositivo en modo estaci\IeC {\'o}n con los datos enviados por la interfaz web.\relax }}{48}{figure.caption.72}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Banco de pruebas para el conversor \IeC {\'o}ptico-el\IeC {\'e}ctrico.\relax }}{48}{figure.caption.73}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Salida de la pantalla del osciloscopio.\relax }}{49}{figure.caption.74}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Banco de pruebas para el conversor \IeC {\'o}ptico-el\IeC {\'e}ctrico.\relax }}{49}{figure.caption.75}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gr\IeC {\'a}fico de l\IeC {\'\i }neas del comportamiento de la fuente de alimentaci\IeC {\'o}n.\relax }}{50}{figure.caption.79}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Captura de pantalla de idf-monitor despu\IeC {\'e}s de enviar los archivos para la interfaz web.\relax }}{51}{figure.caption.80}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Captura de pantalla de la ubicaci\IeC {\'o}n del gateway LoRa y el prototipo comercial.\relax }}{51}{figure.caption.81}% 
 \addvspace {10\p@ }

@@ -168,7 +168,7 @@ Entonces, una vez definidas las herramientas utilizadas, fue posible dividir el 
 		\label{fig:firmwareLayers}
 \end{figure}
 
-BASE es la capa de menor nivel y está compuesta por la API del ESP8266\_RTOS\_SDK. Proporciona a las capas de niveles superiores la capacidad de interactuar con los periféricos y protocolos del ESP8266 a través de funciones en lenguaje C. Los periféricos y protocolos que fueron utilizados en el presente trabajo fueron:
+BASE es la capa de menor nivel y está compuesta por la API del ESP8266\_RTOS\_SDK. Proporciona a las capas de niveles superiores la capacidad de interactuar con los periféricos y protocolos incorporados en el ESP8266 a través de funciones en lenguaje C. Los periféricos y protocolos que fueron utilizados en el presente trabajo fueron:
 
 \begin{itemize}
 	\item GPIO: este periférico fue utilizado por la capa APP para gestionar los pines disponibles en el ESP8266, ya que algunos de ellos tienen funciones específicas y no pueden ser utilizados para propósitos generales. La API posee funciones para definir los pines como entradas o salidas, configuración de interrupciones por flanco positivo o negativo y resistencias de \textit{pull-up} internas.
@@ -176,14 +176,15 @@ BASE es la capa de menor nivel y está compuesta por la API del ESP8266\_RTOS\_S
 	\item SPI: la capa DRIVERS utiliza este periférico para comunicarse con el transceptor LoRa. El módulo LoRa elegido interacciona a través del protocolo SPI con el microcontrolador que lo maneja para transmitir o recibir datos.
 	\item HSPI: el ESP8266 no posee memoria ROM embebida en el SoC, por tanto, utiliza una memoria flash externa para almacenar las instrucciones del programa y los datos del usuario. Esta memoria flash se comunica con el ESP8266 mediante el protocolo HSPI. Este periférico se utilizó para que la capa DRIVERS configure la flash como un sistema de archivos.
 	\item HTTP (\textit{HyperText Transfer Protocol}, protocolo de transferencia de hipertexto): la API ofrece funciones para ejecutar este protocolo. Fue de utilidad para proporcionar a la capa APP las funciones necesarias para implementar un servidor web capaz de responder a los métodos HTTP, GET y POST \citep{WEBSITE:20}.
-	\item IEEE 802.11: el ESP8266 tiene embebida toda la electrónica necesaria para implementar los protocolos IEEE 802.11 en sus versiones b, g y n. La capa APP utilizó las funciones disponibles de este módulo para lograr que el dispositivo funcionara como punto de acceso y/o estación.
+	\item WIFI: el ESP8266 tiene embebida toda la electrónica necesaria para implementar los protocolos IEEE 802.11 en sus versiones b, g y n. La capa APP utilizó las funciones disponibles de este módulo para lograr que el dispositivo funcionara como punto de acceso y/o estación Wi-Fi.
 \end{itemize}
 
-La capa DRIVERS está compuesta por módulos que son bibliotecas de firmware, que le permiten al ESP8266 interactuar con los periféricos de hardware externos a los que está conectado. Se desarrollaron bibliotecas para los módulos EEPROM, RTC, LORA y SPIFFS; todos basados en la capa BASE. Estas bibliotecas se encuentran en el repositorio del trabajo y constan de un archivo de código fuente y otro de cabecera, cada una.
+La capa DRIVERS está compuesta por módulos que son bibliotecas de firmware, que le permiten al ESP8266 interactuar con los periféricos de hardware externos a los que está conectado. Se desarrollaron bibliotecas para los módulos EEPROM, RTC, LORA y SPIFFS; todos basados en la capa BASE.
 
 La biblioteca para la EEPROM se desarrolló con ayuda del \textit{datasheet} \citep{WEBSITE:24} del AT24C32, donde se indican todos los pormenores técnicos del funcionamiento de este circuito integrado. Además, se utilizaron las funciones de la capa BASE para gestionar correctamente la comunicación I\textsuperscript{2}C. Las funciones que proporciona esta biblioteca sirven para:
 
 \begin{itemize}
+	\item inicializar el periférico I\textsuperscript{2}C.
 	\item leer de valores de 8, 16 y 32 bits de una dirección determinada de la EPROM.
 	\item escribir de valores de 8, 16 y 32 bits de una dirección determinada de la EPROM.
 \end{itemize}
@@ -191,6 +192,7 @@ La biblioteca para la EEPROM se desarrolló con ayuda del \textit{datasheet} \ci
 Para el módulo RTC se desarrolló una biblioteca que sirvió para configurar la hora, fecha y otras funciones incorporadas en el DS3231. La herramienta principal en el desarrollo de esta biblioteca fue el datasheet \citep{WEBSITE:25} de dicho circuito integrado. De este se obtuvo información sobre las direcciones de los registros que manejan sus funciones y la forma adecuada de configurarlos. Igual que para la biblioteca de la EEPROM, las funciones de la capa BASE para el protocolo I\textsuperscript{2}C permitieron que se disponga de una manera para que el ESP8266 pueda intercambiar datos con el DS3231 con la menor cantidad de pines posible. Esta biblioteca permite:
 
 \begin{itemize}
+	\item inicializar el periférico I\textsuperscript{2}C.
 	\item leer y configurar las horas, minutos y segundos.
 	\item leer y configurar el día, fecha, mes y año.
 	\item leer y configurar las dos alarmas disponibles.
@@ -201,6 +203,7 @@ Para el módulo RTC se desarrolló una biblioteca que sirvió para configurar la
 El desarrollo de la biblioteca para el módulo LORA permitió manejar el circuito integrado SX1278, para establecer la comunicación de este elemento con el ESP8266 a través del periférico SPI. Esto permitió configurar sus parámetros para lograr la transmisión y recepción de datos con dispositivos de tecnología LoRa de manera exitosa. Está basada en la biblioteca Arduino LoRa de Sandeep Mistry \citep{WEBSITE:21} y en la información del datasheet \citep{WEBSITE:26} del SX1278. Asimismo, utiliza las funciones proporcionadas por la capa BASE para la comunicación SPI. Las funciones más importantes que proporciona son:
 
 \begin{itemize}
+	\item inicializar el periférico SPI.
 	\item configurar la frecuencia del módulo.
 	\item transmitir un \textit{buffer} de tamaño variable.
 	\item recibir datos en el buffer interno.
@@ -232,7 +235,7 @@ El tamaño de este sistema de archivos es de 1 MB y fue configurado de acuerdo a
 		jquerymobilejs.gz & 55,5 & Biblioteca JavaScript jQuery Mobile comprimida \\
 		jquerymobilemap.gz & 88,8 & Archivo de mapeo para jquerymobilejs.gz \\
 		config.txt & 0,6 & Archivo de configuración del dispositivo \\
-		pulses.csv & 1 & Archivo con el registro histórico del consumo eléctrico \\
+		kwh.csv & 1 & Archivo con el registro histórico del consumo eléctrico \\
 		
 		\bottomrule
 		\hline
@@ -240,9 +243,9 @@ El tamaño de este sistema de archivos es de 1 MB y fue configurado de acuerdo a
 	\label{tab:spiffsDetail}
 \end{table}
 
-La mayoría de los archivos almacenados en SPIFFS son utilizados para generar la interfaz web, excepto config.txt y pulses.csv. El tamaño de memoria utilizado por todos los archivos es de 546,4 KB, que ocupa aproximadamente un 54\% del tamaño total del sistema de archivos. Hay que notar que los archivos de mayor tamaño fueron comprimidos antes de ser almacenados, ya que sin este proceso el tamaño total hubiera sido de 1,6 MB, que superaba aproximadamente en un 60\% el tamaño del sistema de archivos.
+La mayoría de los archivos almacenados en SPIFFS son utilizados para generar la interfaz web, excepto config.txt y kwh.csv. El tamaño de memoria utilizado por todos los archivos es de 546,4 KB, que ocupa aproximadamente un 54\% del tamaño total del sistema de archivos. Hay que notar que los archivos de mayor tamaño fueron comprimidos antes de ser almacenados, ya que sin este proceso el tamaño total hubiera sido de 1,6 MB, que superaba aproximadamente en un 60\% el tamaño del sistema de archivos.
 
-La capa APP, está compuesta por los módulos que ejecutan las tareas del dispositivo. Se basa en las capas inferiores para interactuar con los periféricos del ESP8266 y con el hardware externo. Sus módulos son DATA LOGGER, DATA COMMUNICATION y WEB SERVER. Los archivos de estos módulos se encuentran en el repositorio del trabajo.
+La capa APP, está compuesta por los módulos que ejecutan las tareas del dispositivo. Se basa en las capas inferiores para interactuar con los periféricos del ESP8266 y con el hardware externo. Sus módulos son DATA LOGGER, DATA COMMUNICATION y WEB SERVER.
 
 \subsection{DATA LOGGER}
 
@@ -255,9 +258,9 @@ Este módulo tiene la función principal de adquirir, procesar y almacenar la in
 		\label{fig:dataLayers}
 \end{figure}
 
-Utiliza el RTC y la EEPROM para mantener un registro histórico de la información adquirida por GPIO. Modifica el archivo pulses.csv almacenado en SPIFFS para actualizar la información de consumo eléctrico cuando se registran nuevos datos. Esto es utilizado posteriormente por WEB SERVER. Asimismo, en función de las alarmas generadas por el RTC, se envían los datos de la EEPROM a DATA COMMUNICATION.
+Utiliza el RTC y la EEPROM para mantener un registro histórico de la información adquirida por GPIO. Modifica el archivo kwh.csv almacenado en SPIFFS para actualizar la información de consumo eléctrico cuando se registran nuevos datos. Este archivo es utilizado posteriormente por WEB SERVER. Asimismo, en función de las alarmas generadas por el RTC, se envían los datos de la EEPROM a DATA COMMUNICATION.
 
-Dentro del sistema operativo utilizado existen dos tareas para este módulo. Una para registrar los pulsos del medidor eléctrico y otra para manejar las alarmas del RTC, pulses\_task y alarm\_task. Estas tareas utilizaron algunas herramientas proporcionadas por FreeRTOS para gestionar la comunicación de los módulos. En la figura \ref{fig:dataRTOS} se observa un diagrama que muestra la manera en que se realiza la comunicación con ayuda de las herramientas de FreeRTOS.
+Dentro del sistema operativo utilizado existen dos tareas para este módulo. Una para registrar los pulsos del medidor eléctrico y otra para manejar las alarmas del RTC, pulses\_task y alarm\_task. Estas tareas utilizaron algunas herramientas proporcionadas por FreeRTOS para gestionar la comunicación entre módulos. En la figura \ref{fig:dataRTOS} se observa un diagrama que muestra la manera en que se realiza la comunicación con ayuda de las herramientas de FreeRTOS.
 
 \begin{figure}[h]
 	\centering
@@ -270,32 +273,53 @@ De la figura \ref{fig:dataRTOS}, ALARM representa las alarmas generadas por el R
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.91]{./Figures/data_logger_pulses.pdf}
+	\includegraphics[scale=1]{./Figures/data_logger_pulses.pdf}
 	\caption{Diagrama de flujo de la tarea pulses\_task.}
 		\label{fig:flowDataPulses}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.91]{./Figures/data_logger_alarm.pdf}
+	\includegraphics[scale=1]{./Figures/data_logger_alarm.pdf}
 	\caption{Diagrama de flujo de la tarea alarm\_task.}
 		\label{fig:flowDataAlarm}
 \end{figure}
 
-Según el diagrama de flujo de la figura \ref{fig:flowDataPulses}, la tarea pulses\_task espera por una notificación provocada por el flanco de subida de los pulsos eléctricos del conversor óptico-eléctrico. Cuando esto ocurre, se abre una sección crítica para prevenir que existan cambios de contexto dentro del sistema operativo que modifiquen los datos implicados antes de que estos puedan ser utilizados. Una vez en la sección crítica, en una variable de 16 bits se acumulan la cantidad de pulsos detectados y se almacenan en la EEPROM, en una dirección de memoria definida por una variable que hace referencia al índice. Finalmente, se cierra la sección crítica y este proceso se lleva a cabo mientras el dispositivo funcione. Esta es la función más importante del dispositivo, por lo que se le dedicó mayor tiempo y esfuerzo.
+Según el diagrama de flujo de la figura \ref{fig:flowDataPulses}, la tarea pulses\_task espera por una notificación provocada por el flanco de subida de los pulsos eléctricos del conversor óptico-eléctrico. Cuando esto ocurre, se abre una sección crítica para prevenir que existan cambios de contexto dentro del sistema operativo que modifiquen los datos implicados antes de que estos puedan ser utilizados. Una vez en la sección crítica, en una variable de 16 bits se cuentan la cantidad de pulsos detectados y se almacenan en la EEPROM, en una dirección de memoria definida por una variable que hace referencia al índice. Finalmente, se cierra la sección crítica y este proceso se lleva a cabo mientras el dispositivo funcione.
 
-En el diagrama de la figura \ref{fig:flowDataAlarm}, los pulsos eléctricos generados por el RTC crean una notificación a la tarea alarm\_task. Si se detecta una notificación, se abre una sección crítica donde mediante una cola se envía el valor de la variable acumuladora de pulsos al módulo DATA COMMUNICATION. Con ayuda del RTC, si se detecta un cambio de fecha, se ejecutan instrucciones para que la cantidad de pulsos contada a partir de ese momento se reinicie y se almacene en un posición diferente de la EEPROM, lo que evita que los datos en esta memoria se sobrescriban mientras exista espacio suficiente para almacenar más información. Si no se detecta un cambio en la fecha o en caso contrario, se ejecutó todo el proceso antes descrito para la modificación del índice de la EEPROM, la tarea termina, pero vuelve a repetirse cada vez que ocurre una nueva notificación.
+En el diagrama de la figura \ref{fig:flowDataAlarm}, los pulsos eléctricos generados por una de las salidas del RTC notifican a la tarea alarm\_task. Cuando esto ocurre, se abre una sección crítica donde mediante una cola se envía el valor de la variable que tiene el conteo de pulsos al módulo DATA COMMUNICATION. Con ayuda del RTC, si se detecta un cambio de fecha, se ejecutan instrucciones para que la cantidad de pulsos contada a partir de ese momento se reinicie y se almacene en un posición diferente de la EEPROM, lo que evita que los datos en esta memoria se sobrescriban mientras exista espacio suficiente para almacenar más información. Si no se detecta un cambio en la fecha o en caso contrario, se ejecutó todo el proceso antes descrito para la modificación del índice de la EEPROM, la tarea termina, pero vuelve a repetirse cada vez que ocurre una nueva notificación.
 
-Para que este módulo funcione correctamente cuando el dispositivo es encendido se ejecuta una función de inicialización. En el diagrama de flujo de la figura \ref{fig:flowDataInit} se ilustra su comportamiento.
+Para que este módulo funcione correctamente cuando el dispositivo es encendido se ejecuta una función de inicialización, data\_logger\_init. En el diagrama de flujo de la figura \ref{fig:flowDataInit} se ilustra su comportamiento.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=1]{./Figures/data_logger_init.pdf}
-	\caption{Diagrama de flujo de la función de inicialización de DATA LOGGER.}
+	\caption{Diagrama de flujo de la función data\_logger\_init.}
 		\label{fig:flowDataInit}
 \end{figure}
 
-El procedimiento de inicialización del módulo, empieza con la configuración de los periféricos I\textsuperscript{2}C y GPIO para utilizar sus funciones. También se inicializa el sistema de archivos SPIFFS para tener la capacidad de leer y modificar todos los elementos almacenados. Se hace una lectura de la EEPROM para verificar si esta tiene datos de un funcionamiento anterior y en caso positivo almacenar los datos por defecto. Se recuperan los datos previamente cargados y se configura la alarma del RTC con los datos obtenidos del archivo config.txt almacenado en SPIFFS. Finalmente, se crean las tareas pulses\_task y alarm\_task.
+El procedimiento de inicialización del módulo, empieza con la configuración de EEPROM, RTC, GPIO y SPIFFS, para utilizar sus funciones. De SPIFFS se obtiene la configuración guardada en el archivo config.txt, que posteriormente será utilizada para configurar algunos aspectos del funcionamiento. Se hace una lectura de la EEPROM para verificar si esta tiene datos de un funcionamiento anterior, en caso negativo se almacenan datos por defecto. Se cargan las variables de conteo de pulsos, índice y conteo de días registrados de la EPROM. Se configura la frecuencia de envío del conteo de pulsos según la configuración obtenida previamente de config.txt. Finalmente, se crean las tareas pulses\_task y alarm\_task.
+
+Otra de las funciones de este módulo es la modificación del archivo kwh.csv, para actualizar su contenido con la información de consumo eléctrico registrada hasta el momento de su ejecución. Para esto abre el archivo kwh.csv en modo de escritura y según la cantidad de días registrados se generan el número de filas del archivo. Este archivo posee dos columnas, date y kwh, que son la fecha del registro y el consumo eléctrico, respectivamente. En la tabla \ref{tab:kwhDetail} se observa a modo de ejemplo el contenido que tendría kwh.csv.
+
+\begin{table}[h]
+	\centering
+	\caption[Contenido kwh.csv]{Tabla de detalle del contenido de kwh.csv.}
+	\begin{tabular}{c c}    
+		\toprule
+		\textbf{date} & \textbf{kwh} \\
+		\midrule
+		01-01-20 & 6,21  \\
+		02-01-20 & 4,11  \\
+		03-01-20 & 5,25  \\
+		04-01-20 & 6,01  \\
+		05-01-20 & 3,22  \\
+		06-01-20 & 6,90  \\
+		\bottomrule
+		\hline
+	\end{tabular}
+	\label{tab:kwhDetail}
+\end{table}
 
 \subsection{DATA COMMUNICATION}	
 
@@ -304,24 +328,31 @@ La función de este módulo se basa en utilizar el transceptor LoRa para interca
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=1]{./Figures/lora_communication_diagram.pdf}
-	\caption{Diagrama de capas para LORA COMMUNICATION.}
+	\caption{Diagrama de capas para DATA COMMUNICATION.}
 		\label{fig:loraDiagram}
 \end{figure}
 
-Para que este módulo pueda enviar o recibir información utiliza las funciones proporcionadas por LORA, que a su vez utiliza el periférico SPI, para conmutar el modo de operación. Cuando recibe información del dispositivo concentrador de datos se accede a SPIFFS para modificar el archivo config.txt, lo que actualiza los parámetros de funcionamiento del dispositivo.
+Para que este módulo pueda enviar o recibir información utiliza las funciones proporcionadas por LORA, que a su vez emplea el periférico SPI. Cuando recibe información del dispositivo concentrador de datos se accede a SPIFFS para modificar el archivo config.txt, lo que actualiza los parámetros de funcionamiento del dispositivo.
 
-Este módulo posee una solo tarea que se ejecuta en el sistema operativo, nombrada lora\_task. En la figura \ref{fig:loraTask} puede observarse su comportamiento mediante un diagrama de flujo.
+Este módulo posee una solo tarea que se ejecuta en el sistema operativo, nombrada lora\_task, que se comunica con el módulo DATA LOGGER para recibir datos que deben ser enviados por el transceptor LoRa. En las figuras \ref{fig:dataCom} y \ref{fig:loraTask}, pueden observarse su interacción el módulo DATA LOGGER y su digrama de flujo, respectivamente.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=1]{./Figures/lora_communication_task.pdf}
+	\includegraphics[scale=1.1]{./Figures/lora_communication_com.pdf}
+	\caption{Diagrama de conexión con las herramientas de FreeRTOS de DATA COMMUNICATION.}
+		\label{fig:dataCom}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=1.1]{./Figures/lora_communication_task.pdf}
 	\caption{Diagrama de flujo de la tarea lora\_task.}
 		\label{fig:loraTask}
 \end{figure}
 
-Del diagrama de la figura \ref{fig:loraTask}, esta tarea consulta la cola de mensajes para determinar si existe algún elemento pendiente de atención. Si existen mensajes pendientes en la cola se configura el transceptor LoRa en modo de transmisión, se arma un paquete con la información necesaria y se envía. Si la cola está vacía o se envió un paquete anteriormente, se configura el transceptor LoRa en modo de recepción y cuando se recibe un paquete se ejecuta la acción requerida por este. Finalizado todo este proceso la tarea se bloquea por un segundo y vuelve a repetirse mientras el dispositivo esté en funcionamiento.
+Del diagrama de la figura \ref{fig:loraTask}, esta tarea consulta la cola de mensajes para determinar si existe algún elemento pendiente de atención. Si existen mensajes pendientes en la cola se configura el transceptor LoRa en modo de transmisión, se arma un paquete con los datos de consumo eléctrico e identificador del usuario, y se transmite. Si la cola está vacía o se envió un paquete anteriormente, se configura el transceptor LoRa en modo de recepción y se espera la recepción de paquetes. Cuando se recibe un paquete se verifica si tiene el formato correcto, en cuyo caso se extraen los datos que contiene y luego se ejecuta la acción requerida por estos. Finalizado todo este proceso el sistema operativo pone la tarea en el estado bloqueado por un segundo, finaliza y vuelve a repetirse mientras el dispositivo esté en funcionamiento.
 
-El formato de los paquetes es el que se muestra en la figura \ref{fig:loraRxPacket}. Donde SRC es un campo de 8 Bytes, identificador de la fuente del paquete. DEST tiene una longitud de 4 Bytes e indica el destinatario del paquete. OP es de 1 Byte y define las operaciones solicitadas al dispositivo, que pueden ser la modificación del archivo config.txt, configuración de la hora y fecha, solicitud de los datos de la EEPROM, por citar algunas. PARAM1 y PARAM2 son campos de 32 Bytes cada uno, contienen los parámetros con los que se deben ejecutar las operaciones requeridas por el campo OP.
+El formato de los paquetes es el que se muestra en la figura \ref{fig:loraRxPacket}. Donde ADDR es un campo de 8 Bytes, que identifica al transmisor del paquete. OP es de 1 Byte y define los elementos de config.txt deben ser modificados, por ejemplo, la frecuencia de envío de datos y la constante impulsos/kwh del medidor. DATA tiene una longitud de 8 Bytes y contiene los datos con los que se ejecutan las operaciones requeridas por el campo OP.
 
 \begin{figure}[h]
 	\centering
@@ -330,20 +361,20 @@ El formato de los paquetes es el que se muestra en la figura \ref{fig:loraRxPack
 		\label{fig:loraRxPacket}
 \end{figure}
 
-Este módulo tiene una función de inicialización que debe ser ejecutada cuando el dispositivo es energizado y el ESP8266 empieza a ejecutar el código que tiene grabado. Su comportamiento se muestra en el diagrama de flujo presentado en la figura \ref{fig:loraInit}
+Este módulo tiene una función de inicialización que debe ser ejecutada cuando el dispositivo es energizado y el ESP8266 empieza a ejecutar el código que tiene grabado, denominada data\_communication\_init. Su comportamiento se muestra en el diagrama de flujo presentado en la figura \ref{fig:loraInit}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=1]{./Figures/lora_communication_init.pdf}
-	\caption{Diagrama de flujo de la función de inicialización del módulo LORA COMMUNICATION.}
+	\caption{Diagrama de flujo de la función data\_communication\_init.}
 		\label{fig:loraInit}
 \end{figure}
 
-Esta función de inicialización ejecuta todos los procesos necesarios para configurar el transceptor LoRa antes de utilizarlo. Posteriormente, intenta crear una cola para recibir información del módulo DATA LOGGER. Si esta no puede ser creada termina la función e indica un error. Finalmente, si el proceso anterior se realizó exitosamente se crea la tarea lora\_tasl que deberá ejecutarse para transmitir y recibir paquetes durante el funcionamiento del dispositivo. 
+Esta función de inicialización ejecuta todos los procesos necesarios para configurar el transceptor LoRa y SPIFFS antes de utilizarlos. Carga la información de configuración del archivo config.txt. Posteriormente, intenta crear una cola para recibir información del módulo DATA LOGGER. Si esta no puede ser creada termina la función e indica un error. Finalmente, si el proceso anterior se realizó exitosamente se crea la tarea lora\_tasl que deberá ejecutarse para transmitir y recibir paquetes durante el funcionamiento del dispositivo. 
 
 \subsection{WEB SERVER}
 
-El objetivo de este módulo es establecer un servidor web con la capacidad de conectarse con dispositivos que dispongan de conexión Wi-Fi, para permitirles leer o modificar lo contenido del sistema de archivos. Para cumplir con lo planteado anteriormente, se utilizan los componentes de las capas inferiores como indica la figura \ref{fig:serverDiagram}.
+El objetivo de este módulo es establecer un servidor web con la capacidad de interactuar con dispositivos que dispongan de conexión Wi-Fi, para permitirles leer o modificar el contenido del sistema de archivos. Para cumplir con lo planteado anteriormente, se utilizan los componentes de las capas inferiores como indica la figura \ref{fig:serverDiagram}.
 
 \begin{figure}[h]
 	\centering
@@ -352,20 +383,20 @@ El objetivo de este módulo es establecer un servidor web con la capacidad de co
 		\label{fig:serverDiagram}
 \end{figure}
 
-WEB SERVER utiliza las funciones del protocolo HTTP para establecer un servidor que puede comunicarse con múltiples clientes HTTP mediante los métodos GET y POST, para la transferencia y modificación de los archivos almacenados en SPIFFS. El módulo IEEE 802.11 proporciona funciones para que WEB SERVER configure todas las funciones disponibles del transceptor Wi-Fi del ESP8266.
+WEB SERVER utiliza las funciones del protocolo HTTP para establecer un servidor que puede comunicarse con múltiples clientes HTTP mediante los métodos GET y POST, para la transferencia y modificación de los archivos almacenados en SPIFFS. El módulo WIFI proporciona funciones para que WEB SERVER configure e inicialice la interfaz física del transceptor Wi-Fi del ESP8266. Este módulo no se asocia con DATA LOGGER ni con DATA COMMUNICATION para intercambiar datos.
 
 Este módulo puede configurar el dispositivo como punto de acceso o como estación. Esto se hace de manera automática y depende de la información contenida en el archivo de configuración almacenado en SPIFFS, config.txt. Si existe información de red, el dispositivo se configura como estación, en caso contrario, como punto de acceso. En cualquiera de los dos modos citados los clientes pueden acceder al servidor a través de su dirección de red como indican las figuras \ref{fig:serverAP} y \ref{fig:serverSTA}.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=1.1]{./Figures/web_server_ap.pdf}
+	\includegraphics[scale=1]{./Figures/web_server_ap.pdf}
 	\caption{WEB SERVER en modo punto de acceso.}
 		\label{fig:serverAP}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=1.1]{./Figures/web_server_sta.pdf}
+	\includegraphics[scale=1]{./Figures/web_server_sta.pdf}
 	\caption{WEB SERVER en modo estación.}
 		\label{fig:serverSTA}
 \end{figure}
@@ -383,7 +414,7 @@ Como los módulos DATA LOGGER y DATA COMMUNICATION, WEB SERVER también posee un
 		\label{fig:serverInit}
 \end{figure}
 
-En esta función el primer paso es inicializar la interfaz física de Wi-Fi con la configuración por defecto del ESP8266. Se configura el dispositivo en modo estación y se busca en el archivo config.txt configuración de red que permita conectarse a una red Wi-Fi existente. Si no existe dicha información o es inválida, se configura el dispositivo en modo punto de acceso. En cualquiera de los dos casos el siguiente paso es iniciar un servidor HTTP en el puerto 80 y finalmente registrar todos los handlers para los métodos GET y POST.
+En esta función el primer paso es inicializar los módulos WIFI, HTTP y SPIFFS, para utilizar su funciones. Se recupera la configuración de red de config.txt y se configura el dispositivo en modo estación. Si no existe dicha información de configuración o es inválida, la conexión en modo estación falla y se configura el dispositivo en modo punto de acceso. En cualquiera de los dos casos el siguiente paso es iniciar un servidor HTTP en el puerto 80 y finalmente registrar todos los handlers para los métodos GET y POST.
 
 %----------------------------------------------------------------------------------------
 
@@ -404,11 +435,11 @@ La interfaz web está dividida en dos pantallas, principal y de configuración. 
 
 La pantalla principal fue diseñada pensando en brindarle al usuario la información de su consumo eléctrico de la manera más simple posible. En la mayor parte del área de la pantalla se muestra un gráfico de barras que presenta el consumo eléctrico de los últimos tres meses y en la esquina superior izquierda, un pequeño botón que dirige a la pantalla de configuración.
 
-Al cargar la interfaz en un navegador web, se obtiene mediante el método GET el archivo pulses.csv que contiene los valores de consumo eléctrico que están almacenados en el dispositivo. Estos son procesados con instrucciones escritas en JavaScript para que la biblioteca Highcharts los utilice y genere el gráfico de barras. En la figura \ref{fig:interfaceMain} se observa la pantalla principal de la interfaz web.
+Al cargar la interfaz en un navegador web, se obtiene mediante el método GET el archivo kwh.csv que contiene los valores de consumo eléctrico que están almacenados en el dispositivo. Estos son procesados con instrucciones escritas en JavaScript para que la biblioteca Highcharts los utilice y genere el gráfico de barras. En la figura \ref{fig:interfaceMain} se observa la pantalla principal de la interfaz web.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.33]{./Figures/interface_main.png}
+	\includegraphics[scale=0.35]{./Figures/interface_main.png}
 	\caption{Pantalla principal de la interfaz web.}
 	\label{fig:interfaceMain}
 \end{figure}
@@ -419,7 +450,7 @@ El componente principal es un formulario para ingresar el SSID y la contraseña 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.33]{./Figures/interface_conf.png}
+	\includegraphics[scale=0.35]{./Figures/interface_conf.png}
 	\caption{Pantalla de configuración de la interfaz web.}
 	\label{fig:interfaceConf}
 \end{figure}
@@ -429,11 +460,11 @@ El componente principal es un formulario para ingresar el SSID y la contraseña 
 
 El desarrollo de un prototipo para ser comercializado fue necesario para una primera implementación del dispositivo en un entorno real de trabajo y la realización de pruebas a nivel físico. Consta de una carcasa y un PCB (\textit{Printed Circuit Board}, tarjeta de circuito impreso).
 
-El primer paso fue elegir una carcasa de dimensiones adecuadas para que pueda ser montada directamente sobre un medidor de consumo eléctrico domiciliario. Para este fin, se estudió la posibilidad de diseñar una carcasa personalizada, pero, debido a los altos costos de producción a nivel de prototipo, esta idea fue rápidamente descartada. Entonces, después de realizar un análisis de las dimensiones de los medidores utilizados por COPELECT, se eligió una carcasa disponible en el mercado internacional, la VG-S43 de la firma Vange. La elección de esta carcasa sobre otras similares, fue debido a los zócalos que tiene, que se adecuaban perfectamente para que el fototransistor estuviera descubierto y tuviera vista directa con el LED del medidor eléctrico. En la figura \ref{fig:case} se puede apreciar la carcasa elegida.
+El primer paso fue elegir una carcasa de dimensiones adecuadas para que pueda ser montada directamente sobre un medidor de consumo eléctrico domiciliario. Para este fin, se estudió la posibilidad de diseñar una carcasa personalizada, pero, debido a los altos costos de producción a nivel de prototipo, esta idea fue rápidamente descartada. Entonces, después de realizar un análisis de las dimensiones de los medidores utilizados por COOPELECT, se eligió una carcasa disponible en el mercado internacional, la VG-S43 de la firma Vange. La elección de esta carcasa sobre otras similares, fue debido a los zócalos que tiene, que se adecuaban perfectamente para que el fototransistor estuviera descubierto y tuviera vista directa con el LED del medidor eléctrico. En la figura \ref{fig:case} se puede apreciar la carcasa elegida.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.4]{./Figures/case.jpg}
+	\includegraphics[scale=0.32]{./Figures/case.jpg}
 	\caption{Carcasa VG-S43 de la firma Vange\protect\footnotemark.}
 		\label{fig:case}
 \end{figure}
